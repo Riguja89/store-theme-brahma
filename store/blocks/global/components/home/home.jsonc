@@ -16,10 +16,73 @@
     "title": "Text Favorites",
     "props": {
       "blockClass": "",
-      "text": "Soy un texto que vive en Desktop, Tablet y Phone :D",
+      "text": "Soy un texto que vive en Desktop, Tablet y Phone :D :,",
       "font": "t-heading-1",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
     }
-  }
+  },
+  "flex-layout.row#home__section--global-1":{
+    "title": "Global principal slider container",
+    "children": [
+      "slider-layout#home__section--global-1"
+    ],
+    "props": {
+      "marginTop": 10,
+      "border": ["all"],
+      "borderWidth": 1,
+      "borderColor": "success"
+    }
+  },
+
+  "slider-layout#home__section--global-1":{
+    "title":"Principal slider",
+    "props":{
+      "itemsPerPage":{
+        "desktop":1,
+        "tablet":1,
+        "mobile":1
+      },
+      "infinite":true,
+      "blockClass":"home__slider",
+      "autoplay":{
+        "timeout": 3000,
+        "stopOnHover":true
+      }
+    },
+    "children":[
+      "image#home__slider--one",
+      "image#home__slider--two",
+      "image#home__slider--three",
+      "image#home__slider--four",
+      "image#home__slider--five"
+
+    ]
+  },
+      "image#home__slider--one":{
+        "props":{
+          "src":"assets/img/slider-1.jpg"
+        }
+      },
+      "image#home__slider--two":{
+        "props":{
+          "src":"assets/img/slider-2.jpg"
+        }
+      },
+      "image#home__slider--three":{
+        "props":{
+          "src":"assets/img/slider-3.jpg"
+        }
+      },
+      "image#home__slider--four":{
+        "props":{
+          "src":"assets/img/slider-4.jpg"
+        }
+      },
+      "image#home__slider--five":{
+        "props":{
+          "src":"assets/img/slider-5.jpg"
+        }
+      }
+
 }

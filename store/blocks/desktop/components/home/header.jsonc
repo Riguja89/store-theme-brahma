@@ -1,0 +1,8 @@
+{
+    "header-row#header__top":{
+        "title":"Header top desktop",
+        "children":[
+            "rich-text#section-1"
+        ]
+    }
+}
