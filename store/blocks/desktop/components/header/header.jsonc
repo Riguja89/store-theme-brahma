@@ -1,0 +1,91 @@
+{
+    "header-layout.desktop#desktop__header--container": {
+      "title": "Header desktop container",
+      "children": ["header-row#header__container--row"]
+    },
+    "header-row#header__container--row":{
+        "title":"Header row desktop",
+        "children":[
+            "image#container__row--logo",
+            "vtex.menu@2.x:menu#container__row--category",
+            "search-bar#container__row--searchbar",
+            "login",
+            "minicart"
+            // "menu 2",
+            // "minicard"
+        ]
+    },
+    "image#container__row--logo":{
+        "title":"Imagen de logo desktop",
+        "props":{
+            "src":"assets/img/logo-brahma.jpg",
+            "title":"Logo brahma",
+            "blockClass":"container__row--logo",
+            "height":"80px"
+            // "link":{
+            //     "url":"https://www.google.com",
+            //     "newTab":true,
+            //     "attributeNoFollow":true
+            // }
+        }
+    },
+    "vtex.menu@2.x:menu#container__row--category":{
+        "props": {
+            "items": [
+              {
+                "id": "menu-item-men",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                  "type": "internal",
+                  "href": "#",
+                  "noFollow": false,
+                  "tagTitle": "Shop",
+                  "text": "MEN"
+                }
+              },
+              {
+                "id": "menu-item-women",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                  "type": "internal",
+                  "href": "/about-us",
+                  "noFollow": false,
+                  "tagTitle": "about-us",
+                  "text": "WOMEN"
+                }
+              },
+              {
+                "id": "menu-item-onsale",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                  "type": "internal",
+                  "href": "/about-us",
+                  "noFollow": false,
+                  "tagTitle": "about-us",
+                  "text": "ON SALE"
+                }
+              },
+              {
+                "id": "menu-item-inside-brahma",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                  "type": "internal",
+                  "href": "/about-us",
+                  "noFollow": false,
+                  "tagTitle": "about-us",
+                  "text": "INSIDE BRAHMA"
+                }
+              }
+            ]
+          }
+    },
+    "search-bar#container__row--searchbar":{
+        "props":{
+
+        }
+    }
+  }
