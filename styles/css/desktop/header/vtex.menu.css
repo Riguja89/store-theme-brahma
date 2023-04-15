@@ -1,4 +1,6 @@
 /* Example desktop: */
-.styledLinkContainer {
-    margin: 0 12px;
+.styledLinkContent {
+    color: white;
+    font-family: "Arvo-Regular";
 }
+
