@@ -11,7 +11,7 @@
     "props": {
       "blockClass": "",
       "text": "Favoritos en DESKTOP",
-      "font": "t-heading-2",
+      "font": "t-heading-1",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
     }
