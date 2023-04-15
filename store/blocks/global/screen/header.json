@@ -2,12 +2,12 @@
     "header":{
         "title":"Header Global",
         "blocks":[
-            "header-layout.desktop#desktop__header--container"
+            "header-layout.desktop#desktop__header"
         ]
     },
     "header.full":{
         "blocks":[
-            "header-layout.desktop#desktop__header--container"
+            "header-layout.desktop#desktop__header"
         ]
     }
 }

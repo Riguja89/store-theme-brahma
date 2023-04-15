@@ -1,21 +1,24 @@
 {
-    "header-layout.desktop#desktop__header--container": {
+    "header-layout.desktop#desktop__header": {
       "title": "Header desktop container",
-      "children": ["header-row#header__container--row"]
+      "children": ["header-row#desktop__header--container"]
     },
-    "header-row#header__container--row":{
+    "header-row#desktop__header--container":{
         "title":"Header row desktop",
+        "props":{
+            "blockClass":"desktop__header--container"
+           
+            
+        },
         "children":[
-            "image#container__row--logo",
-            "vtex.menu@2.x:menu#container__row--category",
-            "search-bar#container__row--searchbar",
+            "image#header__container--logo",
+            "vtex.menu@2.x:menu#header__container--category",
+            "search-bar#header__container--searchbar",
             "login",
             "minicart"
-            // "menu 2",
-            // "minicard"
         ]
     },
-    "image#container__row--logo":{
+    "image#header__container--logo":{
         "title":"Imagen de logo desktop",
         "props":{
             "src":"assets/img/logo-brahma.jpg",
@@ -29,7 +32,7 @@
             // }
         }
     },
-    "vtex.menu@2.x:menu#container__row--category":{
+    "vtex.menu@2.x:menu#header__container--category":{
         "props": {
             "items": [
               {
@@ -83,7 +86,7 @@
             ]
           }
     },
-    "search-bar#container__row--searchbar":{
+    "search-bar#header__container--searchbar":{
         "props":{
 
         }
