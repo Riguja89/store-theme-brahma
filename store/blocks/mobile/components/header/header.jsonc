@@ -1,0 +1,35 @@
+{
+    "header-layout.mobile#mobile__header":{
+        "title":"Header Mobile",
+        "children":[
+           "header-row#mobile__header--principal"
+        ]
+    },
+    "header-row#mobile__header--principal":{
+        "title":"Header mobile principal",
+        "children":[
+            "image#header__container--logo",
+            "drawer#header__principal--menu",
+            "search-bar",
+            "login"
+        ]
+    },
+    "drawer#header__principal--menu":{
+        "title":"Menu mobile principal",
+        "children":[
+            "vtex.menu@2.x:menu#principal__menu--mobile"
+        ]
+    },
+
+    "vtex.menu@2.x:menu#principal__menu--mobile":{
+        "children":[
+            /*"menu-item#menu__mobile--shop",
+            "menu-item#menu__mobile--menwomen",
+            "menu-item#menu__mobile--onsale",
+            "menu-item#menu__mobile--inside",
+            "menu-item#menu__mobile--mycount",
+            "menu-item#menu__mobile--mycart",
+            "menu-item#menu__mobile--setlanguaje"*/
+          ] 
+    }
+}

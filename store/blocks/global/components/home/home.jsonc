@@ -5,10 +5,10 @@
       "rich-text#home__section--global"
     ],
     "props": {
-      "marginTop": 10,
+      /*"marginTop":0,
       "border": ["all"],
       "borderWidth": 1,
-      "borderColor": "success"
+      "borderColor": "success"*/
     }
   },
 
@@ -28,10 +28,10 @@
       "slider-layout#home__section--global-1"
     ],
     "props": {
-      "marginTop": 10,
+      /*"marginTop": 10,
       "border": ["all"],
       "borderWidth": 1,
-      "borderColor": "success"
+      "borderColor": "success"*/
     }
   },
 
