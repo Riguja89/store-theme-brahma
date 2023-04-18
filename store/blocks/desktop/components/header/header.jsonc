@@ -14,7 +14,7 @@
             "image#header__container--logo",
             "vtex.menu@2.x:menu#header__container--category",
             "search-bar#header__container--searchbar",
-            "login",
+            "login#header__principal--login",
             "minicart"
         ]
     },

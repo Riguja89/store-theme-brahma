@@ -1,0 +1,18 @@
+{
+    "login#header__principal--login":{
+        "title":"Login mobile",
+        "props":{
+            "emailAndPasswordTitle": "LOG-IN",
+            "accessCodeTitle": "Acess Code LOG-IN",
+            "emailPlaceholder": "e-mail",
+            "passwordPlaceholder": "password",
+            "showPasswordVerificationIntoTooltip": true,
+            "showIconProfile":true,
+            "hideIconLabel":true,
+            "iconLabel":"Lo",
+            "optionsTitle":"Log",
+            "blockClass":"header__principal--login",
+            "labelClasses":"clase-para-el-label"
+        }
+    }
+}
