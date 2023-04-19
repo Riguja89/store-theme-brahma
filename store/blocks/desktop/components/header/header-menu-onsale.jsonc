@@ -1,0 +1,38 @@
+{
+    "menu-item#container__department--onsale": {
+        "title": "container__department--onsale",
+        "props": {
+            "id": "department-onsale",
+            "type": "custom",
+
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "onsale title",
+                "text": "ON SALE"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#department__men--footwear"
+        ]
+    },
+    "vtex.menu@2.x:submenu#department__men--footwear": {
+        "title": "department onsale footwear",
+        "children": [
+            "vtex.menu@2.x:menu#menu__footwear--category"
+        ]
+    },
+    "vtex.menu@2.x:menu#menu__footwear--category": {
+        "title": "menu footwear category",
+        "children": [
+            "menu-item#footwear__category--subcategory",
+            "menu-item#apparel__category--subcategory",
+            "menu-item#accessories__category--subcategory",
+            "menu-item#lines__category--subcategory"
+        ],
+        "props":{
+            
+        }
+    }
+}

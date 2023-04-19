@@ -7,12 +7,11 @@
             "emailPlaceholder": "e-mail",
             "passwordPlaceholder": "password",
             "showPasswordVerificationIntoTooltip": true,
-            "showIconProfile":true,
-            "hideIconLabel":true,
-            "iconLabel":"Lo",
-            "optionsTitle":"Log",
-            "blockClass":"header__principal--login",
-            "labelClasses":"clase-para-el-label"
+            "showIconProfile":false,
+            "hideIconLabel":false,
+            "iconLabel":"Login",
+            "optionsTitle":"Login",
+            "blockClass":"header__principal--login"
         }
     }
 }

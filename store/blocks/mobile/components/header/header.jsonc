@@ -16,27 +16,29 @@
     "drawer#header__principal--menu":{
         "title":"Menu mobile principal",
         "children":[
-            "vtex.menu@2.x:menu#principal__menu--mobile"
+            "mega-menu#mobile"
+            //"vtex.menu@2.x:menu#principal__menu--mobile"
         ],
-        "props":{
-            "orientation":"vertical",
-            "blockClass":"header__principal--menu"
-          }
-    },
-
-    "vtex.menu@2.x:menu#principal__menu--mobile":{
-        "title":"Principal menu mobile",
-        "children":[
-            "menu-item#menu__mobile--shop",
-            "menu-item#menu__mobile--menwomen",
-            "menu-item#menu__mobile--onsale",
-            "menu-item#menu__mobile--inside",
-            "menu-item#menu__mobile--mycount",
-            "menu-item#menu__mobile--mycart",
-            "menu-item#menu__mobile--setlanguage"
-          ] ,
-          "props":{
-            "orientation":"vertical"
-          }
+        // "props":{
+        //     "orientation":"vertical",
+        //     "blockClass":"header__principal--menu"
+        //   },
+          "blocks": ["drawer-header#my-drawer"]
     }
+
+    // "vtex.menu@2.x:menu#principal__menu--mobile":{
+    //     "title":"Principal menu mobile",
+    //     "children":[
+    //         "menu-item#menu__mobile--shop",
+    //         "menu-item#menu__mobile--menwomen",
+    //         "menu-item#menu__mobile--onsale",
+    //         "menu-item#menu__mobile--inside",
+    //         "menu-item#menu__mobile--mycount",
+    //         "menu-item#menu__mobile--mycart",
+    //         "menu-item#menu__mobile--setlanguage"
+    //       ] ,
+    //       "props":{
+    //         "orientation":"vertical"
+    //       }
+    // }
 }
