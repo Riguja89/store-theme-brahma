@@ -1,0 +1,25 @@
+.searchBarInnerContainer--header__container--searchbar :first-child { 
+    border: none;
+    background-color: black;
+}
+
+.searchBarIcon--header__container--searchbar{
+    color: white;
+}
+
+
+.searchBarIcon--search {
+    visibility: hidden;
+}
+
+.br--right { 
+    border: none;
+    background-color: black;
+}
+.searchBarIcon--external-search {
+    visibility: hidden;
+}
+.suffixWrapper {
+    
+    background-color: black;
+}

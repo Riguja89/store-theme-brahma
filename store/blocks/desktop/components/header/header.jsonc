@@ -27,10 +27,5 @@
                 "attributeNoFollow":false
             }
         }
-    },
-    "search-bar#header__container--searchbar":{
-        "props":{
-
-        }
     }
   }

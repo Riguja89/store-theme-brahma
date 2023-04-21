@@ -1,0 +1,17 @@
+{
+    "search-bar#header__container--searchbar":{
+        "title":"header container searchbar",
+        "props":{
+           "blocks": ["autocomplete-result-list.v2"],
+            "props": {
+              "openAutocompleteOnFocus": true
+            },
+            "blockClass":"header__container--searchbar",
+            "displayMode":"search-button",
+            "hasIconLeft":true,
+            "hasIconRight":false,
+            "maxWidth":400,
+            "placeholder":""
+        }
+    }
+}
