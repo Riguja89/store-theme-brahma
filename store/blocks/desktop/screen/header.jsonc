@@ -1,0 +1,6 @@
+{
+    "header-layout.desktop#desktop__header": {
+        "title": "Header desktop container",
+        "children": ["header-row#desktop__header--container"]
+      }
+}

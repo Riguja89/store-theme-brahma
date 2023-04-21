@@ -1,0 +1,112 @@
+{
+    "menu-item#apparel__category--subcategory": {
+        "title": "apparel category",
+        "props": {
+            "id": "apparel-category",
+            "type": "custom",
+            "blockClass":"category-one",
+            "onMountBehavior":"open",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "apparel category",
+                "text": "apparel"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#category__subcategory--apparel"
+        ]
+    },
+    "vtex.menu@2.x:submenu#category__subcategory--apparel": {
+        "title": "subcategory apparel container",
+        "children": [
+            "vtex.menu@2.x:menu#subcategory__apparel--container"
+        ]
+    },
+    "vtex.menu@2.x:menu#subcategory__apparel--container": {
+        "props": {
+            "orientation": "vertical",
+            "items": [
+                {
+                    "id": "menu-item-sandals",
+                    "type": "custom",
+                    "onMountBehavior":"open",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "Sandals",
+                        "text": "Sandals"
+                    }
+                },
+                {
+                    "id": "menu-item-loafers",
+                    "type": "custom",
+                    "onMountBehavior":"open",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "loafers",
+                        "text": "Loafers"
+                    }
+                },
+                {
+                    "id": "menu-item-hikers",
+                    "type": "custom",
+                    "onMountBehavior":"open",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/hikers",
+                        "noFollow": false,
+                        "tagTitle": "hikers",
+                        "text": "Hikers"
+                    }
+                },
+                {
+                    "id": "menu-item-inside-boots",
+                    "type": "custom",
+                    "onMountBehavior":"open",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/boots",
+                        "noFollow": false,
+                        "tagTitle": "boots",
+                        "text": "Boots"
+                    }
+                },
+                {
+                    "id": "menu-item-inside-shoes",
+                    "type": "custom",
+                    "onMountBehavior":"open",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/shoes",
+                        "noFollow": false,
+                        "tagTitle": "shoes",
+                        "text": "Shoes"
+                    }
+                },
+                {
+                    "id": "menu-item-inside-waterproof",
+                    "type": "custom",
+                    "onMountBehavior":"open",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/waterproof",
+                        "noFollow": false,
+                        "tagTitle": "waterproof",
+                        "text": "Waterproof"
+                    }
+                }
+            ]
+        }
+    }
+}
