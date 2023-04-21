@@ -7,19 +7,6 @@
     color: white;
 }
 
-
-.searchBarIcon--search {
-    visibility: hidden;
-}
-
-.br--right { 
-    border: none;
-    background-color: black;
-}
-.searchBarIcon--external-search {
-    visibility: hidden;
-}
-.suffixWrapper {
-    
-    background-color: black;
+.autoCompleteOuterContainer--header__container--searchbar :nth-child(3n) {
+    display:none;
 }
