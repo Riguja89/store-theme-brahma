@@ -2,5 +2,20 @@
 .styledLinkContent {
     color: white;
     font-family: "Arvo-Regular";
+   
 }
 
+.submenuWrapper{
+    background-color: red;
+   
+}
+/* .styledLinkContent--category-one{
+    color: black;
+} */
+
+.styledLinkContent--category-one{
+    color: black;
+}
+.styledLinkContent--department-class{
+    color: white;
+}

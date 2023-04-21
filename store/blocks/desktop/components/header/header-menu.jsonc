@@ -1,0 +1,14 @@
+{
+    "vtex.menu@2.x:menu#header__container--department": {
+        "title": "header container department",
+        "children": [
+            "menu-item#container__department--men",
+            "menu-item#container__department--women",
+            "menu-item#container__department--onsale",
+            "menu-item#container__department--lines"
+        ],
+        "props": {
+           
+        }
+    }
+}

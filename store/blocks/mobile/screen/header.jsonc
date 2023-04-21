@@ -1,0 +1,8 @@
+{
+    "header-layout.mobile#mobile__header":{
+        "title":"Header Mobile",
+        "children":[
+           "header-row#mobile__header--principal"
+        ]
+    }
+}
