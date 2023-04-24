@@ -1,0 +1,44 @@
+{
+    "flex-layout.row#home__section-2": {
+        "title": "desktop home section-2",
+        "props": {
+            "marginTop": 8,
+            "horizontalAlign":"center",
+            "fullWidth":true
+        },
+        "children": [
+            "flex-layout.col#home__section-2--col1",
+            "flex-layout.col#home__section-2--col2"
+        ]
+    },
+    "flex-layout.col#home__section-2--col1": {
+        "children": [
+            "image#section-2__col1--image"
+        ],
+        "props": {
+            "horizontalAlign":"center",
+            "marginLeft":6   
+        }
+    },
+    "image#section-2__col1--image": {
+        "props": {
+            "src": "assets/img/crop-912-520.jpg",
+            "maxWidth": "95%"
+        }
+    },
+    "flex-layout.col#home__section-2--col2": {
+        "children": [
+            "image#section-2__col2--image"
+        ],
+        "props": {
+            "horizontalAlign":"center",
+            "marginLeft":6     
+        }
+    },
+    "image#section-2__col2--image": {
+        "props": {
+            "src": "assets/img/crop-912-521.jpg",
+            "maxWidth": "95%"
+        }
+    }
+}

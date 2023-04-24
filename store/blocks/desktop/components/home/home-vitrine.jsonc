@@ -1,0 +1,37 @@
+{
+    "list-context.product-list#home__section-1--vitrine": {
+        "blocks": [
+            "product-summary.shelf#demo1"
+        ],
+        "children": [
+            "slider-layout#section-1__vitrine--slider"
+        ],
+        "props":{
+            "listName":"New Arrivals"
+           
+        }
+    },
+    "product-summary.shelf#demo1": {
+        "children": [
+            "product-summary-image#demo1__summary",
+            "product-summary-name",
+            //"product-summary-space",
+            "product-summary-price"
+        ]
+    },
+    "product-summary-image#demo1__summary":{
+        "props":{
+            "height": 300
+        }
+    },
+    "slider-layout#section-1__vitrine--slider":{
+        "props":{
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 2,
+                "phone": 2
+              }
+        }
+
+    }
+}
