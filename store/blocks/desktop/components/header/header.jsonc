@@ -2,8 +2,8 @@
     "header-row#desktop__header--container":{
         "title":"Header row desktop",
         "props":{
-            "blockClass":"desktop__header--container"
-           
+            "blockClass":"desktop__header--container",
+            "fullWidth":true
             
         },
         "children":[
@@ -11,7 +11,7 @@
             "vtex.menu@2.x:menu#header__container--department",
             "search-bar#header__container--searchbar",
             "login#header__principal--login",
-            "minicart"
+            "minicart.v2"
         ]
     },
     "image#header__container--logo":{

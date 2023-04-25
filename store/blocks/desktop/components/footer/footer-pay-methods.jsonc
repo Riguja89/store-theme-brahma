@@ -1,0 +1,27 @@
+{
+    "flex-layout.row#desktop__footer--pay-methods":{
+        "title":"desktop footer pay methods",
+        "props":{
+            "paddingTop": 8
+        },
+        "children": [
+            "rich-text#footer__pay-methods--title",
+            "accepted-payment-methods"
+        ]
+    },
+    "rich-text#footer__pay-methods--title":{
+        "props": {
+            "text": "PAYMENT METHODS",
+            "blockClass":"footer__title",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "textColor": "c-success--faded",
+            "font": "t-heading-5"
+        }
+    },
+    "accepted-payment-methods": {
+        "props": {
+          "paymentMethods": ["mastercard", "visa", "diners club"]
+        }
+      }
+}

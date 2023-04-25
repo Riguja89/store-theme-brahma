@@ -14,16 +14,16 @@
             }
         },
         "blocks": [
-            "vtex.menu@2.x:submenu#department__men--footwear"
+            "vtex.menu@2.x:submenu#department__women--footwear"
         ]
     },
-    "vtex.menu@2.x:submenu#department__men--footwear": {
+    "vtex.menu@2.x:submenu#department__women--footwear": {
         "title": "department women footwear",
         "children": [
-            "vtex.menu@2.x:menu#menu__footwear--category"
+            "vtex.menu@2.x:menu#menu__footwear--category-women"
         ]
     },
-    "vtex.menu@2.x:menu#menu__footwear--category": {
+    "vtex.menu@2.x:menu#menu__footwear--category-women": {
         "title": "menu footwear category",
         "children": [
             "menu-item#footwear__category--subcategory",

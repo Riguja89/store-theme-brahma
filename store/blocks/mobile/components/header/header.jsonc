@@ -1,21 +1,21 @@
 {
-    "header-row#mobile__header--principal":{
-        "title":"Header mobile principal",
-        "children":[
+    "header-row#mobile__header--principal": {
+        "title": "Header mobile principal",
+        "children": [
             "image#header__principal--logo",
             "drawer#header__principal--menu",
             "search-bar",
-            "login#header__principal--login"
+            "login#header__principal--login",
+            "minicart.v2"
         ],
-        "props":{
-            "blockClass":"mobile__header--principal"
-           
-            
+        "props": {
+            "blockClass": "mobile__header--principal",
+            "fullWidth": true
         }
     },
-    "drawer#header__principal--menu":{
-        "title":"Menu mobile principal",
-        "children":[
+    "drawer#header__principal--menu": {
+        "title": "Menu mobile principal",
+        "children": [
             "mega-menu#mobile"
             //"vtex.menu@2.x:menu#principal__menu--mobile"
         ],
@@ -23,9 +23,10 @@
         //     "orientation":"vertical",
         //     "blockClass":"header__principal--menu"
         //   },
-          "blocks": ["drawer-header#my-drawer"]
+        "blocks": [
+            "drawer-header#my-drawer"
+        ]
     }
-
     // "vtex.menu@2.x:menu#principal__menu--mobile":{
     //     "title":"Principal menu mobile",
     //     "children":[

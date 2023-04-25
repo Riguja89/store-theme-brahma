@@ -1,37 +1,40 @@
 {
     "list-context.product-list#home__section-1--vitrine": {
+        "title":"home section-1 vitrine",
+
         "blocks": [
             "product-summary.shelf#demo1"
         ],
         "children": [
             "slider-layout#section-1__vitrine--slider"
         ],
-        "props":{
-            "listName":"New Arrivals"
-           
+        "props": {
+            "listName": "New Arrivals"
         }
     },
     "product-summary.shelf#demo1": {
+        "title":"home section-1 product summary",
         "children": [
             "product-summary-image#demo1__summary",
-            "product-summary-name",
+            "product-summary-name"
             //"product-summary-space",
-            "product-summary-price"
+            //"product-summary-price"
         ]
     },
-    "product-summary-image#demo1__summary":{
-        "props":{
+    "product-summary-image#demo1__summary": {
+        "props": {
             "height": 300
         }
     },
-    "slider-layout#section-1__vitrine--slider":{
-        "props":{
+    "slider-layout#section-1__vitrine--slider": {
+        "title":"home section-1 slider",
+        "props": {
             "itemsPerPage": {
                 "desktop": 4,
                 "tablet": 2,
                 "phone": 2
-              }
+            },
+            "showPaginationDots": false
         }
-
     }
 }
