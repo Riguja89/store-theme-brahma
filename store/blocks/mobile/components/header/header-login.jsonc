@@ -7,10 +7,24 @@
             "emailPlaceholder": "e-mail",
             "passwordPlaceholder": "password",
             "showPasswordVerificationIntoTooltip": true,
-            "showIconProfile":false,
+            "showIconProfile":true,
             "hideIconLabel":false,
             "iconLabel":"Login",
             "optionsTitle":"Login",
+            "blockClass":"header__principal--login"
+        }
+    },
+    "link#header__principal--login":{
+        "props":{
+            "href": "/login?returnUrl={queryString.returnUrl}",
+            "label": "Login",
+            "blockClass":"header__principal--login"
+        }
+    },
+    "link#header__principal--join":{
+        "props":{
+            "href": "/login?returnUrl={queryString.returnUrl}",
+            "label": "Join",
             "blockClass":"header__principal--login"
         }
     }

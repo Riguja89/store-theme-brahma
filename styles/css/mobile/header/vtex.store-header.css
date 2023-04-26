@@ -1,3 +1,11 @@
 .headerRowBackground--mobile__header--principal{
     background-color: black;
 }
+
+.headerStickyRow--mobile__header--principal{
+    height: 45px;
+}
+
+.headerRowContainer--mobile__header--principal {
+    height: 45px;
+}

@@ -1,0 +1,17 @@
+{
+    "search-bar#header__mobile--search-bar":{
+        "props":{
+            "blockClass":"header__mobile--search-bar",
+            "hasIconLeft":true,
+            "placeholder":""
+        }
+    
+    },
+    "icon#header__principal--search":{
+        "props":{
+            "id":"hpa-search",
+            "size":15,
+            "color":"white"
+        }
+    }
+}

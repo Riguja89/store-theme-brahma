@@ -1,0 +1,15 @@
+.searchBarInnerContainer--header__mobile--search-bar :first-child { 
+    border: none;
+    background-color: black;
+}
+.searchBarInnerContainer--header__mobile--search-bar :nth-child(2n){ 
+   width: 0;
+}
+
+.searchBarIcon--header__mobile--search-bar{
+    color: white;
+}
+
+.autoCompleteOuterContainer--header__mobile--search-bar :nth-child(3n) {
+    display:none;
+}
