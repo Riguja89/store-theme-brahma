@@ -1,0 +1,14 @@
+{
+    "flex-layout.row#desktop__footer": {
+        "title":"desktop footer",
+        "props":{
+            "paddingTop": 8
+        },
+        "children": [
+            "flex-layout.col#desktop__footer--about",
+            "flex-layout.col#desktop__footer--customer",
+            "flex-layout.col#desktop__footer--find-us",
+            "flex-layout.col#desktop__footer--set-language"
+        ]
+    }
+}

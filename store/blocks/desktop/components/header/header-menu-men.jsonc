@@ -29,8 +29,7 @@
             "menu-item#footwear__category--subcategory",
             "menu-item#apparel__category--subcategory",
             "menu-item#accessories__category--subcategory",
-            "menu-item#lines__category--subcategory",
-            "menu-item#container__department--lines"
+            "menu-item#lines__category--subcategory"
         ],
         "props":{
             

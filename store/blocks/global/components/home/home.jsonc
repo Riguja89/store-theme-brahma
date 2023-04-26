@@ -2,7 +2,7 @@
   "flex-layout.row#home__section--global": {
     "title": "Global Row with text example",
     "children": [
-      "rich-text#home__section--global"
+     // "rich-text#home__section--global"
     ],
     "props": {
       /*"marginTop":0,
@@ -32,6 +32,7 @@
       "border": ["all"],
       "borderWidth": 1,
       "borderColor": "success"*/
+      "fullWidth":true
     }
   },
 
@@ -45,6 +46,7 @@
       },
       "infinite":true,
       "blockClass":"home__slider",
+      "fullWidth":true,
       "autoplay":{
         "timeout": 3000,
         "stopOnHover":true
