@@ -1,0 +1,14 @@
+.container--principal__search-bar--modal {
+    background-color: transparent !important;
+}
+.modal--principal__search-bar--modal {
+    background-color: transparent !important;
+  
+}
+.paper--principal__search-bar--modal {
+    background-color: transparent;
+}
+
+.backdrop--principal__search-bar--modal {
+    background-color: transparent;
+}

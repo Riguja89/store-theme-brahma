@@ -1,17 +1,39 @@
 {
-    "search-bar#header__mobile--search-bar":{
-        "props":{
-            "blockClass":"header__mobile--search-bar",
-            "hasIconLeft":true,
-            "placeholder":""
-        }
-    
+    "modal-trigger#header__principal--search-bar":{
+        "title":"header principal search-bar",
+        "children": [
+            "icon#header__principal--search",
+            "modal-layout#principal__search-bar--modal" 
+          ]
     },
     "icon#header__principal--search":{
+        "title":"icono header principal search",
         "props":{
             "id":"hpa-search",
             "size":15,
             "color":"white"
         }
+    },
+    "modal-layout#principal__search-bar--modal" :{
+        "title":"modal de search bar",
+        "props":{
+            "blockClass":"principal__search-bar--modal",
+            "scroll":"body"
+
+        },
+        "children": [
+            "search-bar#header__mobile--search-bar"
+          ]
+    },
+    "search-bar#header__mobile--search-bar":{
+        "title":"search bar mobile",
+        "props":{
+            "blockClass":"header__mobile--search-bar",
+            "hasIconLeft":true,
+            "placeholder":"",
+            "displayMode":"search-button"
+        }
+    
     }
+
 }

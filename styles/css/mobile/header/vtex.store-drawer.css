@@ -1,3 +1,6 @@
 .opened--header__principal--menu{
     background-color: red;
 }
+.openIconContainer--header__principal--menu {
+    margin-left: 15px;
+}

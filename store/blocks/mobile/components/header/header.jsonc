@@ -6,7 +6,8 @@
             "drawer#header__principal--menu",
             // "search-bar#header__mobile--search-bar",
             "header-spacer",
-            "icon#header__principal--search",
+            "modal-trigger#header__principal--search-bar",
+            //"icon#header__principal--search",
             "header-spacer",
             "link#header__principal--join",
             "header-spacer",
@@ -23,7 +24,7 @@
         }
     },
     "drawer#header__principal--menu": {
-        "title": "Menu mobile principal",
+        "title": "Drawer menu mobile principal",
         "children": [
             "mega-menu#mobile"
         ],
@@ -31,7 +32,7 @@
             "drawer-header#my-drawer"
         ],
         "props":{
-           
+           "blockClass":"header__principal--menu"
         }
     }
 }

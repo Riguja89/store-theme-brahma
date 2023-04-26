@@ -1,9 +1,12 @@
 .searchBarInnerContainer--header__mobile--search-bar :first-child { 
     border: none;
     background-color: black;
+   
 }
 .searchBarInnerContainer--header__mobile--search-bar :nth-child(2n){ 
-   width: 0;
+   width: 50%;
+   color: white;
+   font-family: "Arvo-regular";
 }
 
 .searchBarIcon--header__mobile--search-bar{
@@ -11,5 +14,13 @@
 }
 
 .autoCompleteOuterContainer--header__mobile--search-bar :nth-child(3n) {
-    display:none;
+    background-color: black;
+    visibility:visible;
+}
+
+.searchBarInnerContainer--header__mobile--search-bar{
+  
+ position: relative;
+ top: -40px;
+ left: 60px;
 }

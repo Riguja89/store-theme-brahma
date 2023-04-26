@@ -3,9 +3,11 @@
 }
 
 .headerStickyRow--mobile__header--principal{
-    height: 45px;
+    height: 48px;
+    width: 640;
 }
 
 .headerRowContainer--mobile__header--principal {
-    height: 45px;
+    height: 48px;
+    width: 640;
 }
