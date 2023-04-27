@@ -7,6 +7,7 @@
         ]
     },
     "rich-text#footer__about--title": {
+        "title": "title about",
         "props": {
             "text": "About",
             "blockClass":"footer__title",

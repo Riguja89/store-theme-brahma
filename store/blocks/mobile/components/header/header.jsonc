@@ -18,7 +18,7 @@
             "blockClass": "mobile__header--principal",
             "fullWidth": true,
             "verticalAlign": "center",
-            "horizontalAlign": "center",
+            "horizontalAlign": "left",
             "preventHorizontalStretch": true,
             "preventVerticalStretch": true
         }
@@ -31,8 +31,9 @@
         "blocks": [
             "drawer-header#my-drawer"
         ],
-        "props":{
-           "blockClass":"header__principal--menu"
+        "props": {
+            "blockClass": "header__principal--menu",
+            "size": 50
         }
     }
 }

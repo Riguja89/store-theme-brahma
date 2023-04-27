@@ -15,6 +15,7 @@
         }
     },
     "link#header__principal--login":{
+        "title":"Login link mobile",
         "props":{
             "href": "/login?returnUrl={queryString.returnUrl}",
             "label": "Login",
@@ -22,6 +23,7 @@
         }
     },
     "link#header__principal--join":{
+        "title":"Join mobile",
         "props":{
             "href": "/login?returnUrl={queryString.returnUrl}",
             "label": "Join",

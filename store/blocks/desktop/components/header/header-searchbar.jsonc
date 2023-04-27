@@ -10,7 +10,6 @@
             "displayMode":"search-button",
             "hasIconLeft":true,
             "hasIconRight":false,
-            "maxWidth":400,
             "placeholder":""
         }
     }

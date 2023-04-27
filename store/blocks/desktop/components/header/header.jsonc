@@ -8,9 +8,13 @@
         },
         "children":[
             "image#header__container--logo",
+            "header-spacer",
             "vtex.menu@2.x:menu#header__container--department",
+            "header-spacer",
             "search-bar#header__container--searchbar",
+            "header-spacer",
             "login#header__principal--login",
+            "header-spacer",
             "minicart.v2"
         ]
     },
@@ -20,7 +24,7 @@
             "src":"assets/img/logo-brahma.jpg",
             "title":"Logo brahma",
             "blockClass":"container__row--logo",
-            "height":"80px",
+            "maxWidth":"200px",
             "link":{
                 "url":"/",
                 "newTab":false,

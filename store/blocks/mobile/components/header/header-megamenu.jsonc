@@ -1,5 +1,6 @@
 {
     "mega-menu#mobile": {
+        "title":"Megamenu mobile",
         "props": {
             "defaultDepartmentActive": "...",
             "orientation": "vertical",
@@ -8,11 +9,13 @@
         }
     },
     "drawer-header#my-drawer": {
+        "title":"Drawer mobile",
         "children": [
             "flex-layout.row#drawer-header"
         ]
     },
     "flex-layout.row#drawer-header": {
+        "title":"Drawer header",
         "children": [
             "flex-layout.col#mega-menu-go-back-btn",
             "flex-layout.col#spacer",

@@ -25,6 +25,7 @@
         ]
     },
     "vtex.menu@2.x:menu#subcategory__footwear--container": {
+        "title": "Subactegory footwear container",
         "props": {
             "orientation": "vertical",
             "items": [

@@ -10,3 +10,11 @@
 .autoCompleteOuterContainer--header__container--searchbar :nth-child(3n) {
     display:none;
 }
+
+.autoCompleteOuterContainer--header__container--searchbar :nth-child(2n) {
+    color: white;
+    font-family: "arvo-regular";
+}
+.autoCompleteOuterContainer--header__container--searchbar {
+    width: 100%;
+}

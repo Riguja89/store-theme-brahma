@@ -4,23 +4,35 @@
    
 }
 .searchBarInnerContainer--header__mobile--search-bar :nth-child(2n){ 
-   width: 50%;
+   width: 100%;
    color: white;
    font-family: "Arvo-regular";
 }
 
-.searchBarIcon--header__mobile--search-bar{
+.searchIcon--header__mobile--search-bar{
     color: white;
+    height: 26px;
+    width: 26px;
+}
+
+.autoCompleteOuterContainer--header__mobile--search-bar {
+    height: 70px;
+    width: 100%;
 }
 
 .autoCompleteOuterContainer--header__mobile--search-bar :nth-child(3n) {
     background-color: black;
     visibility:visible;
+    height: 40px;
 }
 
 .searchBarInnerContainer--header__mobile--search-bar{
-  
+ height: 80px; 
  position: relative;
- top: -40px;
- left: 60px;
+ top: -35px;
+ left: 50px;
 }
+
+.searchBarContainer--header__mobile--search-bar{
+width: 100%;
+   }
