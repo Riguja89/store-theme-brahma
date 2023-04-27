@@ -1,10 +1,11 @@
 {
     "menu-item#container__department--men": {
-        "title": "container__department--men",
+        "title": "container department men",
         "props": {
             "id": "department-men",
             "type": "custom",
-
+            "onMountBehavior": "open",
+            "blockClass": "container__department--men",
             "itemProps": {
                 "type": "internal",
                 "href": "/",
@@ -14,25 +15,52 @@
             }
         },
         "blocks": [
-            "vtex.menu@2.x:submenu#department__men--footwear"
+            "vtex.menu@2.x:submenu#department__men--category"
         ]
     },
-    "vtex.menu@2.x:submenu#department__men--footwear": {
-        "title": "department men footwear",
+    "vtex.menu@2.x:submenu#department__men--category": {
+        "title": "department men category",
         "children": [
-            "vtex.menu@2.x:menu#menu__footwear--category"
-        ]
+            "flex-layout.row#men__category--container"
+        ],
+        "props": {
+            "blockClass": "department__men--category"
+        }
     },
-    "vtex.menu@2.x:menu#menu__footwear--category": {
-        "title": "menu footwear category",
+    "flex-layout.row#men__category--container": {
         "children": [
-            "menu-item#footwear__category--subcategory",
-            "menu-item#apparel__category--subcategory",
+            "flex-layout.col#container__row--footwear",
+            "flex-layout.col#container__row--apparel"
+           // "vtex.menu@2.x:menu#category__container--row"
+        ],
+        "props": {
+            "blockClass": "men__footwear--container"
+        }
+    },
+    "vtex.menu@2.x:menu#category__container--row": {
+        "title": "menu category category",
+        "children": [
+           
+           
+            
             "menu-item#accessories__category--subcategory",
             "menu-item#lines__category--subcategory"
         ],
-        "props":{
-            
+        "props": {
+            "blockClass": "menu__footwear--category"
         }
+    },
+
+
+    "flex-layout.col#container__row--footwear":{
+        "children":[
+            "menu-item#footwear__category--subcategory"
+        ]
+    },
+
+    "flex-layout.col#container__row--apparel":{
+        "children":[
+            "menu-item#apparel__category--subcategory"
+        ]
     }
 }

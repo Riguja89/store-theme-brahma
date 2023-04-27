@@ -4,7 +4,7 @@
         "props": {
             "id": "footwear-category",
             "type": "custom",
-            "blockClass":"category-one",
+            "blockClass":"footwear__category--subcategory",
             "onMountBehavior":"open",
             "itemProps": {
                 "type": "internal",
@@ -21,9 +21,17 @@
     "vtex.menu@2.x:submenu#category__subcategory--footwear": {
         "title": "subcategory footwear container",
         "children": [
+            "flex-layout.col#category__subcategory--footwear"
+            
+        ]
+    },
+
+    "flex-layout.col#category__subcategory--footwear":{
+        "children":[
             "vtex.menu@2.x:menu#subcategory__footwear--container"
         ]
     },
+
     "vtex.menu@2.x:menu#subcategory__footwear--container": {
         "title": "Subactegory footwear container",
         "props": {

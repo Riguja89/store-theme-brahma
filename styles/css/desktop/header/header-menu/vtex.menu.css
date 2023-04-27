@@ -2,13 +2,21 @@
 .styledLinkContent {
     color: white;
     font-family: "Arvo-Regular";
-   
+    padding: 6px;
+    font-size:1.03rem;
 }
 
 .submenuWrapper{
     background-color: red;
    
 }
+/*
+.menuItem--isOpen .submenuWrapper {
+
+        display: flex;
+
+}
+
 /* .styledLinkContent--category-one{
     color: black;
 } */
@@ -18,4 +26,10 @@
 }
 .styledLinkContent--department-class{
     color: white;
+}
+
+.submenuWrapper--department__men--footwear {
+    width: 100vw;
+    position: absolute;
+    left: -200px;
 }
