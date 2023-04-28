@@ -7,6 +7,7 @@
         ]
     },
     "rich-text#footer__set-language--title": {
+        "title": "footer language title",
         "props": {
             "text": "Set Language",
             "blockClass":"footer__title",

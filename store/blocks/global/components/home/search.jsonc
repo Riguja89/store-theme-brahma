@@ -1,25 +1,30 @@
 {
     "store.search": {
+        "title": "store search",
         "blocks": [
             "search-result-layout"
         ]
     },
     "store.search#category": {
+        "title": "store category",
         "blocks": [
             "search-result-layout"
         ]
     },
     "store.search#subcategory": {
+        "title": "store subcategory",
         "blocks": [
             "search-result-layout"
         ]
     },
     "store.search#brand": {
+        "title": "store brand",
         "blocks": [
             "search-result-layout"
         ]
     },
     "search-result-layout": {
+        "title": "Result layout container",
         "blocks": [
             "search-result-layout.desktop",
             "search-result-layout.mobile",
@@ -27,14 +32,17 @@
         ]
     },
     "search-result-layout.desktop": {
+        "title": "Result desktop container",
         "children": [
             "gallery-layout-switcher",
             "search-content"
         ]
     },
     "search-result-layout.mobile": {
+        "title": "Result mobile container",
         "children": [
-            "rich-text#mobile-response"
+            "gallery-layout-switcher",
+            "search-content"
         ]
     },
     "rich-text#desktop-response": {
@@ -48,18 +56,21 @@
         }
     },
     "gallery-layout-switcher": {
+        "title": "Gallery switcher",
         "children": [
             "gallery-layout-option#grid__two-columns",
             "gallery-layout-option#grid__one--column"
         ]
     },
     "gallery-layout-option#grid__two-columns": {
+        "title": "Gallery grid 1",
         "props": {
             "name": "grid-two-column",
             "blockClass": "grid__selector--two-columns"
         }
     },
     "gallery-layout-option#grid__one--column": {
+        "title": "Gallery grid 2",
         "props": {
             "name": "grid-one-column",
             "blockClass": "grid__selector--one-column"

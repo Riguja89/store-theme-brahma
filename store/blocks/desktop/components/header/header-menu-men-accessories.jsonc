@@ -27,6 +27,7 @@
         ]
     },
     "vtex.menu@2.x:menu#subcategory__accessories--container": {
+        "title": "Subactegory accesories container",
         "props": {
             "orientation": "vertical",
             "items": [

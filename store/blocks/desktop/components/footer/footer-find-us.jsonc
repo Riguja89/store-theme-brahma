@@ -8,6 +8,7 @@
         ]
     },
     "rich-text#footer__find-us--title": {
+        "title": "footer find us title",
         "props": {
             "text": "Find us on",
             "blockClass":"footer__title",
@@ -18,6 +19,7 @@
         }
     },
     "social-networks": {
+        "title": "Social Networks",
         "props": {
             "socialNetworks": [
                 {
@@ -36,6 +38,7 @@
         }
     },
     "link#store-finder":{
+        "title": "Link store finder",
         "props":{
             "label":"STORE FINDER",
             "href": "/store-finder/p",

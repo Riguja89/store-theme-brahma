@@ -1,11 +1,23 @@
-.headerRowBackground--mobile__header--principal{
+.headerStickyRow--mobile__header--principal {
+    position: relative;
+    
+}
+
+.headerRow--mobile__header--principal {
+    color: white;
+}
+
+.headerRowBackground--mobile__header--principal {
     background-color: black;
+    height: 80px;
+    
 }
-
-.headerStickyRow--mobile__header--principal{
-    height: 45px;
-}
-
 .headerRowContainer--mobile__header--principal {
-    height: 45px;
+
+    color: white;
+    height: 80px;
+}
+
+.headerRowContainer--mobile__header {
+    color: white;
 }

@@ -12,6 +12,7 @@
         ]
     },
     "flex-layout.col#home__section-2--col1": {
+        "title": "Seccion 2 columna 1",
         "children": [
             "image#section-2__col1--image"
         ],
@@ -21,12 +22,14 @@
         }
     },
     "image#section-2__col1--image": {
+        "title": "Image section 2 col 1",
         "props": {
             "src": "assets/img/crop-912-520.jpg",
             "maxWidth": "95%"
         }
     },
     "flex-layout.col#home__section-2--col2": {
+        "title": "home section 2 col 2",
         "children": [
             "image#section-2__col2--image"
         ],
@@ -36,6 +39,7 @@
         }
     },
     "image#section-2__col2--image": {
+        "title": "Image section 2 col 2",
         "props": {
             "src": "assets/img/crop-912-521.jpg",
             "maxWidth": "95%"

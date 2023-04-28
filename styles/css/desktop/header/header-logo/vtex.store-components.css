@@ -1,0 +1,6 @@
+.imageElement--container__row--logo {
+    width: 200px;
+}
+.imageElementLink--container__row--logo {
+    max-width: 200px !important;
+}

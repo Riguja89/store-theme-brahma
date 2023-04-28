@@ -25,6 +25,7 @@
         ]
     },
     "vtex.menu@2.x:menu#subcategory__lines--container": {
+        "title": "Subactegory lines container",
         "props": {
             "orientation": "vertical",
             "items": [

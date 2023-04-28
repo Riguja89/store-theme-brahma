@@ -1,3 +1,16 @@
 .headerRowBackground--desktop__header--container {
     background-color: black;
+    height: 80px;
+}
+
+.headerStickyRow--desktop__header--container {
+    height: 80px;
+}
+
+.headerRow--desktop__header--container {
+    height: 80px;
+}
+
+.headerRowContainer--desktop__header--container {
+    height: 80px;
 }

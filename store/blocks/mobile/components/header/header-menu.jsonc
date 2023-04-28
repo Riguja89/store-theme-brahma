@@ -86,6 +86,7 @@
       }
 },
 "menu-item#menu__mobile--inside":{
+  "title":"menu mobile inside",
     "props":{
         "id":"department-inside",
         "type":"custom",
@@ -100,6 +101,7 @@
       }
 },
 "menu-item#menu__mobile--mycount":{
+  "title":"menu mobile my count",
     "props":{
         "id":"department-mycount",
         "type":"custom",
@@ -114,6 +116,7 @@
       }
 },
 "menu-item#menu__mobile--mycart":{
+  "title":"menu mobile my cart",
     "props":{
         "id":"department-mycart",
         "type":"custom",
@@ -128,6 +131,7 @@
       }
 },
 "menu-item#menu__mobile--setlanguage":{
+  "title":"menu mobile set language",
     "props":{
         "id":"department-setlenguage",
         "type":"custom",

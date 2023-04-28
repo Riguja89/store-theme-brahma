@@ -25,6 +25,7 @@
         ]
     },
     "vtex.menu@2.x:menu#subcategory__apparel--container": {
+        "title": "Subactegory apparel container",
         "props": {
             "orientation": "vertical",
             "items": [

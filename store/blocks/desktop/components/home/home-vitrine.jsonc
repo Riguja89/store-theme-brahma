@@ -22,6 +22,7 @@
         ]
     },
     "product-summary-image#demo1__summary": {
+        "title": "summary demo",
         "props": {
             "height": 300
         }

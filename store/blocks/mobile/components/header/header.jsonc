@@ -6,7 +6,8 @@
             "drawer#header__principal--menu",
             // "search-bar#header__mobile--search-bar",
             "header-spacer",
-            "icon#header__principal--search",
+            "modal-trigger#header__principal--search-bar",
+            //"icon#header__principal--search",
             "header-spacer",
             "link#header__principal--join",
             "header-spacer",
@@ -17,21 +18,22 @@
             "blockClass": "mobile__header--principal",
             "fullWidth": true,
             "verticalAlign": "center",
-            "horizontalAlign": "center",
+            "horizontalAlign": "left",
             "preventHorizontalStretch": true,
             "preventVerticalStretch": true
         }
     },
     "drawer#header__principal--menu": {
-        "title": "Menu mobile principal",
+        "title": "Drawer menu mobile principal",
         "children": [
             "mega-menu#mobile"
         ],
         "blocks": [
             "drawer-header#my-drawer"
         ],
-        "props":{
-           
+        "props": {
+            "blockClass": "header__principal--menu",
+            "size": 50
         }
     }
 }
