@@ -13,7 +13,7 @@
             "header-spacer",
             "search-bar#header__container--searchbar",
             "header-spacer",
-            "login#header__principal--login",
+            "login#header__container--login",
             "header-spacer",
             "minicart.v2"
         ]

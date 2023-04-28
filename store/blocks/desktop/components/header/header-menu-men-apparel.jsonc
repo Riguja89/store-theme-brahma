@@ -1,17 +1,26 @@
 {
+    "flex-layout.col#container__row--apparel": {
+        "title": "container category apparel",
+        "children": [
+            "menu-item#apparel__category--subcategory"
+        ],
+        "props": {
+            "width": "100%"
+        }
+    },
     "menu-item#apparel__category--subcategory": {
         "title": "apparel category",
         "props": {
             "id": "apparel-category",
             "type": "custom",
-            "blockClass":"category-one",
-            "onMountBehavior":"open",
+            "blockClass": "category-one",
+            "onMountBehavior": "open",
             "itemProps": {
                 "type": "internal",
                 "href": "/",
                 "noFollow": false,
                 "tagTitle": "apparel category",
-                "text": "apparel"
+                "text": "Apparel"
             }
         },
         "blocks": [
@@ -22,89 +31,133 @@
         "title": "subcategory apparel container",
         "children": [
             "vtex.menu@2.x:menu#subcategory__apparel--container"
-        ]
+        ],
+        "props": {
+            "blockClass": "menu__subcategory"
+        }
     },
     "vtex.menu@2.x:menu#subcategory__apparel--container": {
         "title": "Subactegory apparel container",
         "props": {
+            "blockClass": "category-two",
             "orientation": "vertical",
             "items": [
                 {
-                    "id": "menu-item-sandals",
+                    "id": "menu-item-pants",
                     "type": "custom",
-                    "onMountBehavior":"open",
+                    "onMountBehavior": "open",
                     "highlight": false,
                     "itemProps": {
                         "type": "internal",
                         "href": "#",
                         "noFollow": false,
-                        "tagTitle": "Sandals",
-                        "text": "Sandals"
+                        "tagTitle": "pants",
+                        "text": "Pants"
                     }
                 },
                 {
-                    "id": "menu-item-loafers",
+                    "id": "menu-item-sweaters",
                     "type": "custom",
-                    "onMountBehavior":"open",
+                    "onMountBehavior": "open",
                     "highlight": false,
                     "itemProps": {
                         "type": "internal",
                         "href": "#",
                         "noFollow": false,
-                        "tagTitle": "loafers",
-                        "text": "Loafers"
+                        "tagTitle": "sweaters",
+                        "text": "Sweaters"
                     }
                 },
                 {
-                    "id": "menu-item-hikers",
+                    "id": "menu-item-shirts",
                     "type": "custom",
-                    "onMountBehavior":"open",
+                    "onMountBehavior": "open",
                     "highlight": false,
                     "itemProps": {
                         "type": "internal",
-                        "href": "/hikers",
+                        "href": "/shirts",
                         "noFollow": false,
-                        "tagTitle": "hikers",
-                        "text": "Hikers"
+                        "tagTitle": "shirts",
+                        "text": "Shirts"
                     }
                 },
                 {
-                    "id": "menu-item-inside-boots",
+                    "id": "menu-item-inside-jackets",
                     "type": "custom",
-                    "onMountBehavior":"open",
+                    "onMountBehavior": "open",
                     "highlight": false,
                     "itemProps": {
                         "type": "internal",
-                        "href": "/boots",
+                        "href": "/jackets",
                         "noFollow": false,
-                        "tagTitle": "boots",
-                        "text": "Boots"
+                        "tagTitle": "jackets",
+                        "text": "Jackets"
                     }
                 },
                 {
-                    "id": "menu-item-inside-shoes",
+                    "id": "menu-item-inside-blouses",
                     "type": "custom",
-                    "onMountBehavior":"open",
+                    "onMountBehavior": "open",
                     "highlight": false,
                     "itemProps": {
                         "type": "internal",
-                        "href": "/shoes",
+                        "href": "/blouses",
                         "noFollow": false,
-                        "tagTitle": "shoes",
-                        "text": "Shoes"
+                        "tagTitle": "blouses",
+                        "text": "Blouses"
                     }
                 },
                 {
-                    "id": "menu-item-inside-waterproof",
+                    "id": "menu-item-inside-Dresses",
                     "type": "custom",
-                    "onMountBehavior":"open",
+                    "onMountBehavior": "open",
                     "highlight": false,
                     "itemProps": {
                         "type": "internal",
-                        "href": "/waterproof",
+                        "href": "/Dresses",
                         "noFollow": false,
-                        "tagTitle": "waterproof",
-                        "text": "Waterproof"
+                        "tagTitle": "Dresses",
+                        "text": "Dresses"
+                    }
+                },
+                {
+                    "id": "menu-item-inside-shirt",
+                    "type": "custom",
+                    "onMountBehavior": "open",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/shirt",
+                        "noFollow": false,
+                        "tagTitle": "shirt",
+                        "text": "Shirt"
+                    }
+                }
+                ,
+                {
+                    "id": "menu-item-inside-t-shirts",
+                    "type": "custom",
+                    "onMountBehavior": "open",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/t-shirts",
+                        "noFollow": false,
+                        "tagTitle": "t-shirts",
+                        "text": "T-shirts"
+                    }
+                },
+                {
+                    "id": "menu-item-inside-biosecurity-suit",
+                    "type": "custom",
+                    "onMountBehavior": "open",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/biosecurity-suit",
+                        "noFollow": false,
+                        "tagTitle": "biosecurity-suit",
+                        "text": "Biosecurity suit"
                     }
                 }
             ]

@@ -1,10 +1,10 @@
 {
     "menu-item#container__department--men": {
-        "title": "container__department--men",
+        "title": "container department men",
         "props": {
             "id": "department-men",
             "type": "custom",
-
+            "blockClass": "container__department--men",
             "itemProps": {
                 "type": "internal",
                 "href": "/",
@@ -14,25 +14,36 @@
             }
         },
         "blocks": [
-            "vtex.menu@2.x:submenu#department__men--footwear"
+            "vtex.menu@2.x:submenu#department__men--category"
         ]
     },
-    "vtex.menu@2.x:submenu#department__men--footwear": {
-        "title": "department men footwear",
+    "vtex.menu@2.x:submenu#department__men--category": {
+        "title": "department men category",
         "children": [
-            "vtex.menu@2.x:menu#menu__footwear--category"
-        ]
-    },
-    "vtex.menu@2.x:menu#menu__footwear--category": {
-        "title": "menu footwear category",
-        "children": [
-            "menu-item#footwear__category--subcategory",
-            "menu-item#apparel__category--subcategory",
-            "menu-item#accessories__category--subcategory",
-            "menu-item#lines__category--subcategory"
+            "flex-layout.row#men__category--container"
         ],
-        "props":{
-            
+        "props": {
+            "blockClass": "department__men--category"
+        }
+    },
+    "flex-layout.row#men__category--container": {
+        "children": [
+            "flex-layout.col#empty",
+            "flex-layout.col#container__row--footwear",
+            "flex-layout.col#container__row--apparel",
+            "flex-layout.col#container__row--accesories",
+            "flex-layout.col#container__row--lines",
+            "flex-layout.col#empty"
+        ],
+        "props": {
+            "blockClass": "men__category--container",
+            "colJustify": "around",
+            "fullWidth": true
+        }
+    },
+    "flex-layout.col#empty": {
+        "props": {
+            "width": "100%"
         }
     }
 }

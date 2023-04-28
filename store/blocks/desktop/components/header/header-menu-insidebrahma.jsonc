@@ -1,153 +1,143 @@
 {
-    "flex-layout.col#container__row--lines": {
-        "title": "container category lines",
-        "children": [
-            "menu-item#lines__category--subcategory"
-        ],
+    "menu-item#container__department--lines": {
+        "title": "container__department--lines",
         "props": {
-            "width": "100%"
-        }
-    },
-    "menu-item#lines__category--subcategory": {
-        "title": "lines category",
-        "props": {
-            "id": "lines-category",
+            "id": "department-lines",
             "type": "custom",
-            "blockClass": "category-one",
-            "onMountBehavior": "open",
+            "blockClass": "container__department--men",
             "itemProps": {
                 "type": "internal",
                 "href": "/",
                 "noFollow": false,
-                "tagTitle": "lines category",
-                "text": "Lines"
+                "tagTitle": "lines title",
+                "text": "INSIDE BRAHMA"
             }
         },
         "blocks": [
-            "vtex.menu@2.x:submenu#category__subcategory--lines"
+            "vtex.menu@2.x:submenu#department__inside-brahma"
         ]
     },
-    "vtex.menu@2.x:submenu#category__subcategory--lines": {
-        "title": "subcategory lines container",
+    "vtex.menu@2.x:submenu#department__inside-brahma": {
+        "title": "department onsale footwear",
         "children": [
-            "vtex.menu@2.x:menu#subcategory__lines--container"
+            "vtex.menu@2.x:menu#department__inside--category"
         ],
-        "props": {
-            "blockClass": "menu__subcategory"
+          "props": {
+            "blockClass": "menu__subcategory--on-sale"
         }
     },
-    "vtex.menu@2.x:menu#subcategory__lines--container": {
+    "vtex.menu@2.x:menu#department__inside--category": {
         "title": "Subactegory lines container",
         "props": {
             "orientation": "vertical",
             "blockClass": "category-two",
             "items": [
                 {
-                    "id": "menu-item-biker",
+                    "id": "menu-item-blog-brahma",
                     "type": "custom",
                     "highlight": false,
                     "itemProps": {
                         "type": "internal",
                         "href": "#",
                         "noFollow": false,
-                        "tagTitle": "biker",
-                        "text": "Biker"
+                        "tagTitle": "blog-brahma",
+                        "text": "Blog Brahma"
                     }
                 },
                 {
-                    "id": "menu-item-biosecurity",
+                    "id": "menu-item-about",
                     "type": "custom",
                     "highlight": false,
                     "itemProps": {
                         "type": "internal",
                         "href": "#",
                         "noFollow": false,
-                        "tagTitle": "biosecurity",
-                        "text": "Biosecurity"
+                        "tagTitle": "about",
+                        "text": "About"
                     }
                 },
                 {
-                    "id": "menu-item-brahma-pink",
+                    "id": "menu-item-technology",
                     "type": "custom",
                     "highlight": false,
                     "itemProps": {
                         "type": "internal",
-                        "href": "/brahma-pink",
+                        "href": "/technology",
                         "noFollow": false,
-                        "tagTitle": "brahma-pink",
-                        "text": "Brahma Pink"
+                        "tagTitle": "technology",
+                        "text": "Technology"
                     }
                 },
                 {
-                    "id": "menu-item-inside-industrial-brahma",
+                    "id": "menu-item-inside-sustentainability",
                     "type": "custom",
                     "highlight": false,
                     "itemProps": {
                         "type": "internal",
-                        "href": "/industrial-brahma",
+                        "href": "/sustentainability",
                         "noFollow": false,
-                        "tagTitle": "industrial-brahma",
-                        "text": "Industrial Brahma"
+                        "tagTitle": "sustentainability",
+                        "text": "Sustentainability"
                     }
                 },
                 {
-                    "id": "menu-item-inside-dinamic-casual",
+                    "id": "menu-item-inside-store-finder",
                     "type": "custom",
                     "highlight": false,
                     "itemProps": {
                         "type": "internal",
-                        "href": "/dinamic-casual",
+                        "href": "/store-finder",
                         "noFollow": false,
-                        "tagTitle": "dinamic-casual",
-                        "text": "Dinamic Casual"
+                        "tagTitle": "store-finder",
+                        "text": "Store Finder"
                     }
                 },
                 {
-                    "id": "menu-item-inside-ibex-trekking",
+                    "id": "menu-item-inside-brahma-concept",
                     "type": "custom",
                     "highlight": false,
                     "itemProps": {
                         "type": "internal",
-                        "href": "/ibex-trekking",
+                        "href": "/brahma-concept",
                         "noFollow": false,
-                        "tagTitle": "ibex-trekking",
-                        "text": "Ibex Trekking"
+                        "tagTitle": "brahma-concept",
+                        "text": "Brahma Concept"
                     }
                 },
                 {
-                    "id": "menu-item-inside-rig",
+                    "id": "menu-item-brahma-industrial",
                     "type": "custom",
                     "highlight": false,
                     "itemProps": {
                         "type": "internal",
-                        "href": "/rig",
+                        "href": "/brahma-industrial",
                         "noFollow": false,
-                        "tagTitle": "rig",
-                        "text": "Rig"
+                        "tagTitle": "brahma-industrial",
+                        "text": "Brahma Industrial"
                     }
                 },
                 {
-                    "id": "menu-item-inside-sport",
+                    "id": "menu-item-faqs",
                     "type": "custom",
                     "highlight": false,
                     "itemProps": {
                         "type": "internal",
-                        "href": "/sport",
+                        "href": "/faqs",
                         "noFollow": false,
-                        "tagTitle": "sport",
-                        "text": "Sport"
+                        "tagTitle": "faqs",
+                        "text": "FAQs"
                     }
                 },
                 {
-                    "id": "menu-item-inside-trekking",
+                    "id": "menu-item-new-arrivals",
                     "type": "custom",
                     "highlight": false,
                     "itemProps": {
                         "type": "internal",
-                        "href": "/trekking",
+                        "href": "/new-arrivals",
                         "noFollow": false,
-                        "tagTitle": "trekking",
-                        "text": "Trekking"
+                        "tagTitle": "new-arrivals",
+                        "text": "New Arrivals"
                     }
                 }
             ]
