@@ -8,7 +8,7 @@
             "menu-item#container__department--lines"
         ],
         "props": {
-           
+        "blockClass":"header__container--department"
         }
     }
 }

@@ -1,11 +1,20 @@
 {
+    "flex-layout.col#container__row--accesories": {
+        "title": "container category accesories",
+        "children": [
+            "menu-item#accessories__category--subcategory"
+        ],
+        "props": {
+            "width": "100%"
+        }
+    },
     "menu-item#accessories__category--subcategory": {
         "title": "accessories category",
         "props": {
             "id": "accessories-category",
             "type": "custom",
-            "blockClass":"category-one",
-            "onMountBehavior":"open",
+            "blockClass": "category-one",
+            "onMountBehavior": "open",
             "itemProps": {
                 "type": "internal",
                 "href": "/",
@@ -13,93 +22,161 @@
                 "tagTitle": "accessories category",
                 "text": "Accessories"
             }
-           
         },
         "blocks": [
             "vtex.menu@2.x:submenu#category__subcategory--accessories"
         ]
-        
     },
     "vtex.menu@2.x:submenu#category__subcategory--accessories": {
         "title": "subcategory accessories container",
         "children": [
             "vtex.menu@2.x:menu#subcategory__accessories--container"
-        ]
+        ],
+        "props": {
+            "blockClass": "menu__subcategory"
+        }
     },
     "vtex.menu@2.x:menu#subcategory__accessories--container": {
+        "title": "Subactegory accesories container",
         "props": {
+            "blockClass": "category-two",
             "orientation": "vertical",
             "items": [
                 {
-                    "id": "menu-item-sandals",
+                    "id": "menu-item-scarfs",
                     "type": "custom",
                     "highlight": false,
                     "itemProps": {
                         "type": "internal",
                         "href": "#",
                         "noFollow": false,
-                        "tagTitle": "Sandals",
-                        "text": "Sandals"
+                        "tagTitle": "scarfs",
+                        "text": "Scarfs"
                     }
                 },
                 {
-                    "id": "menu-item-loafers",
+                    "id": "menu-item-belts",
                     "type": "custom",
                     "highlight": false,
                     "itemProps": {
                         "type": "internal",
                         "href": "#",
                         "noFollow": false,
-                        "tagTitle": "loafers",
-                        "text": "Loafers"
+                        "tagTitle": "belts",
+                        "text": "Belts"
                     }
                 },
                 {
-                    "id": "menu-item-hikers",
+                    "id": "menu-item-hats",
                     "type": "custom",
                     "highlight": false,
                     "itemProps": {
                         "type": "internal",
-                        "href": "/hikers",
+                        "href": "/hats",
                         "noFollow": false,
-                        "tagTitle": "hikers",
-                        "text": "Hikers"
+                        "tagTitle": "hats",
+                        "text": "Hats"
                     }
                 },
                 {
-                    "id": "menu-item-inside-boots",
+                    "id": "menu-item-inside-backpacks",
                     "type": "custom",
                     "highlight": false,
                     "itemProps": {
                         "type": "internal",
-                        "href": "/boots",
+                        "href": "/backpacks",
                         "noFollow": false,
-                        "tagTitle": "boots",
-                        "text": "Boots"
+                        "tagTitle": "backpacks",
+                        "text": "Backpacks"
                     }
                 },
                 {
-                    "id": "menu-item-inside-shoes",
+                    "id": "menu-item-inside-umbrella",
                     "type": "custom",
                     "highlight": false,
                     "itemProps": {
                         "type": "internal",
-                        "href": "/shoes",
+                        "href": "/umbrella",
                         "noFollow": false,
-                        "tagTitle": "shoes",
-                        "text": "Shoes"
+                        "tagTitle": "umbrella",
+                        "text": "Umbrella"
                     }
                 },
                 {
-                    "id": "menu-item-inside-waterproof",
+                    "id": "menu-item-inside-care-and-maintenance",
                     "type": "custom",
                     "highlight": false,
                     "itemProps": {
                         "type": "internal",
-                        "href": "/waterproof",
+                        "href": "/care-and-maintenance",
                         "noFollow": false,
-                        "tagTitle": "waterproof",
-                        "text": "Waterproof"
+                        "tagTitle": "care-and-maintenance",
+                        "text": "Care and maintenance"
+                    }
+                },
+                {
+                    "id": "menu-item-inside-socks",
+                    "type": "custom",
+                    "onMountBehavior": "open",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/socks",
+                        "noFollow": false,
+                        "tagTitle": "socks",
+                        "text": "Socks"
+                    }
+                },
+                {
+                    "id": "menu-item-inside-sunglases-case",
+                    "type": "custom",
+                    "onMountBehavior": "open",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/sunglases-case",
+                        "noFollow": false,
+                        "tagTitle": "sunglases-case",
+                        "text": "Sunglasescase"
+                    }
+                },
+                {
+                    "id": "menu-item-inside-sunglases",
+                    "type": "custom",
+                    "onMountBehavior": "open",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/sunglases",
+                        "noFollow": false,
+                        "tagTitle": "sunglases",
+                        "text": "Sunglases"
+                    }
+                },
+                {
+                    "id": "menu-item-inside-face-mask",
+                    "type": "custom",
+                    "onMountBehavior": "open",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/face-mask",
+                        "noFollow": false,
+                        "tagTitle": "face-mask",
+                        "text": "Face mask"
+                    }
+                },
+                {
+                    "id": "menu-item-inside-gift-card",
+                    "type": "custom",
+                    "onMountBehavior": "open",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/gift-card",
+                        "noFollow": false,
+                        "tagTitle": "gift-card",
+                        "text": "Gift card"
                     }
                 }
             ]

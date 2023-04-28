@@ -1,0 +1,20 @@
+{
+    "flex-layout.col#desktop__footer--set-language": {
+        "title": "footer set language",
+        "children": [
+            "rich-text#footer__set-language--title",
+            "locale-switcher"
+        ]
+    },
+    "rich-text#footer__set-language--title": {
+        "title": "footer language title",
+        "props": {
+            "text": "Set Language",
+            "blockClass":"footer__title",
+            "textAlignment": "CENTER",
+            "textPosition": "LEFT",
+            "textColor": "c-success--faded",
+            "font": "t-heading-4"
+        }
+    }
+}

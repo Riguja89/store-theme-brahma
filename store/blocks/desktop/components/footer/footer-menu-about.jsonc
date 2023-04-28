@@ -1,0 +1,124 @@
+{
+    "flex-layout.col#desktop__footer--about": {
+        "title": "footer about",
+        "children": [
+            "rich-text#footer__about--title",
+            "vtex.menu@2.x:menu#footer__about--container"
+        ]
+    },
+    "rich-text#footer__about--title": {
+        "title": "title about",
+        "props": {
+            "text": "About",
+            "blockClass":"footer__title",
+            "textAlignment": "CENTER",
+            "textPosition": "LEFT",
+            "textColor": "c-success--faded",
+            "font": "t-heading-4"
+        }
+    },
+    "vtex.menu@2.x:menu#footer__about--container": {
+        "title": "footer about container",
+        "props": {
+            "orientation": "vertical",
+            "items": [
+                {
+                    "id": "menu-item-blog-brahma",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/blog-brahma",
+                        "noFollow": false,
+                        "tagTitle": "blog-brahma",
+                        "text": "Blog Brahma"
+                    }
+                },
+                {
+                    "id": "menu-item-about",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/about",
+                        "noFollow": false,
+                        "tagTitle": "about",
+                        "text": "About"
+                    }
+                },
+                {
+                    "id": "menu-item-technology",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/technology",
+                        "noFollow": false,
+                        "tagTitle": "technology",
+                        "text": "Technology"
+                    }
+                },
+                {
+                    "id": "menu-item-inside-sustainability",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/sustainability",
+                        "noFollow": false,
+                        "tagTitle": "sustainability",
+                        "text": "Sustainability"
+                    }
+                },
+                {
+                    "id": "menu-item-inside-brahma-concept",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/brahma-concept",
+                        "noFollow": false,
+                        "tagTitle": "brahma-concept",
+                        "text": "Brahma Concept"
+                    }
+                },
+                {
+                    "id": "menu-item-inside-brahma-industrial",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/brahma-industrial",
+                        "noFollow": false,
+                        "tagTitle": "brahma-industrial",
+                        "text": "Brahma Industrial"
+                    }
+                },
+                {
+                    "id": "menu-item-inside-careers",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/careers",
+                        "noFollow": false,
+                        "tagTitle": "careers",
+                        "text": "Careers"
+                    }
+                },
+                {
+                    "id": "menu-item-inside-legal",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/legal",
+                        "noFollow": false,
+                        "tagTitle": "legal",
+                        "text": "Legal"
+                    }
+                }
+            ]
+        }
+    }
+}

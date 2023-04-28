@@ -2,7 +2,7 @@
   "flex-layout.row#home__section--global": {
     "title": "Global Row with text example",
     "children": [
-      "rich-text#home__section--global"
+     // "rich-text#home__section--global"
     ],
     "props": {
       /*"marginTop":0,
@@ -32,6 +32,7 @@
       "border": ["all"],
       "borderWidth": 1,
       "borderColor": "success"*/
+      "fullWidth":true
     }
   },
 
@@ -45,6 +46,7 @@
       },
       "infinite":true,
       "blockClass":"home__slider",
+      "fullWidth":true,
       "autoplay":{
         "timeout": 3000,
         "stopOnHover":true
@@ -60,26 +62,31 @@
     ]
   },
       "image#home__slider--one":{
+        "title": "slider image 1",
         "props":{
           "src":"assets/img/slider-1.jpg"
         }
       },
       "image#home__slider--two":{
+        "title": "slider image 2",
         "props":{
           "src":"assets/img/slider-2.jpg"
         }
       },
       "image#home__slider--three":{
+        "title": "slider image 3",
         "props":{
           "src":"assets/img/slider-3.jpg"
         }
       },
       "image#home__slider--four":{
+        "title": "slider image 4",
         "props":{
           "src":"assets/img/slider-4.jpg"
         }
       },
       "image#home__slider--five":{
+        "title": "slider image 5",
         "props":{
           "src":"assets/img/slider-5.jpg"
         }

@@ -1,11 +1,20 @@
 {
+    "flex-layout.col#container__row--lines": {
+        "title": "container category lines",
+        "children": [
+            "menu-item#lines__category--subcategory"
+        ],
+        "props": {
+            "width": "100%"
+        }
+    },
     "menu-item#lines__category--subcategory": {
         "title": "lines category",
         "props": {
             "id": "lines-category",
             "type": "custom",
-            "blockClass":"category-one",
-            "onMountBehavior":"open",
+            "blockClass": "category-one",
+            "onMountBehavior": "open",
             "itemProps": {
                 "type": "internal",
                 "href": "/",
@@ -22,82 +31,123 @@
         "title": "subcategory lines container",
         "children": [
             "vtex.menu@2.x:menu#subcategory__lines--container"
-        ]
+        ],
+        "props": {
+            "blockClass": "menu__subcategory"
+        }
     },
     "vtex.menu@2.x:menu#subcategory__lines--container": {
+        "title": "Subactegory lines container",
         "props": {
             "orientation": "vertical",
+            "blockClass": "category-two",
             "items": [
                 {
-                    "id": "menu-item-sandals",
+                    "id": "menu-item-biker",
                     "type": "custom",
                     "highlight": false,
                     "itemProps": {
                         "type": "internal",
                         "href": "#",
                         "noFollow": false,
-                        "tagTitle": "Sandals",
-                        "text": "Sandals"
+                        "tagTitle": "biker",
+                        "text": "Biker"
                     }
                 },
                 {
-                    "id": "menu-item-loafers",
+                    "id": "menu-item-biosecurity",
                     "type": "custom",
                     "highlight": false,
                     "itemProps": {
                         "type": "internal",
                         "href": "#",
                         "noFollow": false,
-                        "tagTitle": "loafers",
-                        "text": "Loafers"
+                        "tagTitle": "biosecurity",
+                        "text": "Biosecurity"
                     }
                 },
                 {
-                    "id": "menu-item-hikers",
+                    "id": "menu-item-brahma-pink",
                     "type": "custom",
                     "highlight": false,
                     "itemProps": {
                         "type": "internal",
-                        "href": "/hikers",
+                        "href": "/brahma-pink",
                         "noFollow": false,
-                        "tagTitle": "hikers",
-                        "text": "Hikers"
+                        "tagTitle": "brahma-pink",
+                        "text": "Brahma Pink"
                     }
                 },
                 {
-                    "id": "menu-item-inside-boots",
+                    "id": "menu-item-inside-industrial-brahma",
                     "type": "custom",
                     "highlight": false,
                     "itemProps": {
                         "type": "internal",
-                        "href": "/boots",
+                        "href": "/industrial-brahma",
                         "noFollow": false,
-                        "tagTitle": "boots",
-                        "text": "Boots"
+                        "tagTitle": "industrial-brahma",
+                        "text": "Industrial Brahma"
                     }
                 },
                 {
-                    "id": "menu-item-inside-shoes",
+                    "id": "menu-item-inside-dinamic-casual",
                     "type": "custom",
                     "highlight": false,
                     "itemProps": {
                         "type": "internal",
-                        "href": "/shoes",
+                        "href": "/dinamic-casual",
                         "noFollow": false,
-                        "tagTitle": "shoes",
-                        "text": "Shoes"
+                        "tagTitle": "dinamic-casual",
+                        "text": "Dinamic Casual"
                     }
                 },
                 {
-                    "id": "menu-item-inside-waterproof",
+                    "id": "menu-item-inside-ibex-trekking",
                     "type": "custom",
                     "highlight": false,
                     "itemProps": {
                         "type": "internal",
-                        "href": "/waterproof",
+                        "href": "/ibex-trekking",
                         "noFollow": false,
-                        "tagTitle": "waterproof",
-                        "text": "Waterproof"
+                        "tagTitle": "ibex-trekking",
+                        "text": "Ibex Trekking"
+                    }
+                },
+                {
+                    "id": "menu-item-inside-rig",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/rig",
+                        "noFollow": false,
+                        "tagTitle": "rig",
+                        "text": "Rig"
+                    }
+                },
+                {
+                    "id": "menu-item-inside-sport",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/sport",
+                        "noFollow": false,
+                        "tagTitle": "sport",
+                        "text": "Sport"
+                    }
+                },
+                {
+                    "id": "menu-item-inside-trekking",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/trekking",
+                        "noFollow": false,
+                        "tagTitle": "trekking",
+                        "text": "Trekking"
                     }
                 }
             ]

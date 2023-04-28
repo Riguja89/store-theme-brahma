@@ -1,0 +1,9 @@
+{
+    "footer-layout.desktop":{
+        "title": " Footer desktop container",
+       "children":[
+       "flex-layout.row#desktop__footer",
+       "flex-layout.row#desktop__footer--pay-methods"
+       ] 
+    }
+}

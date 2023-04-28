@@ -4,7 +4,7 @@
         "props": {
             "id": "department-onsale",
             "type": "custom",
-
+            "blockClass": "container__department--men",
             "itemProps": {
                 "type": "internal",
                 "href": "/",
@@ -14,25 +14,61 @@
             }
         },
         "blocks": [
-            "vtex.menu@2.x:submenu#department__men--footwear"
+            "vtex.menu@2.x:submenu#department__onsale"
         ]
     },
-    "vtex.menu@2.x:submenu#department__men--footwear": {
+    "vtex.menu@2.x:submenu#department__onsale": {
         "title": "department onsale footwear",
         "children": [
-            "vtex.menu@2.x:menu#menu__footwear--category"
-        ]
-    },
-    "vtex.menu@2.x:menu#menu__footwear--category": {
-        "title": "menu footwear category",
-        "children": [
-            "menu-item#footwear__category--subcategory",
-            "menu-item#apparel__category--subcategory",
-            "menu-item#accessories__category--subcategory",
-            "menu-item#lines__category--subcategory"
+            "vtex.menu@2.x:menu#department__onsale--category"
         ],
-        "props":{
-            
+        "props": {
+            "blockClass": "menu__subcategory--on-sale"
+        }
+    },
+    "vtex.menu@2.x:menu#department__onsale--category": {
+        "title": "Subactegory lines container",
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "category-two",
+            "items": [
+                {
+                    "id": "menu-item-footwear",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "footwear",
+                        "text": "Footwear"
+                    }
+                },
+                {
+                    "id": "menu-item-apparel",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "apparel",
+                        "text": "Apparel"
+                    }
+                },
+                {
+                    "id": "menu-item-accesories",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/accesories",
+                        "noFollow": false,
+                        "tagTitle": "accesories",
+                        "text": "Accesories"
+                    }
+                }
+            ]
         }
     }
 }

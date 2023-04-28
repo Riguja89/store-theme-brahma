@@ -1,0 +1,9 @@
+.submenuWrapper--menu__subcategory--on-sale {
+    background-color: rgba(236, 28, 36, 0.8);
+    width: 300px;
+    padding: 30px;
+    padding-left: 50px;
+    position: absolute;
+    top: 15px;
+    border: none;
+}

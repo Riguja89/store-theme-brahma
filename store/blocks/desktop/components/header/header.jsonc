@@ -2,16 +2,20 @@
     "header-row#desktop__header--container":{
         "title":"Header row desktop",
         "props":{
-            "blockClass":"desktop__header--container"
-           
+            "blockClass":"desktop__header--container",
+            "fullWidth":true
             
         },
         "children":[
             "image#header__container--logo",
+            "header-spacer",
             "vtex.menu@2.x:menu#header__container--department",
+            "header-spacer",
             "search-bar#header__container--searchbar",
-            "login#header__principal--login",
-            "minicart"
+            "header-spacer",
+            "login#header__container--login",
+            "header-spacer",
+            "minicart.v2"
         ]
     },
     "image#header__container--logo":{
@@ -20,7 +24,7 @@
             "src":"assets/img/logo-brahma.jpg",
             "title":"Logo brahma",
             "blockClass":"container__row--logo",
-            "height":"80px",
+            "maxWidth":"200px",
             "link":{
                 "url":"/",
                 "newTab":false,

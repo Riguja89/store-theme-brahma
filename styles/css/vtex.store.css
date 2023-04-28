@@ -3,5 +3,5 @@
    --primary-color      : black;
    --primary-color-rgba : rgba(0, 0, 0, 0.502);
    --secondary-color    : #6554e5;
-   
+    min-width: 640px;
  }

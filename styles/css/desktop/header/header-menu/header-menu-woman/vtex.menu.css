@@ -1,0 +1,13 @@
+.submenuWrapper--department__women--category {
+    width: 100vw;
+    position: absolute;
+    left: -300px;
+    top: 15px;
+    height: 350px;
+    background-color: rgba(236, 28, 36, 0.8);
+    border: none;
+}
+.submenu--department__women--category {
+    display:flex;
+    justify-content: space-around;
+}
