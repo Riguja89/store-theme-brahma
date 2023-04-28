@@ -4,7 +4,6 @@
         "props": {
             "id": "department-men",
             "type": "custom",
-            "onMountBehavior": "open",
             "blockClass": "container__department--men",
             "itemProps": {
                 "type": "internal",
@@ -29,38 +28,22 @@
     },
     "flex-layout.row#men__category--container": {
         "children": [
+            "flex-layout.col#empty",
             "flex-layout.col#container__row--footwear",
-            "flex-layout.col#container__row--apparel"
-           // "vtex.menu@2.x:menu#category__container--row"
+            "flex-layout.col#container__row--apparel",
+            "flex-layout.col#container__row--accesories",
+            "flex-layout.col#container__row--lines",
+            "flex-layout.col#empty"
         ],
         "props": {
-            "blockClass": "men__footwear--container"
+            "blockClass": "men__category--container",
+            "colJustify": "around",
+            "fullWidth": true
         }
     },
-    "vtex.menu@2.x:menu#category__container--row": {
-        "title": "menu category category",
-        "children": [
-           
-           
-            
-            "menu-item#accessories__category--subcategory",
-            "menu-item#lines__category--subcategory"
-        ],
+    "flex-layout.col#empty": {
         "props": {
-            "blockClass": "menu__footwear--category"
+            "width": "100%"
         }
-    },
-
-
-    "flex-layout.col#container__row--footwear":{
-        "children":[
-            "menu-item#footwear__category--subcategory"
-        ]
-    },
-
-    "flex-layout.col#container__row--apparel":{
-        "children":[
-            "menu-item#apparel__category--subcategory"
-        ]
     }
 }
