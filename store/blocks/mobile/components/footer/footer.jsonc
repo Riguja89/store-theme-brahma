@@ -1,0 +1,17 @@
+{
+    "flex-layout.row#mobile__footer": {
+        "title": "Footer column principal",
+        "children": [
+            "flex-layout.col#mobile__footer--about"
+        ]
+    },
+    "flex-layout.col#mobile__footer--about": {
+        "title": "Seccion about",
+        "children": [
+            "flex-layout.col#desktop__footer--about", //hay que combertir a estos en globales
+            "flex-layout.col#desktop__footer--customer",
+            "flex-layout.row#desktop__footer--pay-methods",
+            "flex-layout.col#desktop__footer--find-us"
+        ]
+    }
+}
