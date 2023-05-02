@@ -1,35 +1,37 @@
 {
-    "header-row#desktop__header--container":{
-        "title":"Header row desktop",
-        "props":{
-            "blockClass":"desktop__header--container",
-            "fullWidth":true
-            
+    "header-row#desktop__header--container": {
+        "title": "Header row desktop",
+        "props": {
+            "blockClass": "desktop__header--container",
+            "fullWidth": true
         },
-        "children":[
+        "children": [
             "image#header__container--logo",
             "header-spacer",
             "vtex.menu@2.x:menu#header__container--department",
             "header-spacer",
             "search-bar#header__container--searchbar",
             "header-spacer",
+            "link#header__container--join",
+            "header-spacer",
             "login#header__container--login",
             "header-spacer",
-            "minicart.v2"
+            "minicart.v2#header__container--minicart",
+            "header-spacer"
         ]
     },
-    "image#header__container--logo":{
-        "title":"Imagen de logo desktop",
-        "props":{
-            "src":"assets/img/logo-brahma.jpg",
-            "title":"Logo brahma",
-            "blockClass":"container__row--logo",
-            "maxWidth":"200px",
-            "link":{
-                "url":"/",
-                "newTab":false,
-                "attributeNoFollow":false
+    "image#header__container--logo": {
+        "title": "Imagen de logo desktop",
+        "props": {
+            "src": "assets/img/logo-brahma.jpg",
+            "title": "Logo brahma",
+            "blockClass": "container__row--logo",
+            "maxWidth": "200px",
+            "link": {
+                "url": "/",
+                "newTab": false,
+                "attributeNoFollow": false
             }
         }
     }
-  }
+}

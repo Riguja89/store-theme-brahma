@@ -1,0 +1,16 @@
+.link--continue__shopping {
+    text-decoration: none;
+    color          : black;
+    margin-top     : 25px;
+    margin-left    : 50px;
+    font-family    : "Arvo-Bold";
+}
+
+.link--move-to-wishlist {
+    text-decoration: none;
+    color          : black;
+    margin-top     : 25px;
+    margin-left    : 25px;
+    font-family    : "Arvo-Regular";
+    font-size      : 14px;
+}

@@ -1,7 +1,18 @@
  :global(.vtex-store__template) {
-   
-   --primary-color      : black;
-   --primary-color-rgba : rgba(0, 0, 0, 0.502);
-   --secondary-color    : #6554e5;
-    min-width: 640px;
+
+   --primary-color     : black;
+   --primary-color-rgba: rgba(0, 0, 0, 0.501);
+   --secondary-color   : #6554e5;
+   min-width           : 640px;
  }
+
+ :global(.vtex-dropdown__container) {
+   height        : 30px;
+   vertical-align: middle;
+ }
+
+ /* :global(.vtex-button) {
+ border: none;
+ height: 84px;
+ width: 300px;
+ } */

@@ -1,0 +1,25 @@
+.label {
+   color         : white;
+   font-family   : "Arvo-Regular";
+   text-transform: capitalize;
+   font-size     : 16px;
+}
+
+.label:hover {
+   font-style: italic;
+}
+
+.buttonLink:hover {
+   background-color: transparent !important;
+}
+
+.profile {
+   color         : white;
+   font-family   : "Arvo-Regular";
+   text-transform: capitalize;
+   font-size     : 16px;
+}
+
+.profile:hover {
+   font-style: italic;
+}

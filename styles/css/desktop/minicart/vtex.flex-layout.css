@@ -1,0 +1,36 @@
+.flexCol--main-container-desktop {
+    color      : black;
+    font-size  : 14px;
+    font-weight: "Arvo-Regular" !important;
+    margin-left: 30px;
+    padding-top: 40px;
+}
+
+.flexCol--priceWrapper {
+    text-align: left;
+    margin    : 0;
+}
+
+.flexColChild--main-container-desktop {
+    height: 35px !important;
+}
+
+.flexRow--list__row--desktop {
+    border-top: 1px dotted black;
+
+}
+
+.flexColChild--minicart_footer--col:first-child {
+    display        : flex;
+    justify-content: end;
+}
+
+.flexColChild--minicart_footer--col:nth-child(2n) {
+    display        : flex;
+    justify-content: center;
+}
+
+.flexColChild--minicart_footer--col:nth-child(3n) {
+    display        : flex;
+    justify-content: center;
+}

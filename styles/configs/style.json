@@ -80,7 +80,7 @@
     "background": {
       "base": "#ffffff",
       "base--inverted": "#03044e",
-      "action-primary": "#0F3E99",
+      "action-primary": "#000000",
       "action-secondary": "#eef3f7",
       "emphasis": "#f71963",
       "disabled": "#f2f4f5",
@@ -97,8 +97,8 @@
       "muted-5": "#f2f4f5"
     },
     "hover-background": {
-      "action-primary": "#072c75",
-      "action-secondary": "#dbe9fd",
+      "action-primary": "##000000",
+      "action-secondary": "#000000",
       "emphasis": "#dd1659",
       "success": "#8bc34a",
       "success--faded": "#eafce3",
@@ -221,7 +221,7 @@
       "muted-5": "#f2f4f5"
     },
     "on": {
-      "base": "#ffffff",
+      "base": "#000000",
       "base--inverted": "#000000",
       "action-primary": "#ffffff",
       "action-secondary": "#0F3E99",
