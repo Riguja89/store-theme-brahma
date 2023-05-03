@@ -1,0 +1,14 @@
+.flexRowContent--list__shelf--name-price {
+    flex-direction: column;
+    width         : 100%;
+    font-family: "Arvo-Regular";
+}
+
+.flexRowContent--list__shelf--name-price .stretchChildrenWidth {
+    width: 100% !important;
+}
+
+.flexRow--list__shelf--name-price {
+    background-color: #e6e6e6;
+    height: 100%;
+}

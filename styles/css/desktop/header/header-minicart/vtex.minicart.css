@@ -12,5 +12,9 @@
 }
 
 .minicartContainer--header__container--minicart {
-    margin-right: 30px;
+    margin-right: 2vw;
+}
+
+.openIconContainer--header__container--minicart {
+    padding-left: 0;
 }

@@ -1,0 +1,11 @@
+{
+    "flex-layout.row#home__section--slider": {
+        "title": "home slider container",
+        "children": [
+            "slider-layout#home__section--global-1"
+        ],
+        "props": {
+            "fullWidth": true
+        }
+    }
+}

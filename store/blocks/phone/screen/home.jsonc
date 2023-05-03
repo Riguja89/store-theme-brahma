@@ -1,6 +1,9 @@
 {
   "responsive-layout.phone#home__section-images": {
     "title": "Section images Phone Home",
-    "children": ["flex-layout.row#home__section-images--container"]
+    "children": [
+      "flex-layout.row#phone__section--slider",
+      "flex-layout.row#home__section-images--container"
+    ]
   }
 }
