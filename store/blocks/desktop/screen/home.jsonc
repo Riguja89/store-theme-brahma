@@ -4,6 +4,7 @@
     "children": [
       "flex-layout.row#home__section--slider",
       "flex-layout.row#home__section-2"
+      // "flex-layout.row#home__section2-hover"
     ]
   }
 }

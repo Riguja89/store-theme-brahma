@@ -3,7 +3,7 @@
    --primary-color     : black;
    --primary-color-rgba: rgba(0, 0, 0, 0.501);
    --secondary-color   : #6554e5;
-   min-width           : 640px;
+   /* min-width           : 640px; */
  }
 
  :global(.vtex-dropdown__container) {
