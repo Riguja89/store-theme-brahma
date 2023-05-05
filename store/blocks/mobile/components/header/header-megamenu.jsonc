@@ -4,7 +4,7 @@
         "props": {
             "defaultDepartmentActive": "...",
             "orientation": "vertical",
-            "openOnly": "vertical",
+            "openOnly": "horizontal",
             "title":""
         }
     },

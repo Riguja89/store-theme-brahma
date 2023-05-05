@@ -1,19 +1,5 @@
 {
-    "login#header__principal--login":{
-        "title":"Login mobile",
-        "props":{
-            "emailAndPasswordTitle": "LOG-IN",
-            "accessCodeTitle": "Acess Code LOG-IN",
-            "emailPlaceholder": "e-mail",
-            "passwordPlaceholder": "password",
-            "showPasswordVerificationIntoTooltip": true,
-            "showIconProfile":true,
-            "hideIconLabel":false,
-            "iconLabel":"Login",
-            "optionsTitle":"Login",
-            "blockClass":"header__principal--login"
-        }
-    },
+  
     "link#header__principal--login":{
         "title":"Login link mobile",
         "props":{

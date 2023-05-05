@@ -1,6 +1,6 @@
 .headerRowBackground--desktop__header--container {
     background-color: black;
-    height: 80px;
+    height          : 80px;
 }
 
 .headerStickyRow--desktop__header--container {

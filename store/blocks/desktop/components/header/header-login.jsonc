@@ -1,18 +1,30 @@
 {
     "login#header__container--login":{
-        "title":"Login mobile",
+        "title":"Login desktop",
         "props":{
             "emailAndPasswordTitle": "LOG-IN",
             "accessCodeTitle": "Acess Code LOG-IN",
             "emailPlaceholder": "e-mail",
             "passwordPlaceholder": "password",
             "showPasswordVerificationIntoTooltip": true,
-            "showIconProfile":true,
+            "showIconProfile":false,
             "hideIconLabel":false,
             "iconLabel":"Login",
             "optionsTitle":"Login",
             "logInButtonBehavior":"link",
-            "blockClass":"header__principal--login"
+            "labelClasses":"container__login--label",
+            "blockClass":"header__container--login",
+            "accountOptionLinks":{
+                "label":"Hellow"
+            }
+        }
+    },
+    "link#header__container--join":{
+        "title":"Join mobile",
+        "props":{
+            "href": "/login?returnUrl={queryString.returnUrl}",
+            "label": "Join",
+            "blockClass":"header__container--join"
         }
     }
 }

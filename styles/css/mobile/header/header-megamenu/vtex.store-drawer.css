@@ -1,4 +1,6 @@
-.opened{
+.drawer--header__principal--menu {
     background-color: red;
-    color: white !important;
+    font-family     : "Arvo-regular" !important;
+    width           : 100% !important;
+    max-width       : none !important;
 }

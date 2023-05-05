@@ -1,0 +1,25 @@
+.productImageContainer {
+    width: 188px !important;
+}
+
+.productImage {
+    width: 188px;
+}
+
+.productName {
+    color: black;
+}
+
+.price {
+    text-align: left;
+}
+
+.quantityDropdownContainer {
+    color: black !important;
+}
+
+.removeButton {
+    margin-right    : 44px;
+    color           : #999999 !important;
+    background-color: white;
+}
