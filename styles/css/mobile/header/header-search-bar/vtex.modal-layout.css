@@ -1,15 +1,28 @@
 .container--principal__search-bar--modal {
     background-color: transparent !important;
 }
+
 .modal--principal__search-bar--modal {
     background-color: transparent !important;
-  
+
 }
+
 .paper--principal__search-bar--modal {
     background-color: transparent;
-    width: 65%;
+    width           : 85%;
 }
 
 .backdrop--principal__search-bar--modal {
     background-color: transparent;
+}
+
+.triggerContainer--header__principal--search-bar {
+    height: 4vw;
+    width: 3.5vw;
+    padding: 0;
+    margin: 0;
+    margin-right: 6vw;
+    display: flex;
+    align-items: center;
+    color: white;
 }

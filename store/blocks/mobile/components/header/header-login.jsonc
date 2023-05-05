@@ -1,33 +1,40 @@
 {
-    "login#header__principal--login":{
-        "title":"Login mobile",
+    "login#header__principal--join":{
+        "title":"Join mobile",
         "props":{
             "emailAndPasswordTitle": "LOG-IN",
             "accessCodeTitle": "Acess Code LOG-IN",
             "emailPlaceholder": "e-mail",
             "passwordPlaceholder": "password",
             "showPasswordVerificationIntoTooltip": true,
-            "showIconProfile":true,
+            "showIconProfile":false,
+            "hideIconLabel":false,
+            "iconLabel":"Join",
+            "optionsTitle":"Join",
+            "logInButtonBehavior":"link",
+            "labelClasses":"content__join--label",
+            "blockClass":"header__principal--join"
+        }
+    },
+
+    "login#header__principal--login":{
+        "title":"Login mobile container",
+        "props":{
+            "emailAndPasswordTitle": "LOG-IN",
+            "accessCodeTitle": "Acess Code LOG-IN",
+            "emailPlaceholder": "e-mail",
+            "passwordPlaceholder": "password",
+            "showPasswordVerificationIntoTooltip": true,
+            "showIconProfile":false,
             "hideIconLabel":false,
             "iconLabel":"Login",
             "optionsTitle":"Login",
-            "blockClass":"header__principal--login"
-        }
-    },
-    "link#header__principal--login":{
-        "title":"Login link mobile",
-        "props":{
-            "href": "/login?returnUrl={queryString.returnUrl}",
-            "label": "Login",
-            "blockClass":"header__principal--login"
-        }
-    },
-    "link#header__principal--join":{
-        "title":"Join mobile",
-        "props":{
-            "href": "/login?returnUrl={queryString.returnUrl}",
-            "label": "Join",
-            "blockClass":"header__principal--login"
+            "logInButtonBehavior":"link",
+            "labelClasses":"content__login--label",
+            "blockClass":"header__principal--login",
+            "accountOptionLinks":{
+                "label":"Hellow"
+            }
         }
     }
 }

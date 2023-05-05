@@ -1,3 +1,25 @@
-.submenuContainerVertical{
+.submenuContainerVertical {
     background-color: red;
+}
+
+.styledLinkText {
+    font-family: "Arvo-Bold";
+    text-align : center;
+    font-size  : 20px;
+
+}
+
+.styledLinkContainer {
+    height        : 15vw;
+    border-bottom    : 1px dotted #ffffff;
+    border-style: none;
+    vertical-align: middle;
+    display       : flex;
+    align-items   : center;
+}
+
+.styledLinkContent {
+    display        : flex;
+    justify-content: center;
+    vertical-align : middle;
 }

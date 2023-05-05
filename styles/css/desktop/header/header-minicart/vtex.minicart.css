@@ -1,0 +1,20 @@
+.minicartQuantityBadge--header__container--minicart {
+    background-color: black;
+    top             : 0.5rem;
+    left            : 3.5rem;
+    font-family     : "Arvo-Regular";
+    font-size       : 16px;
+    border          : 2px white solid;
+    border-radius   : 30% / 50%;
+    border-bottom   : none;
+    border-top      : none;
+
+}
+
+.minicartContainer--header__container--minicart {
+    margin-right: 2vw;
+}
+
+.openIconContainer--header__container--minicart {
+    padding-left: 0;
+}

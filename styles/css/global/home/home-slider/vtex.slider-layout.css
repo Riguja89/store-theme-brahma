@@ -1,0 +1,27 @@
+.paginationDotsContainer--home__slider {
+    padding-top: 8px;
+    margin-top: 10px;
+    height: 30px;
+}
+
+.caretIcon--home__slider {
+    color       : white;
+    stroke-width: 3;
+    height      : 30px;
+    width       : 30px;
+}
+
+.caretIcon--home__slider:hover {
+    color: red;
+
+}
+
+.paginationDot--home__slider {
+    height: 18px !important;
+    width : 18px !important;
+    margin: 8px;
+}
+
+.paginationDot--home__slider--isActive {
+    background-color: grey;
+}

@@ -1,0 +1,41 @@
+.flexColChild--drawer__back--vertical-burger {
+    position: relative;
+    z-index : 2;
+    width   : 6vw;
+    height  : 9vw;
+}
+
+.flexColChild--drawer__back--vertical-burger :global(.vtex-store-drawer-0-x-closeIcon) {
+    color: transparent;
+}
+
+.flexColChild--drawer__back--vertical-burger::after {
+    content : url("assets/img/vertical-burger.svg");
+    opacity : 1;
+    display : block;
+    width   : 6vw;
+    height  : 6vw;
+    position: relative;
+    left    : 12px;
+    top     : -30px;
+    color   : white;
+    z-index : -1;
+
+}
+
+.flexRow--drawer-header {
+    width : 100%;
+    height: 9vw;
+
+}
+
+.flexRowContent--drawer-header {
+    height         : 9vw;
+    display        : flex;
+    justify-content: space-between;
+}
+
+.flexCol--drawer-close-button :global(.vtex-store-drawer-0-x-closeIcon) {
+    width : 5vw;
+    height: 5vw;
+}

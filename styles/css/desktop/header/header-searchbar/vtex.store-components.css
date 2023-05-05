@@ -1,20 +1,25 @@
-.searchBarInnerContainer--header__container--searchbar :first-child { 
-    border: none;
+.searchBarInnerContainer--header__container--searchbar :first-child {
+    border          : none;
     background-color: black;
 }
 
-.searchBarIcon--header__container--searchbar{
+.searchBarIcon--header__container--searchbar {
     color: white;
 }
 
 .autoCompleteOuterContainer--header__container--searchbar :nth-child(3n) {
-    display:none;
+    display: none;
 }
 
 .autoCompleteOuterContainer--header__container--searchbar :nth-child(2n) {
-    color: white;
-    font-family: "arvo-regular";
+    color        : white;
+    font-family  : "arvo-regular";
+    border-radius: 0 0;
+    position     : relative;
+    top          : -6px;
+    margin-right : 2vw;
 }
+
 .autoCompleteOuterContainer--header__container--searchbar {
     width: 100%;
 }

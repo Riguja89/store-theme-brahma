@@ -1,4 +1,58 @@
-/* Example desktop:
-.minicartTitle {
-    display: none;
+/* .drawer--header__container--minicart {
+    z-index: 2;
 } */
+
+.minicartTitle {
+    visibility : hidden;
+    font-family: "Arvo-Bold";
+    color      : black;
+}
+
+.minicartTitle::after {
+    content   : "Cart";
+    visibility: visible;
+    position  : relative;
+    top       : 10px;
+    left      : -80px;
+}
+
+.drawer--header__container--minicart {
+    background-color: #f2f2f2;
+    font-family     : "Arvo-Regular";
+    color           : black;
+}
+
+.closeIconButton--header__container--minicart {
+    background-color: #cccccc;
+    height          : 50px;
+    width           : 50px;
+    border-radius   : 50%;
+    position        : relative;
+    left            : 87%;
+    top             : 2em;
+    display         : flex;
+    text-align      : center;
+    vertical-align  : middle;
+}
+
+.closeIconButton--header__container--minicart:hover {
+    background-color: gray;
+}
+
+.closeIcon--header__container--minicart {
+    color: white;
+}
+
+.minicartSummary {
+    padding      : 0;
+    align-content: flex-end;
+    width        : 50%;
+}
+
+.minicartProductListContainer--minicart__content--list {
+    border-bottom: 1px dotted black;
+}
+
+.minicartCheckoutButton .vtex-button {
+    height: 70px;
+}

@@ -1,9 +1,3 @@
 {
-  "flex-layout.row#home__section-1": {
-    "title": "Desktop Row with text",
-    "children": [
-      "list-context.product-list#home__section-1--vitrine"
-    ]
-  }
-
+ 
 }

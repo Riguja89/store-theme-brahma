@@ -132,8 +132,7 @@
                         "tagTitle": "shirt",
                         "text": "Shirt"
                     }
-                }
-                ,
+                },
                 {
                     "id": "menu-item-inside-t-shirts",
                     "type": "custom",

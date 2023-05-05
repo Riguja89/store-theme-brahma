@@ -3,15 +3,15 @@
         "title": "Header mobile principal",
         "children": [
             "image#header__principal--logo",
+            "header-spacer",
             "drawer#header__principal--menu",
-            // "search-bar#header__mobile--search-bar",
             "header-spacer",
             "modal-trigger#header__principal--search-bar",
-            //"icon#header__principal--search",
             "header-spacer",
-            "link#header__principal--join",
             "header-spacer",
-            "link#header__principal--login",
+            "login#header__principal--join",
+            "header-spacer",
+            "login#header__principal--login",
             "header-spacer"
         ],
         "props": {
@@ -21,19 +21,6 @@
             "horizontalAlign": "left",
             "preventHorizontalStretch": true,
             "preventVerticalStretch": true
-        }
-    },
-    "drawer#header__principal--menu": {
-        "title": "Drawer menu mobile principal",
-        "children": [
-            "mega-menu#mobile"
-        ],
-        "blocks": [
-            "drawer-header#my-drawer"
-        ],
-        "props": {
-            "blockClass": "header__principal--menu",
-            "size": 50
         }
     }
 }
