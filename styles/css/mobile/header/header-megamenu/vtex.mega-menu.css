@@ -10,8 +10,9 @@
 }
 
 .styledLinkContainer {
-    height        : 149px;
-    border-top    : 1px dotted #ffffff;
+    height        : 15vw;
+    border-bottom    : 1px dotted #ffffff;
+    border-style: none;
     vertical-align: middle;
     display       : flex;
     align-items   : center;

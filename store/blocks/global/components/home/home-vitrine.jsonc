@@ -72,7 +72,7 @@
             "itemsPerPage": {
                 "desktop": 4,
                 "tablet": 2,
-                "phone": 2
+                "phone": 1
             },
             "navigationStep":1,
             "showPaginationDots": false,
