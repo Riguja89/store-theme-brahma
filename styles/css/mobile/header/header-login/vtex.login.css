@@ -1,0 +1,24 @@
+.profile:global(.content__login--label) {
+    display: block !important;
+    font-family   : "Arvo-Regular";
+    text-transform: capitalize;
+    font-size     : 1.9vw;
+}
+
+.label:global(.content__login--label) {
+    display: block !important;
+    font-family   : "Arvo-Regular";
+    text-transform: capitalize;
+    font-size     : 1.9vw;
+    padding: 0;
+    margin: 0;
+}
+
+.label:global(.content__join--label) {
+    display: block !important;
+    font-family   : "Arvo-Regular";
+    text-transform: capitalize;
+    font-size     : 1.9vw;
+    padding: 0;
+    margin: 0;
+}

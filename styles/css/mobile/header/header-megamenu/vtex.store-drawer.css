@@ -1,3 +1,23 @@
+.opened--header__principal--menu {
+    height: 100%;
+}
+
+.openIconContainer--header__principal--menu {
+    padding    : 0;
+    height     : 9vw;
+    width      : 9vw;
+    display    : flex;
+    align-items: center;
+
+}
+
+.menuIcon--header__principal--menu {
+    height        : 6vw;
+    width         : 6vw;
+    stroke-width  : 2;
+    vertical-align: middle;
+}
+
 .drawer--header__principal--menu {
     background-color: #EE1B24;
     font-family     : "Arvo-regular" !important;
@@ -7,7 +27,4 @@
 
 .closeIcon {
     color     : white;
-    height    : 65px;
-    width     : 65px;
-    margin-top: 5px;
 }

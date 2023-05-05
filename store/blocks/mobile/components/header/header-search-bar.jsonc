@@ -4,7 +4,10 @@
         "children": [
             "icon#header__principal--search",
             "modal-layout#principal__search-bar--modal"
-        ]
+        ],
+        "props":{
+            "blockClass":"header__principal--search-bar"
+        }
     },
     "icon#header__principal--search": {
         "title": "icono header principal search",

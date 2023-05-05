@@ -5,7 +5,7 @@
             "src":"assets/img/logo-brahma.jpg",
             "title":"Logo brahma",
             "blockClass":"header__principal--logo",
-           // "height":"60px",
+           // "height":"100%",
             "link":{
                 "url":"/",
                 "newTab":false,

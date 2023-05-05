@@ -1,33 +1,50 @@
 {
+    "drawer#header__principal--menu": {
+        "title": "Drawer menu mobile principal",
+        "children": [
+            "mega-menu#mobile",
+            "minicart.v2#header__container--minicart"
+        ],
+        "blocks": [
+            "drawer-header#my-drawer"
+        ],
+        "props": {
+            "blockClass": "header__principal--menu",
+            "size": 50
+        }
+    },
     "mega-menu#mobile": {
-        "title":"Megamenu mobile",
+        "title": "Megamenu mobile",
         "props": {
             "defaultDepartmentActive": "...",
             "orientation": "vertical",
             "openOnly": "horizontal",
-            "title":"",
-            "blockClass":"megamenu__mobile"
+            "title": "",
+            "blockClass": "megamenu__mobile"
         }
     },
     "drawer-header#my-drawer": {
-        "title":"Drawer mobile",
+        "title": "Drawer mobile",
         "children": [
-            "image#header__principal--logo",
-            "flex-layout.row#drawer-header",
-            "flex-layout.col#spacer",
-            "modal-trigger#header__principal--search-bar",
-            "minicart.v2#header__container--minicart"
+            "flex-layout.row#drawer-header"
         ],
-        "props":{
-            "blockClass":"header__megamenu--mobile"
+        "props": {
+            "blockClass": "header__megamenu--mobile"
         }
     },
     "flex-layout.row#drawer-header": {
-        "title":"Drawer header",
+        "title": "Drawer header",
         "children": [
+            "image#header__principal--logo",
+            "flex-layout.col#drawer__back--vertical-burger",
+            "flex-layout.col#spacer",
+            "flex-layout.col#search-button",
+            "flex-layout.col#spacer",
+            "flex-layout.col#spacer",
             "flex-layout.col#mega-menu-go-back-btn",
             "flex-layout.col#spacer",
-            "flex-layout.col#drawer-close-button"
+            "flex-layout.col#drawer-close-button",
+            "flex-layout.col#spacer"
         ],
         "props": {
             "blockClass": "drawer-header",
@@ -37,13 +54,33 @@
             "fullWidth": true
         }
     },
+    "flex-layout.col#drawer__back--vertical-burger":{
+        "children": [
+            "drawer-close-button"
+        ],
+        "props": {
+            "verticalAlign": "middle",
+            "horizontalAlign": "right",
+            "blockClass":"drawer__back--vertical-burger"
+        }
+    },
+    "flex-layout.col#search-button": {
+        "children": [
+            "modal-trigger#header__principal--search-bar"
+        ],
+        "props": {
+            "verticalAlign": "middle",
+            "horizontalAlign": "right"
+        }
+    },
     "flex-layout.col#drawer-close-button": {
         "children": [
             "drawer-close-button"
         ],
         "props": {
             "verticalAlign": "middle",
-            "horizontalAlign": "right"
+            "horizontalAlign": "right",
+            "blockClass":"drawer-close-button"
         }
     },
     "flex-layout.col#mega-menu-go-back-btn": {
