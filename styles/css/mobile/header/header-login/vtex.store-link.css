@@ -1,6 +1,10 @@
 .label--header__principal--login {
-    color: white;
+    color          : white;
     text-decoration: none;
-    font-family: "Arvo-Regular";
-    font-size:large;
+    font-family    : "Arvo-Regular";
+    font-size      : large;
+}
+
+.link--header__principal--login {
+    text-decoration: none;
 }

@@ -1,11 +1,11 @@
 .wrapper--header__mobile--search-text {
     font-family: "Arvo-Bold";
-    color: white;
- 
+    color      : white;
+
 }
 
 .container--header__mobile--search-text {
     position: relative;
-    top: -25px;
-    left: -30px;
+    top     : -25px;
+    left    : -30px;
 }

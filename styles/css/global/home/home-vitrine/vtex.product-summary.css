@@ -1,0 +1,28 @@
+.brandName {
+    font-family: "Arvo-Bold";
+    font-size  : 16px;
+}
+
+.sellingPrice {
+    font-family: "Arvo-Regular";
+    font-size  : 16px;
+}
+
+.element--vitrine__list--shelf {
+    border : 1px solid #e6e6e6;
+    padding: 0;
+}
+
+.clearLink--vitrine__list--shelf:hover {
+    background-color: white;
+    filter          : brightness(0.7);
+
+}
+
+.imageContainer--list__shelf--image {
+    margin-top: 40px;
+}
+
+.container--vitrine__list--shelf {
+    border-radius: 0%;
+}

@@ -1,0 +1,12 @@
+{
+    "flex-layout.row#phone__section--slider": {
+        "title": "home slider phone container",
+        "children": [
+            "slider-layout#home__section--global-1"
+        ],
+        "props": {
+            "blockClass": "phone__section--slider",
+            "fullWidth": false
+        }
+    }
+}

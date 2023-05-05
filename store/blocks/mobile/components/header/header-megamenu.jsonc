@@ -5,14 +5,22 @@
             "defaultDepartmentActive": "...",
             "orientation": "vertical",
             "openOnly": "horizontal",
-            "title":""
+            "title":"",
+            "blockClass":"megamenu__mobile"
         }
     },
     "drawer-header#my-drawer": {
         "title":"Drawer mobile",
         "children": [
-            "flex-layout.row#drawer-header"
-        ]
+            "image#header__principal--logo",
+            "flex-layout.row#drawer-header",
+            "flex-layout.col#spacer",
+            "modal-trigger#header__principal--search-bar",
+            "minicart.v2#header__container--minicart"
+        ],
+        "props":{
+            "blockClass":"header__megamenu--mobile"
+        }
     },
     "flex-layout.row#drawer-header": {
         "title":"Drawer header",

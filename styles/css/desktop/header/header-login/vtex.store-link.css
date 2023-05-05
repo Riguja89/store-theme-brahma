@@ -8,3 +8,7 @@
 .label--header__container--join:hover {
     font-style: italic;
 }
+
+.link--header__container--join {
+    text-decoration: none;
+}

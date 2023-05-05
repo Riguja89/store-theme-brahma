@@ -1,0 +1,11 @@
+
+.flexColChild--home__section-2--col1:nth-child(2n) {
+    position: relative;
+    top     : -100%;
+}
+
+
+.flexCol--home__section-2--col1 {
+    height: 50%;
+    margin-bottom: -50%;
+} 

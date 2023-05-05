@@ -1,6 +1,9 @@
 {
   "responsive-layout.tablet#home__section-images": {
     "title": "Section images Tablet Home",
-    "children": ["flex-layout.row#home__section-images--container"]
+    "children": [
+      "flex-layout.row#home__section--slider",
+      "flex-layout.row#home__section-images--container"
+    ]
   }
 }

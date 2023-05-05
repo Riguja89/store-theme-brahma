@@ -1,6 +1,13 @@
 .drawer--header__principal--menu {
-    background-color: red;
+    background-color: #EE1B24;
     font-family     : "Arvo-regular" !important;
     width           : 100% !important;
     max-width       : none !important;
+}
+
+.closeIcon {
+    color     : white;
+    height    : 65px;
+    width     : 65px;
+    margin-top: 5px;
 }
