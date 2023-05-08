@@ -9,7 +9,10 @@
 
 .paper--principal__search-bar--modal {
     background-color: transparent;
-    width           : 85%;
+    width           : 80vw;
+    height          : 9vw;
+    margin          : 0;
+    padding         : 0;
 }
 
 .backdrop--principal__search-bar--modal {
@@ -17,12 +20,28 @@
 }
 
 .triggerContainer--header__principal--search-bar {
-    height: 4vw;
-    width: 3.5vw;
-    padding: 0;
-    margin: 0;
+    height      : 4vw;
+    width       : 3.5vw;
+    padding     : 0;
+    margin      : 0;
     margin-right: 6vw;
-    display: flex;
-    align-items: center;
-    color: white;
+    display     : flex;
+    align-items : center;
+    color       : white;
+}
+
+.container--principal__search-bar--modal :global(.vtex-store-components-3-x-container) {
+    height : 100%;
+    padding: 0;
+    margin : 0;
+}
+
+.container--principal__search-bar--modal :global(.vtex-store-components-3-x-searchBarContainer) {
+    height : 9vw;
+    padding: 0;
+    margin : 0;
+}
+
+.container--principal__search-bar--modal :global(.vtex-input-prefix__group) {
+    height: 6vw;
 }

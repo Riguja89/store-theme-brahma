@@ -3,7 +3,7 @@
         "title": "Drawer menu mobile principal",
         "children": [
             "mega-menu#mobile",
-            "minicart.v2#header__container--minicart"
+            "flex-layout.row#minicart__container"
         ],
         "blocks": [
             "drawer-header#my-drawer"
@@ -92,6 +92,11 @@
             "horizontalAlign": "left",
             "paddingLeft": 4
         }
+    },
+    "flex-layout.row#minicart__container":{
+        "children":[
+            "minicart.v2#header__container--minicart"
+        ]
     },
     "flex-layout.col#spacer": {}
 }

@@ -1,25 +1,78 @@
-.submenuContainerVertical {
-    background-color: red;
-}
-
 .styledLinkText {
     font-family: "Arvo-Bold";
     text-align : center;
-    font-size  : 20px;
+    font-size  : 2.3vw;
 
 }
 
 .styledLinkContainer {
-    height        : 15vw;
-    border-bottom    : 1px dotted #ffffff;
-    border-style: none;
+    border-style  : none;
     vertical-align: middle;
     display       : flex;
     align-items   : center;
+    height        : 100%;
 }
 
 .styledLinkContent {
     display        : flex;
     justify-content: center;
     vertical-align : middle;
+}
+
+.menuItemVertical--megamenu__mobile {
+    height       : 15vw;
+    border-style : none;
+    border-bottom: 1px dotted #ffffff;
+}
+
+.styledLinkIcon--megamenu__mobile {
+    color: transparent;
+}
+
+.submenuContainerVertical {
+    position        : absolute;
+    font-family     : "Arvo-Bold";
+    background-color: #EE1B24;
+    color           : white;
+    text-align      : center;
+    font-size       : 2.3vw;
+    z-index         : 10;
+
+}
+
+.collapsibleHeaderText {
+    color: white;
+}
+
+.submenuContainerTitle {
+    color          : white;
+    font-size      : 3vw;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+}
+
+.goBackButton {
+    font-family: "Arvo-Bold";
+    color      : white;
+    font-size  : 2.3vw;
+}
+
+.caretIcon {
+    width : 3vw;
+    height: 3vw;
+}
+
+.submenuItemVertical {
+    height         : 15vw;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    border-style   : none;
+    border-bottom  : 1px dotted #ffffff;
+}
+
+.menuContainerVertical {
+    padding: 0;
+    margin : 0;
 }
