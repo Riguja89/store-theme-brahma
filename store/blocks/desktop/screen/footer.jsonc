@@ -4,6 +4,9 @@
        "children":[
        "flex-layout.row#desktop__footer",
        "flex-layout.row#desktop__footer--pay-methods"
-       ] 
+       ] ,
+       "props":{
+        "blockClass":"footer__desktop"
+       }
     }
 }

@@ -7,8 +7,6 @@
 .caretIcon--home__slider {
     color       : white;
     stroke-width: 3;
-    height      : 30px;
-    width       : 30px;
 }
 
 .caretIcon--home__slider:hover {

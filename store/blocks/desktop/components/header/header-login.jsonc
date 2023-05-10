@@ -2,9 +2,9 @@
     "login#header__container--login":{
         "title":"Login desktop",
         "props":{
-            "emailAndPasswordTitle": "LOG-IN",
+            "emailAndPasswordTitle": "prueba jaime",
             "accessCodeTitle": "Acess Code LOG-IN",
-            "emailPlaceholder": "e-mail",
+            "emailPlaceholder": "e-mail222",
             "passwordPlaceholder": "password",
             "showPasswordVerificationIntoTooltip": true,
             "showIconProfile":false,
@@ -26,15 +26,6 @@
             "href": "/login?returnUrl={queryString.returnUrl}",
             "label": "Join",
             "blockClass":"header__container--join"
-        }
-    },
-    "login-content":{
-        "props":{
-            "emailAndPasswordTitle": "LOG-IN2",
-            "accessCodeTitle": "Acess Code LOG-IN",
-            "emailPlaceholder": "Email",
-            "passwordPlaceholder": "Password",
-            "showPasswordVerificationIntoTooltip": true
         }
     }
 }

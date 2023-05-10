@@ -1,0 +1,84 @@
+.flexRow--mobile__footer--about {
+    margin       : 5vw 4vw;
+    margin-bottom: 1vw;
+}
+
+.flexRow--mobile__footer--about :global(.vtex-menu-2-x-styledLinkContainer) {
+    padding: 1.8vw 0;
+    margin : 0;
+}
+
+.flexRow--mobile__footer--about :global(.vtex-rich-text-0-x-paragraph) {
+    font-size: 2.8vw;
+}
+
+.flexRow--mobile__footer--about :global(.vtex-menu-2-x-styledLinkContent) {
+    font-size: 2.5vw;
+}
+
+.flexRow--mobile__footer--customer {
+    margin: 0 4vw;
+}
+
+.flexRow--mobile__footer--customer :global(.vtex-menu-2-x-styledLinkContainer) {
+    padding: 1.8vw 0;
+    margin : 0;
+}
+
+.flexRow--mobile__footer--customer :global(.vtex-rich-text-0-x-paragraph) {
+    font-size: 2.8vw;
+}
+
+.flexRow--mobile__footer--customer :global(.vtex-menu-2-x-styledLinkContent) {
+    font-size: 2.5vw;
+}
+
+.flexRow--mobile__footer :global(.vtex-rich-text-0-x-paragraph--footer__pay-methods--title) {
+    font-size    : 1.9vw;
+    padding-right: 2vw;
+    word-wrap    : normal;
+}
+
+.flexRow--mobile__footer :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    margin: 0 0.5vw;
+    height: 11%;
+}
+
+.flexRow--mobile__footer :global(.vtex-rich-text-0-x-container--footer__pay-methods--title) {
+    width: 30vw;
+
+}
+
+.flexRow--mobile__footer :global(.vtex-flex-layout-0-x-flexRowContent--desktop__footer--pay-methods) {
+    align-items   : center;
+    padding-bottom: 2%;
+}
+
+.flexRow--mobile__footer--find-us {
+    background-color: white;
+    padding-bottom  : 5%;
+}
+
+.flexRowContent--mobile__footer--social-networkm :global(.vtex-store-components-3-x-imageElementLink) {
+    display        : flex;
+    justify-content: center;
+}
+
+.flexRow--mobile__footer--social-networkm {
+    margin: 0 20%;
+}
+
+.flexRowContent--mobile__footer--social-networkm :global(.vtex-store-components-3-x-imageElement) {
+    width: 30%;
+}
+
+.flexCol--mobile__footer--find-us :nth-child(3n) {
+    display        : flex;
+    justify-content: center;
+}
+
+.flexRow--mobile__footer--find-us :global(.vtex-store-link-0-x-link--store-finder) {
+    width    : 60%;
+    height   : 10vw;
+    font-size: 3vw;
+}

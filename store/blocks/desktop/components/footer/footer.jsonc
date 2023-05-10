@@ -2,7 +2,8 @@
     "flex-layout.row#desktop__footer": {
         "title":"desktop footer",
         "props":{
-            "paddingTop": 8
+            "paddingTop": 8,
+            "blockClass":"desktop__footer"
         },
         "children": [
             "flex-layout.col#desktop__footer--about",

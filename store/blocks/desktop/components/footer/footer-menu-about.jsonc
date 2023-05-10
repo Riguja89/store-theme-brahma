@@ -4,7 +4,10 @@
         "children": [
             "rich-text#footer__about--title",
             "vtex.menu@2.x:menu#footer__about--container"
-        ]
+        ],
+        "props":{
+            "blockClass":"desktop__footer--about"
+        }
     },
     "rich-text#footer__about--title": {
         "title": "title about",
