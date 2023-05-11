@@ -2,7 +2,7 @@
   "flex-layout.row#home__section-images--container":{
     "title":"Image container row",
     "props":{
-      "blocClass":"home__section-images--container",
+      "blockClass":"home__section-images--container",
       "colGap":4
     },
     "children":[
@@ -15,7 +15,7 @@
     "props":{
       "width":"50%",
       "horizontalAlign":"center",
-      "blocClass":"section-images__container--img"
+      "blockClass":"section-images__container--img"
     },
     "children":[
       "image#container__img1--image"
@@ -34,7 +34,7 @@
     "props":{
       "width":"50%",
       "horizontalAlign":"center",
-      "blocClass":"section-images__container--img"
+      "blockClass":"section-images__container--img"
     },
     "children":[
       "image#container__img2--image"

@@ -3,8 +3,10 @@
     background-color: black;
 }
 
-.searchBarIcon--header__container--searchbar {
+.searchIcon--header__container--searchbar {
     color: white;
+    height: 30px;
+    width: 30px;
 }
 
 .autoCompleteOuterContainer--header__container--searchbar :nth-child(3n) {
