@@ -11,15 +11,8 @@
             "minicart-base-content#container__minicart--content"
         ]
     },
-    "icon-cart#minicart-icon": {
-        "title": "minicart icon",
-        "props": {
-            "size": 42,
-            "id": "hpa-carttwo",
-            "color": "white"
-        }
-    },
     "minicart-base-content#container__minicart--content": {
+        "title": "Base content minicartp",
         "blocks": [
             "minicart-empty-state"
         ],
@@ -33,6 +26,7 @@
         }
     },
     "minicart-empty-state": {
+        "title": "General emty state",
         "children": [
             "flex-layout.row#minicart__empty"
         ],
@@ -41,6 +35,7 @@
         }
     },
     "flex-layout.row#minicart__empty": {
+        "title": "Minicart empty row",
         "children": [
             "flex-layout.col#minicart__empty"
         ],
@@ -71,6 +66,7 @@
         }
     },
     "icon#back__row": {
+        "title": "back arrow",
         "props": {
             "size": 16,
             "id": "nav-caret--left",
@@ -78,28 +74,14 @@
             "blockClass": "minicart__empty--iconback"
         }
     },
-    "rich-text#minicart__empty--text": {
-        "title": "minicar empty text",
-        "props": {
-            "text": "Your cart is empty!",
-            "textAlignment": "CENTER",
-            "textPosition": "CENTER",
-            "font": "t-heading-5"
-        }
-    },
-    "link#minicart__empty--button": {
-        "title": "button Start shopping",
-        "props": {
-            "href": "/",
-            "label": "Start shopping",
-            "displayMode": "button",
-            "blockClass": "minicart__empty--button"
-        }
-    },
     "flex-layout.row#minicart__footer": {
+        "title": "Minicart footer",
         "children": [
             "flex-layout.col#minicart_footer--col"
-        ]
+        ],
+        "props":{
+            "blockClass":"minicart_footer--row"
+        }
     },
     "link#continue__shopping": {
         "title": "link continue shopping",

@@ -1,5 +1,6 @@
 {
     "product-list-content-mobile": {
+        "title": "product list mobile container",
         "children": [
             "flex-layout.row#mobile__list-row"
         ],
@@ -8,6 +9,7 @@
         }
     },
     "flex-layout.row#mobile__list-row": {
+        "title": "row mobile list row",
         "children": [
             "flex-layout.col#mobile__remove-button",
             "flex-layout.col#mobile__image",
@@ -23,6 +25,7 @@
         }
     },
     "flex-layout.col#mobile__image": {
+        "title": "product list image",
         "children": [
             "product-list-image",
             "link#mobile__move-to-wishlist"
@@ -34,6 +37,7 @@
         }
     },
     "flex-layout.col#mobile__main-container": {
+        "title": "mobile product lis main container",
         "children": [
             "flex-layout.row#mobile__product-name",
             "flex-layout.row#mobile__unit-price--container",
@@ -49,14 +53,16 @@
         }
     },
     "flex-layout.row#mobile__product-name": {
+        "title": "mobile product name",
         "children": [
-              "vtex.product-list:product-name"
+            "vtex.product-list:product-name"
         ],
         "props": {
             "blockClass": "mobile__product-name"
         }
     },
     "flex-layout.row#mobile__quantity-selector": {
+        "title": "mobile quantity selector",
         "children": [
             "rich-text#mobile__qty",
             "quantity-selector"
@@ -67,11 +73,13 @@
         }
     },
     "flex-layout.col#mobile__unit-price": {
+        "title": "mobile unit price container col",
         "children": [
             "flex-layout.row#mobile__unit-price--container"
         ]
     },
     "flex-layout.row#mobile__unit-price--container": {
+        "title": "mobile price container row",
         "children": [
             "unit-price#mobile"
         ],
@@ -81,13 +89,15 @@
         }
     },
     "unit-price#mobile": {
+        "title": "unit price",
         "props": {
             "textAlign": "center",
             "unitPriceType": "sellingPrice",
-            "unitPriceDisplay":"always"
+            "unitPriceDisplay": "always"
         }
     },
     "flex-layout.col#mobile__price": {
+        "title": "mobile price",
         "children": [
             "price#mobile"
         ],
@@ -104,6 +114,7 @@
         }
     },
     "flex-layout.col#mobile__remove-button": {
+        "title": "mobiel boton remove",
         "children": [
             "remove-button"
         ],
@@ -114,11 +125,6 @@
             "blockClass": "mobile__remove-button"
         }
     },
-    // "message#desktop": {
-    //     "props": {
-    //         "layout": "cols"
-    //     }
-    // },
     "link#mobile__move-to-wishlist": {
         "title": "link move-to-wishlist",
         "props": {

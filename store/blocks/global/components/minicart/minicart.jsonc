@@ -1,0 +1,30 @@
+{
+
+    "icon-cart#minicart-icon": {
+      "title": "minicart icon",
+      "props": {
+          "size": 42,
+          "id": "hpa-carttwo",
+          "color": "white"
+      }
+  },
+  "rich-text#minicart__empty--text": {
+    "title": "minicar empty text",
+    "props": {
+        "text": "Your cart is empty!",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "font": "t-heading-5"
+    }
+},
+"link#minicart__empty--button": {
+  "title": "button Start shopping",
+  "props": {
+      "href": "/",
+      "label": "Start shopping",
+      "displayMode": "button",
+      "blockClass": "minicart__empty--button"
+  }
+}
+  }
+  

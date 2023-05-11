@@ -45,14 +45,14 @@
 }
 
 .flexRow--mobile__footer :global(.vtex-rich-text-0-x-container--footer__pay-methods--title) {
-    width: 23vw;
+    width     : 23vw;
     text-align: left;
 }
 
 .flexRow--mobile__footer :global(.vtex-flex-layout-0-x-flexRowContent--desktop__footer--pay-methods) {
     align-items   : center;
     padding-bottom: 2%;
-    padding-right: 4vw;
+    padding-right : 4vw;
 }
 
 .flexRow--mobile__footer--find-us {
@@ -79,8 +79,8 @@
 }
 
 .flexRow--mobile__footer--find-us :global(.vtex-store-link-0-x-link--store-finder) {
-    width    : 52%;
-    height   : 8vw;
+    width     : 52%;
+    height    : 8vw;
     min-height: 1rem;
-    font-size: 3vw;
+    font-size : 3vw;
 }

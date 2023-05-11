@@ -2,18 +2,23 @@
     z-index: 2;
 } */
 
-.minicartTitle {
+.drawerContent--header__container--minicart {
+    padding: 0px 24px 30px 60px;
+}
+
+.minicartTitle--container__minicart--content {
     visibility : hidden;
     font-family: "Arvo-Bold";
     color      : black;
+    text-align : left;
 }
 
-.minicartTitle::after {
+.minicartTitle--container__minicart--content::after {
     content   : "Cart";
     visibility: visible;
     position  : relative;
     top       : 10px;
-    left      : -56px;
+    left      : -130px;
 }
 
 .drawer--header__container--minicart {
@@ -24,11 +29,11 @@
 
 .closeIconButton--header__container--minicart {
     background-color: #cccccc;
-    height          : 50px;
-    width           : 50px;
+    height          : 48px;
+    width           : 48px;
     border-radius   : 50%;
     position        : relative;
-    left            : 87%;
+    left            : 88%;
     top             : 2em;
     display         : flex;
     text-align      : center;
@@ -53,6 +58,8 @@
     border-bottom: 1px dotted black;
     border-top   : 1px dotted black;
     margin-bottom: 25px;
+    padding-left : 0;
+    padding-right: 0;
     overflow     : visible;
     height       : auto;
 }
@@ -62,21 +69,25 @@
 }
 
 .minicartEmptyStateContainer--col__minicart--empty {
-    justify-content:start;
+    justify-content: start;
 }
 
 .minicartEmptyStateContainer--col__minicart--empty :global(.vtex-flex-layout-0-x-flexRowContent--minicart__empty--continueshopping) {
     margin-bottom: 320px;
-    margin-top: 20px;
-    margin-left: 60px;
+    margin-top   : 20px;
+    margin-left  : 60px;
 }
 
 .minicartContentContainer--container__minicart--content :global(.vtex-flex-layout-0-x-flexRow--minicart__empty--continueshopping) {
-    margin-left: 60px;
-    margin-top: 20px;
+    margin-left  : 0px;
+    margin-top   : 20px;
     margin-bottom: 20px;
 }
 
+.minicartContentContainer--container__minicart--content :global(.vtex-store-components-3-x-container) {
+    padding-left: 0;
+}
+
 .minicartContentContainer--container__minicart--content :global(.vtex-flex-layout-0-x-flexRow--minicart__empty--continueshopping):hover {
-   color: red;
+    color: red;
 }

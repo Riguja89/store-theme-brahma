@@ -1,12 +1,14 @@
 .paragraph--qty {
-    margin-right  : 10px;
-    font-family   : "Arvo-Regular";
-    font-size     : 18px;
+    margin-right: 10px;
+    font-family : "Arvo-Regular";
+    font-size   : 14px;
 }
+
 .wrapper--qty {
-    display: flex;
+    display       : flex;
     vertical-align: middle;
 }
+
 .paragraph--footer__col--questions {
     color      : #808080;
     font-family: "Arvo-Regular";
