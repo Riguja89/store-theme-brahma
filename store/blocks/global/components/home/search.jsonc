@@ -63,14 +63,14 @@
         ]
     },
     "gallery-layout-option#grid__two-columns": {
-        "title": "Gallery grid 1",
+        "title": "Gallery grid two columns",
         "props": {
             "name": "grid-two-column",
             "blockClass": "grid__selector--two-columns"
         }
     },
     "gallery-layout-option#grid__one--column": {
-        "title": "Gallery grid 2",
+        "title": "Gallery grid one column",
         "props": {
             "name": "grid-one-column",
             "blockClass": "grid__selector--one-column"

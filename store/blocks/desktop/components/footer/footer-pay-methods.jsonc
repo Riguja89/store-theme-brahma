@@ -1,28 +1,114 @@
 {
-    "flex-layout.row#desktop__footer--pay-methods":{
-        "title":"desktop footer pay methods",
-        "props":{
-            "paddingTop": 8
+    "flex-layout.row#desktop__footer--pay-methods": {
+        "title": "desktop footer pay methods",
+        "props": {
+            "paddingTop": 8,
+            "blockClass":"desktop__footer--pay-methods",
+            "preserveLayoutOnMobile":true
         },
         "children": [
             "rich-text#footer__pay-methods--title",
-            "accepted-payment-methods"
+            "image#footer__pay-methods--mastercard",
+            "image#footer__pay-methods--visa",
+            "image#footer__pay-methods--amex",
+            "image#footer__pay-methods--pse",
+            "image#footer__pay-methods--payu",
+            "image#footer__pay-methods--codensa",
+            "image#footer__pay-methods--efecty",
+            "image#footer__pay-methods--sistecredito"
         ]
     },
-    "rich-text#footer__pay-methods--title":{
+    "rich-text#footer__pay-methods--title": {
         "title": "footer methods title",
         "props": {
             "text": "PAYMENT METHODS",
-            "blockClass":"footer__title",
+            "blockClass": "footer__pay-methods--title",
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
             "textColor": "c-success--faded",
             "font": "t-heading-5"
         }
     },
-    "accepted-payment-methods": {
+    "image#footer__pay-methods--mastercard": {
+        "title": "imagep pay",
         "props": {
-          "paymentMethods": ["mastercard", "visa", "diners club"]
+            "src": "assets/img/mastercard.svg",
+            "link": {
+                "url": ""
+            },
+            "maxHeight": 38
         }
-      }
+    },
+    "image#footer__pay-methods--visa": {
+        "title": "imagep pay",
+        "props": {
+            "src": "assets/img/visa.svg",
+            "link": {
+                "url": ""
+            },
+            "maxHeight": 40,
+            "blockClass":"footer__pay-methods--visa"
+        }
+    },
+    "image#footer__pay-methods--amex": {
+        "title": "imagep pay",
+        "props": {
+            "src": "assets/img/amex.svg",
+            "link": {
+                "url": ""
+            },
+            "maxHeight": 35
+        }
+    },
+    "image#footer__pay-methods--pse": {
+        "title": "imagep pay",
+        "props": {
+            "src": "assets/img/logo-pse-dark.png",
+            "link": {
+                "url": ""
+            },
+            "maxHeight": 35
+        }
+    },
+    "image#footer__pay-methods--payu": {
+        "title": "imagep pay",
+        "props": {
+            "src": "assets/img/payu.svg",
+            "link": {
+                "url": ""
+            },
+            "maxHeight": 30
+        }
+    },
+    "image#footer__pay-methods--codensa": {
+        "title": "imagep pay",
+        "props": {
+            "src": "assets/img/card-codensa.png",
+            "link": {
+                "url": ""
+            },
+            "maxHeight": 35
+        }
+    },
+    "image#footer__pay-methods--efecty": {
+        "title": "imagep pay",
+        "props": {
+            "src": "assets/img/efecty.svg",
+            "link": {
+                "url": ""
+            },
+            "maxHeight": 28
+        }
+    },
+    "image#footer__pay-methods--sistecredito": {
+        "title": "imagep pay",
+        "props": {
+            "src": "assets/img/sitecredito.svg",
+            "link": {
+                "url": ""
+            },
+            "maxHeight": 25,
+            "blockClass":"footer__pay-methods--sistecredito"
+        }
+    }
 }

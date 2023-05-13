@@ -1,43 +1,44 @@
 .flexColChild--mobile__image :global(.vtex-product-list-0-x-productImage) {
     padding: 0;
-    margin: 0;
+    margin : 0;
 }
 
-.flexCol--mobile__remove-button :global(.vtex-product-list-0-x-deleteIcon){
+.flexCol--mobile__remove-button :global(.vtex-product-list-0-x-deleteIcon) {
     width: 3vw;
 }
 
 .flexColChild--mobile__image :global(.vtex-product-list-0-x-productImageContainer) {
-    width: 20vw !important;
+    width  : 20vw !important;
     padding: 0;
-    margin: 0;
+    margin : 0;
 }
 
-.flexCol--main-container-desktop.flexCol--main__mobile{
+.flexCol--main-container-desktop.flexCol--main__mobile {
     padding: 0;
-    margin: 3vw;
+    margin : 3vw;
 }
 
-.flexRowContent--mobile__product-name  {
+.flexRowContent--mobile__product-name {
     font-family: "Arvo-Regular";
     font-weight: 200;
-    font-size: 2.5vw;
+    font-size  : 2.5vw;
 }
 
 .flexRowContent--mobile__product-name :global(.vtex-product-list-0-x-productName) {
     font-weight: 400;
-    padding: 0;
-    margin: 0;
+    padding    : 0;
+    margin     : 0;
 }
 
-.flexRow--mobile__quantity--selector :global(.vtex-product-list-0-x-quantityDropdownMobileContainer){
-    width: 18vw;
+.flexRow--mobile__quantity--selector :global(.vtex-product-list-0-x-quantityDropdownMobileContainer) {
+    
     font-size: 3vw;
-    padding: 0;
-    margin: 0;
+    padding  : 0;
+    margin   : 0;
 }
+
 .flexRowContent--mobile__quantity--selector {
-    display: flex;
+    display       : flex;
     flex-direction: row;
 }
 

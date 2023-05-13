@@ -2,7 +2,8 @@
     "footer-layout.mobile": {
         "title": " Footer mobile container",
         "children": [
-            "flex-layout.row#mobile__footer"
+            "flex-layout.row#mobile__footer",
+            "flex-layout.row#mobile__footer--find-us"
         ]
     }
 }

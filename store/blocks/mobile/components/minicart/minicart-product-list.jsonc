@@ -29,7 +29,7 @@
         ],
         "props": {
             "marginRight": "2",
-            "width": "30%",
+            "width": "33%",
             "blockClass": "mobile__image"
         }
     },
@@ -37,10 +37,10 @@
         "children": [
             "flex-layout.row#mobile__product-name",
             "flex-layout.row#mobile__unit-price--container",
-            "flex-layout.row#mobile__quantity"
+            "flex-layout.row#mobile__quantity-selector"
         ],
         "props": {
-            "width": "60%",
+            "width": "57%",
             "marginLeft": "3",
             "blockClass": [
                 "main-container-desktop",
@@ -48,27 +48,12 @@
             ]
         }
     },
-    "flex-layout.row#mobile__quantity": {
-        "children": [
-            "flex-layout.col#mobile__quantity-selector"
-        ],
-        "props": {}
-    },
     "flex-layout.row#mobile__product-name": {
         "children": [
-            "vtex.product-list:product-name"
+              "vtex.product-list:product-name"
         ],
         "props": {
             "blockClass": "mobile__product-name"
-        }
-    },
-    "flex-layout.col#mobile__quantity-selector": {
-        "children": [
-            "flex-layout.row#mobile__quantity-selector"
-        ],
-        "props": {
-            "preventHorizontalStretch": "true",
-            "blockClass": "quantity-selector"
         }
     },
     "flex-layout.row#mobile__quantity-selector": {
@@ -98,7 +83,8 @@
     "unit-price#mobile": {
         "props": {
             "textAlign": "center",
-            "unitPriceType": "sellingPrice"
+            "unitPriceType": "sellingPrice",
+            "unitPriceDisplay":"always"
         }
     },
     "flex-layout.col#mobile__price": {

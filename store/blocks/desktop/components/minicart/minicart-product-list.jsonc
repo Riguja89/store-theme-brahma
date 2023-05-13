@@ -16,13 +16,13 @@
     },
     "product-list-content-desktop": {
         "children": [
-            "flex-layout.row#list-row.desktop"
+            "flex-layout.row#desktop__list--row"
         ],
         "props": {
             "blockClass": "product__list--content"
         }
     },
-    "flex-layout.row#list-row.desktop": {
+    "flex-layout.row#desktop__list--row": {
         "children": [
             "flex-layout.col#remove-button.desktop",
             "flex-layout.col#image.desktop",
@@ -49,9 +49,9 @@
     },
     "flex-layout.col#main-container.desktop": {
         "children": [
-            "flex-layout.col#product-description",
-            "flex-layout.row#price-remove",
-            "flex-layout.col#quantity.desktop"
+            "flex-layout.row#product-name",
+            "flex-layout.row#unit-price.desktop",
+            "flex-layout.row#quantity-selector.desktop"
             // "flex-layout.row#sub-container.desktop",
             // "flex-layout.row#message.desktop"
         ],
@@ -60,19 +60,13 @@
             "blockClass": "main-container-desktop"
         }
     },
-    "flex-layout.col#quantity.desktop": {
-        "children": [
-            "flex-layout.row#quantity-selector.desktop",
-            "flex-layout.row#price-remove"
+    "flex-layout.row#product-name":{
+        "title":"product name row",
+        "children":[
+            "vtex.product-list:product-name"
         ],
-        "props": {}
-    },
-    "flex-layout.row#price-remove": {
-        "children": [
-            "flex-layout.col#price.desktop"
-        ],
-        "props": {
-            "colSizing": "auto"
+        "props":{
+            "blockClass":"product-name"
         }
     },
     "flex-layout.row#quantity-selector.desktop": {
@@ -96,23 +90,10 @@
     },
     "unit-price#desktop": {
         "props": {
-            "textAlign": "center"
-        }
-    },
-    "flex-layout.col#price.desktop": {
-        "children": [
-            "price#desktop"
-        ],
-        "props": {
-            "blockClass": "priceWrapper",
-            "marginLeft": "6",
-            "preventHorizontalStretch": "true",
-            "verticalAlign": "middle"
-        }
-    },
-    "price#desktop": {
-        "props": {
-            "textAlign": "right"
+            "textAlign": "center",
+            "unitPriceType":"sellingPrice",
+            "unitPriceDisplay":"always",
+            "blockClass":"desktop__price"
         }
     },
     "flex-layout.col#remove-button.desktop": {

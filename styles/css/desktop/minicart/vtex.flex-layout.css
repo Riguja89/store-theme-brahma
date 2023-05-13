@@ -1,6 +1,6 @@
 .flexCol--main-container-desktop {
     color      : black;
-    font-size  : 14px;
+    font-size  : 18px;
     font-weight: "Arvo-Regular" !important;
     margin-left: 30px;
     padding-top: 40px;
@@ -10,11 +10,6 @@
     text-align: left;
     margin    : 0;
 }
-
-.flexColChild--main-container-desktop {
-    height: 35px !important;
-}
-
 
 
 .flexColChild--minicart_footer--col:first-child {
@@ -38,11 +33,42 @@
     width         : 290px;
     height        : 78px;
     text-transform: capitalize;
-    border-radius: 5px;
-    border: none
+    border-radius : 5px;
+    border        : none;
+    transition: color 0.4s;
 }
 
 .flexColChild :global(.vtex-button):hover {
     color: red;
- 
+
+}
+
+.flexCol--minicart__empty :nth-child(3n) {
+    display        : flex;
+    justify-content: center;
+}
+
+.flexRowContent--minicart__empty--continueshopping {
+    text-align: left;
+    justify-content: start;
+    display: flex;
+}
+
+.flexRowContent--minicart__empty--continueshopping :global(.vtex-store-link-0-x-link--continue__shopping) {
+    margin: 0;
+    margin-left: 3px;
+}
+
+.flexRowContent--minicart__empty--continueshopping :hover {
+    color: red;
+}
+.flexRowContent--minicart__empty--continueshopping {
+    width: 200px;
+}
+
+.flexColChild--main-container-desktop {
+    display: flex;
+    justify-content: left;
+    vertical-align: middle !important;
+    height: auto !important;
 }
