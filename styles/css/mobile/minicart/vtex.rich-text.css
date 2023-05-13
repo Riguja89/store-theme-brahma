@@ -1,4 +1,8 @@
 .paragraph--qty__mobile {
     font-family: "Arvo-regular";
-    font-size: 2.3vw;
+    font-size  : 2.3vw;
+}
+
+.wrapper--mobile__content--questions {
+    font-size: 3vw;
 }

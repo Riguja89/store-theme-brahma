@@ -20,7 +20,7 @@
         "props": {
             "horizontalAlign": "center",
             "marginLeft": 6,
-            "blockClass":"home__section-2--col1"
+            "blockClass": "home__section-2--col1"
         }
     },
     "image#section-2__col1--image": {
@@ -39,7 +39,7 @@
         "props": {
             "horizontalAlign": "center",
             "marginLeft": 6,
-            "blockClass":"home__section-2--col1"
+            "blockClass": "home__section-2--col1"
         }
     },
     "image#section-2__col2--image": {
@@ -49,23 +49,20 @@
             "maxWidth": "95%"
         }
     },
-  
-  
     "image#section-2__col1--im-hover": {
         "title": "Image section 2 col 1",
         "props": {
             "src": "assets/img/crop-912-521-hover.jpg",
             "maxWidth": "95%",
-            "blockClass":"section-2__col1--im-hover"
+            "blockClass": "section-2__col1--im-hover"
         }
     },
-
     "image#section-2__col2--im-hover": {
         "title": "Image section 2 col 2",
         "props": {
             "src": "assets/img/crop-912-520-hover.jpg",
             "maxWidth": "95%",
-            "blockClass":"section-2__col1--im-hover"
+            "blockClass": "section-2__col1--im-hover"
         }
     }
 }

@@ -1,0 +1,162 @@
+{
+    "minicart.v2#megamenu__container--minicart": {
+        "title": "Minicart Mobile",
+        "props": {
+            "maxDrawerWidth": 716,
+            "MinicartIcon": "icon-cart#minicart-icon",
+            "blockClass": [
+                "header__container--minicart",
+                "mobile__title"
+            ],
+            "minicartTitle": "Cart"
+        },
+        "children": [
+            "minicart-base-content#mobile__minicart--content"
+        ]
+    },
+    "minicart-base-content#mobile__minicart--content": {
+        "title": "Mobile minicart content",
+        "blocks": [
+            "minicart-empty-state#mobile"
+        ],
+        "children": [
+            "flex-layout.row#minicart__content--empty-continueshopping",
+            "minicart-product-list#minicart__content--list-mobile",
+            "flex-layout.row#minicart__footer--mobile"
+        ],
+        "props": {
+            "blockClass": [
+                "container__minicart--content",
+                "mobile__container--minicart"
+            ]
+        }
+    },
+    "minicart-empty-state#mobile": {
+        "title": "Empty state Mobile",
+        "children": [
+            "flex-layout.row#mobile__minicart--empty"
+        ],
+        "props": {
+            "blockClass": [
+                "col__minicart--empty",
+                "mobile__mincart--empty"
+            ]
+        }
+    },
+    "flex-layout.row#mobile__minicart--empty": {
+        "title": "Minicart Mobile row empty",
+        "children": [
+            "flex-layout.col#minicart__empty--mobile"
+        ],
+        "props": {
+            "blockClass": "row__minicart--empty"
+        }
+    },
+    "flex-layout.col#minicart__empty--mobile": {
+        "title": "column empty cart",
+        "children": [
+            "flex-layout.row#minicart__content--empty-continueshopping",
+            "rich-text#minicart__empty--text",
+            "link#minicart__empty--button"
+        ],
+        "props": {
+            "blockClass": [
+                "minicart__empty",
+                "mobile__empty--mincart"
+            ]
+        }
+    },
+    "flex-layout.row#minicart__content--empty-continueshopping": {
+        "title": "row text continue shopping",
+        "children": [
+            "icon#back__row--mobile",
+            "link#continue__shopping--mobile"
+        ],
+        "props": {
+            "blockClass": [
+                "minicart__empty--continueshopping",
+                "mobile__continue--shopping"
+            ],
+            "colSizing": "auto"
+        }
+    },
+    "icon#back__row--mobile": {
+        "title": "angle back row",
+        "props": {
+            "id": "nav-caret--left",
+            "color": "black",
+            "blockClass": [
+                "minicart__empty--iconback",
+                "iconback__mobile"
+            ]
+        }
+    },
+    "flex-layout.row#minicart__footer--mobile": {
+        "title": "Minicart footer mobile",
+        "children": [
+            "flex-layout.col#footer__mobile--content"
+        ]
+    },
+    "link#continue__shopping--mobile": {
+        "title": "link continue shopping",
+        "props": {
+            "blockClass": "continue__shopping",
+            "href": "/",
+            "label": "Continue Shopping"
+        }
+    },
+    "flex-layout.col#footer__mobile--content": {
+        "title": "Minicar footer column",
+        "children": [
+            "flex-layout.row#mobile__content--summary",
+            "minicart-checkout-button#mobile__content--checkout",
+            "rich-text#mobile__content--questions"
+        ],
+        "props": {
+            "blockClass": [
+                "minicart_footer--col",
+                "mobile__minicar--footer-col"
+            ]
+        }
+    },
+    "flex-layout.row#mobile__content--summary": {
+        "title": "row sumarry content",
+        "children": [
+            "minicart-summary"
+        ],
+        "props": {
+            "blockClass": "mobile__content--summary"
+        }
+    },
+    "minicart-checkout-button#mobile__content--checkout": {
+        "title": "mobile button checkout",
+        "props": {
+            "blockClass": "mobile__content--checkout"
+        }
+    },
+    "rich-text#mobile__content--questions": {
+        "title": "QUestions text",
+        "props": {
+            "text": "Questions? We're here to help! email us at sac@brahma.co",
+            "blockClass": [
+                "footer__col--questions",
+                "mobile__content--questions"
+            ]
+        }
+    },
+    "minicart-product-list#minicart__content--list-mobile": {
+        "title": "Minicart Content",
+        "props": {
+            "blockClass": "minicart__content--list"
+        },
+        "blocks": [
+            "product-list#mobile"
+        ]
+    },
+    "product-list#mobile": {
+        "title": "Product list mobile container",
+        "blocks": [
+            "product-list-content-mobile"
+        ]
+    }
+}

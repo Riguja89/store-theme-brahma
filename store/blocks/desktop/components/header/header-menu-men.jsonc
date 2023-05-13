@@ -27,6 +27,7 @@
         }
     },
     "flex-layout.row#men__category--container": {
+        "title": "Row men category",
         "children": [
             "flex-layout.col#empty",
             "flex-layout.col#container__row--footwear",
@@ -42,6 +43,7 @@
         }
     },
     "flex-layout.col#empty": {
+        "title": "Spacer",
         "props": {
             "width": "100%"
         }

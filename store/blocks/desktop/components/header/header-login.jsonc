@@ -1,31 +1,35 @@
 {
-    "login#header__container--login":{
-        "title":"Login desktop",
-        "props":{
+    "login#header__container--login": {
+        "title": "Login desktop",
+        "props": {
             "emailAndPasswordTitle": "prueba jaime",
             "accessCodeTitle": "Acess Code LOG-IN",
             "emailPlaceholder": "e-mail222",
             "passwordPlaceholder": "password",
             "showPasswordVerificationIntoTooltip": true,
-            "showIconProfile":false,
-            "hideIconLabel":false,
-            "iconLabel":"Login",
-            "optionsTitle":"Login",
-            "logInButtonBehavior":"link",
-            "labelClasses":"container__login--label",
-            "blockClass":"header__container--login",
-            "accountOptionsButtonBehavior":"link",
-            "accountOptionLinks":{
-                "label":"Hellow"
+            "showIconProfile": false,
+            "hideIconLabel": false,
+            "iconLabel": "Login",
+            "optionsTitle": "Login",
+            "logInButtonBehavior": "link",
+            "labelClasses": "container__login--label",
+            "blockClass": "header__container--login",
+            "accountOptionsButtonBehavior": "link",
+            "accountOptionLinks": {
+                "label": "Hellow"
             }
         }
     },
-    "link#header__container--join":{
-        "title":"Join mobile",
-        "props":{
-            "href": "/login?returnUrl={queryString.returnUrl}",
-            "label": "Join",
-            "blockClass":"header__container--join"
+    "login#header__container--join": {
+        "title": "Join mobile",
+        "props": {
+            "showIconProfile": false,
+            "hideIconLabel": false,
+            "iconLabel": "Join",
+            "optionsTitle": "Join",
+            "logInButtonBehavior": "link",
+            "labelClasses": "container__join--label",
+            "blockClass": "header__container--login"
         }
     }
 }

@@ -1,6 +1,6 @@
 .headerStickyRow--mobile__header--principal {
     position: relative;
-    
+
 }
 
 .headerRow--mobile__header--principal {
@@ -9,13 +9,14 @@
 
 .headerRowBackground--mobile__header--principal {
     background-color: black;
-    height: 9vw;
-    
+    height          : 9vw;
+
 }
+
 .headerRowContainer--mobile__header--principal {
     height: 9vw;
-    color: white;
-    
+    color : white;
+
 }
 
 .headerRowContainer--mobile__header {

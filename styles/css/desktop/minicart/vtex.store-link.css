@@ -25,10 +25,10 @@
     border         : none;
     text-decoration: none;
     border-radius  : 0.3em;
-    transition: color 0.4s;
+    transition     : color 0.4s;
 }
 
 .buttonLink--minicart__empty--button:hover {
     color: red;
-    
+
 }

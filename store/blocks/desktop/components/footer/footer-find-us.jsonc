@@ -19,40 +19,44 @@
         }
     },
     "flex-layout.row#desktop__footer--social-network": {
+        "title": "foter social network desktop",
         "children": [
             "image#footer--social-network-facebook",
             "image#footer--social-network-instagram",
             "image#footer--social-network-youtube"
         ],
-        "props":{
-            "blockClass":"desktop__footer--social-network"
+        "props": {
+            "blockClass": "desktop__footer--social-network"
         }
     },
     "image#footer--social-network-facebook": {
+        "title": "image icon facebook",
         "props": {
             "src": "assets/img/facebook.svg",
             "link": {
-                "url":"https://facebook.com/BrahmaFootwear"
+                "url": "https://facebook.com/BrahmaFootwear"
             },
-            "maxHeight":35
+            "maxHeight": 35
         }
     },
     "image#footer--social-network-instagram": {
+        "title": "image icon instagram",
         "props": {
             "src": "assets/img/instagram.svg",
             "link": {
-                "url":"https://instagram.com/brahmafootwear"
+                "url": "https://instagram.com/brahmafootwear"
             },
-            "maxHeight":35
+            "maxHeight": 35
         }
     },
     "image#footer--social-network-youtube": {
+        "title": "youtube",
         "props": {
             "src": "assets/img/youtube.svg",
             "link": {
-                "url":"https://youtube.com/channel/UCiikeN7g01tyuFpCXMw1Guw"
+                "url": "https://youtube.com/channel/UCiikeN7g01tyuFpCXMw1Guw"
             },
-            "maxHeight":35
+            "maxHeight": 35
         }
     },
     "link#store-finder": {
@@ -61,7 +65,7 @@
             "label": "STORE FINDER",
             "href": "/store-finder/p",
             "displayMode": "button",
-            "blockClass":"store-finder",
+            "blockClass": "store-finder",
             "buttonProps": {
                 "variant": "primary",
                 "size": "regular"

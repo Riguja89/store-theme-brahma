@@ -1,17 +1,16 @@
 {
-    "header":{
-        "title":"Header Global",
-        "blocks":[
+    "header": {
+        "title": "Header Global",
+        "blocks": [
             "header-layout.desktop#desktop__header",
             "header-layout.mobile#mobile__header"
-            
         ]
     },
-    "header.full":{
-        "blocks":[
+    "header.full": {
+        "title": "header full image icon facebook",
+        "blocks": [
             "header-layout.desktop#desktop__header",
             "header-layout.mobile#mobile__header"
-           
         ]
     }
 }

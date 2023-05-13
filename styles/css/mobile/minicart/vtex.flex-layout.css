@@ -31,7 +31,7 @@
 }
 
 .flexRow--mobile__quantity--selector :global(.vtex-product-list-0-x-quantityDropdownMobileContainer) {
-    
+
     font-size: 3vw;
     padding  : 0;
     margin   : 0;
@@ -44,4 +44,84 @@
 
 .flexColChild--main__mobile {
     height: auto;
+}
+
+.flexRowContent--mobile__continue--shopping {
+    font-size: 3vw;
+    width    : fit-content;
+}
+
+.flexRowContent--mobile__continue--shopping .stretchChildrenWidth:first-child :first-child {
+    height: 3vw;
+    width : 3vw;
+}
+
+.flexRow--mobile__continue--shopping {
+    margin: 2vw 3vw !important;
+}
+
+.flexRowContent--mobile__content--summary :global(.vtex-checkout-summary-0-x-summarySmallContent) {
+    font-size  : 3vw;
+    font-family: "Arvo-Regular";
+}
+
+.flexRowContent--mobile__content--summary :global(.vtex-checkout-summary-0-x-summaryItemContainer) {
+    font-size  : 3vw;
+    font-family: "Arvo-Regular";
+    font-weight: 200;
+}
+
+.flexRowContent--mobile__content--summary :global(.vtex-checkout-summary-0-x-summaryItemLabel) {
+    font-size  : 3vw;
+    font-weight: 200;
+    font-family: "Arvo-Regular";
+}
+
+.flexRowContent--mobile__content--summary :global(.vtex-checkout-summary-0-x-summaryItemContainer):nth-child(2n) {
+    font-size  : 3vw;
+    font-family: "Arvo-Bold";
+
+}
+
+.flexRowContent--mobile__content--summary :global(.vtex-checkout-summary-0-x-summaryItemContainer) :first-child {
+    font-size  : 3vw;
+    font-weight: 200;
+
+}
+
+.flexRowContent--mobile__content--summary :global(.vtex-checkout-summary-0-x-summarySmallDisclaimer) {
+    font-size  : 3vw;
+    font-weight: 200;
+
+}
+
+.flexCol--mobile__empty--mincart .flexRowContent--mobile__continue--shopping {
+    margin-bottom: 50% !important;
+}
+
+.flexCol--mobile__empty--mincart :global(.vtex-rich-text-0-x-paragraph) {
+    font-size: 5vw;
+}
+
+.flexCol--mobile__empty--mincart :global(.vtex-store-link-0-x-link--minicart__empty--button) {
+    width    : 40vw;
+    height   : 13vw;
+    font-size: 3vw;
+}
+
+.flexCol--mobile__empty--mincart .flexRow--minicart__empty--continueshopping {
+    margin-left: 0% !important;
+}
+
+.flexCol--mobile__empty--mincart .flexRowContent--mobile__continue--shopping {
+    margin-left: 20px
+}
+
+.flexColChild--mobile__minicar--footer-col:first-child {
+    justify-content: center;
+}
+
+.flexRow--mobile__content--summary :global(.vtex-checkout-summary-0-x-summarySmallContent) {
+    justify-content: center;
+    align-items    : center;
 }

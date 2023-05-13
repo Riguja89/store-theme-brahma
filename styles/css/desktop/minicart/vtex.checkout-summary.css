@@ -35,7 +35,3 @@
 .summarySmallDisclaimer {
     text-align: center;
 }
-
-.summarySmallContent :nth-child(2n) {
-    font-weight: 900;
-}

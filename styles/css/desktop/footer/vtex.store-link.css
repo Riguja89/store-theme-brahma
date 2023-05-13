@@ -7,3 +7,7 @@
     border          : none;
     border-radius   : 0;
 }
+
+.buttonLink--store-finder:hover {
+    background-color: #970C11;
+}

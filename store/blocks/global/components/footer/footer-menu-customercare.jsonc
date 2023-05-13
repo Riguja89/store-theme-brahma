@@ -1,16 +1,16 @@
 {
-    "flex-layout.col#desktop__footer--customer":{
-        "title":"footer customer",
-        "children":[
+    "flex-layout.col#global__footer--customer": {
+        "title": "footer customer",
+        "children": [
             "rich-text#footer__customer--title",
             "vtex.menu@2.x:menu#footer__customer--container"
         ]
     },
-    "rich-text#footer__customer--title":{
+    "rich-text#footer__customer--title": {
         "title": "footer customer title",
-        "props":{
-            "text":"Customer Care",
-            "blockClass":"footer__title",
+        "props": {
+            "text": "Customer Care",
+            "blockClass": "footer__title",
             "textAlignment": "CENTER",
             "textPosition": "LEFT",
             "textColor": "c-success--faded",
