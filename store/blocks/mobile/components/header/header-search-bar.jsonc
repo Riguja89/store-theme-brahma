@@ -5,8 +5,8 @@
             "icon#header__principal--search",
             "modal-layout#principal__search-bar--modal"
         ],
-        "props":{
-            "blockClass":"header__principal--search-bar"
+        "props": {
+            "blockClass": "header__principal--search-bar"
         }
     },
     "icon#header__principal--search": {
@@ -48,21 +48,28 @@
         "children": [
             "flex-layout.col#header__mobile--col1",
             "flex-layout.col#header__mobile--col2"
-           
         ],
         "props": {
             "blockClass": "header__mobile--row",
-            "preserveLayoutOnMobile":true
+            "preserveLayoutOnMobile": true
         }
     },
     "flex-layout.col#header__mobile--col1": {
         "title": "",
-        "children": ["search-bar#header__mobile--search-bar"],
-        "props":{"width": "80%"}
+        "children": [
+            "search-bar#header__mobile--search-bar"
+        ],
+        "props": {
+            "width": "90%"
+        }
     },
     "flex-layout.col#header__mobile--col2": {
         "title": "",
-        "children": [ "rich-text#header__mobile--search-text"],
-        "props":{"width": "20%"}
+        "children": [
+            "rich-text#header__mobile--search-text"
+        ],
+        "props": {
+            "width": "10%"
+        }
     }
 }

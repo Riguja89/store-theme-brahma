@@ -1,24 +1,96 @@
 .profile:global(.content__login--label) {
-    display: block !important;
+    display       : block !important;
     font-family   : "Arvo-Regular";
     text-transform: capitalize;
     font-size     : 1.9vw;
 }
 
 .label:global(.content__login--label) {
-    display: block !important;
+    display       : block !important;
     font-family   : "Arvo-Regular";
     text-transform: capitalize;
     font-size     : 1.9vw;
-    padding: 0;
-    margin: 0;
+    padding       : 0;
+    margin        : 0;
 }
 
 .label:global(.content__join--label) {
-    display: block !important;
+    display       : block !important;
     font-family   : "Arvo-Regular";
     text-transform: capitalize;
     font-size     : 1.9vw;
-    padding: 0;
-    margin: 0;
+    padding       : 0;
+    margin        : 0;
 }
+
+.formTitle {
+    font-family: "Arvo-Bold";
+    font-size  : 2em;
+}
+
+.content {
+    display       : flex;
+    flex-direction: column;
+    align-items   : center;
+    width         : 100%;
+}
+
+.content :global(.vtex-styleguide-9-x-input) {
+    background-color: white;
+    color           : grey;
+    font-family     : "Arvo-Regular";
+}
+
+.content :global(.vtex-input-prefix__group) {
+    border       : none;
+    border-radius: 0;
+    border-bottom: 2px solid red !important;
+
+}
+
+.loginOptionsContainer {
+    width: 80%;
+}
+
+.contentForm {
+    width: 80%;
+}
+
+.formFooter :global(.vtex-button) {
+    height          : 4em;
+    width           : 7em !important;
+    background-color: #CCCCCC;
+    border          : none;
+
+}
+
+.sendButton {
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+}
+
+.sendButton :global(.vtex-button__label) {
+    font-family: "Arvo-Bold" !important;
+    color      : white;
+}
+
+.accessCodeOptionBtn :global(.vtex-button__label) {
+    font-family: "Arvo-Regular";
+    color: black;
+    text-transform: capitalize;
+}
+
+.accessCodeOptionBtn :global(.vtex-button):hover {
+   background-color: #CCCCCC;
+}
+
+.optionsList :global(.vtex-button__label) {
+    font-family: "Arvo-Regular";
+    color: black;
+    text-transform: capitalize;
+}
+
+.optionsList :global(.vtex-button):hover {
+    background-color: #CCCCCC;
+ }

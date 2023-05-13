@@ -14,6 +14,7 @@
             "logInButtonBehavior":"link",
             "labelClasses":"container__login--label",
             "blockClass":"header__container--login",
+            "accountOptionsButtonBehavior":"link",
             "accountOptionLinks":{
                 "label":"Hellow"
             }
@@ -25,6 +26,15 @@
             "href": "/login?returnUrl={queryString.returnUrl}",
             "label": "Join",
             "blockClass":"header__container--join"
+        }
+    },
+    "login-content":{
+        "props":{
+            "emailAndPasswordTitle": "LOG-IN2",
+            "accessCodeTitle": "Acess Code LOG-IN",
+            "emailPlaceholder": "Email",
+            "passwordPlaceholder": "Password",
+            "showPasswordVerificationIntoTooltip": true
         }
     }
 }

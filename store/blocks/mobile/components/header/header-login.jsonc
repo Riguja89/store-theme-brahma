@@ -20,10 +20,10 @@
     "login#header__principal--login":{
         "title":"Login mobile container",
         "props":{
-            "emailAndPasswordTitle": "LOG-IN",
+            "emailAndPasswordTitle": "Login",
             "accessCodeTitle": "Acess Code LOG-IN",
-            "emailPlaceholder": "e-mail",
-            "passwordPlaceholder": "password",
+            "emailPlaceholder": "Email",
+            "passwordPlaceholder": "Password",
             "showPasswordVerificationIntoTooltip": true,
             "showIconProfile":false,
             "hideIconLabel":false,
@@ -31,10 +31,7 @@
             "optionsTitle":"Login",
             "logInButtonBehavior":"link",
             "labelClasses":"content__login--label",
-            "blockClass":"header__principal--login",
-            "accountOptionLinks":{
-                "label":"Hellow"
-            }
+            "blockClass":"header__principal--login"
         }
     }
 }
