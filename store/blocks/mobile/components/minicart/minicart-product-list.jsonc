@@ -1,0 +1,147 @@
+{
+    "product-list-content-mobile": {
+        "title": "product list mobile container",
+        "children": [
+            "flex-layout.row#mobile__list-row"
+        ],
+        "props": {
+            "blockClass": "product__list--content"
+        }
+    },
+    "flex-layout.row#mobile__list-row": {
+        "title": "row mobile list row",
+        "children": [
+            "flex-layout.col#mobile__remove-button",
+            "flex-layout.col#mobile__image",
+            "flex-layout.col#mobile__main-container"
+        ],
+        "props": {
+            "fullWidth": true,
+            "paddingBottom": "7",
+            "paddingTop": "6",
+            "colSizing": "auto",
+            "preserveLayoutOnMobile": "true",
+            "blockClass": "list__row--desktop"
+        }
+    },
+    "flex-layout.col#mobile__image": {
+        "title": "product list image",
+        "children": [
+            "product-list-image",
+            "link#mobile__move-to-wishlist"
+        ],
+        "props": {
+            "marginRight": "2",
+            "width": "33%",
+            "blockClass": "mobile__image"
+        }
+    },
+    "flex-layout.col#mobile__main-container": {
+        "title": "mobile product lis main container",
+        "children": [
+            "flex-layout.row#mobile__product-name",
+            "flex-layout.row#mobile__unit-price--container",
+            "flex-layout.row#mobile__quantity-selector"
+        ],
+        "props": {
+            "width": "57%",
+            "marginLeft": "3",
+            "blockClass": [
+                "main-container-desktop",
+                "main__mobile"
+            ]
+        }
+    },
+    "flex-layout.row#mobile__product-name": {
+        "title": "mobile product name",
+        "children": [
+            "vtex.product-list:product-name"
+        ],
+        "props": {
+            "blockClass": "mobile__product-name"
+        }
+    },
+    "flex-layout.row#mobile__quantity-selector": {
+        "title": "mobile quantity selector",
+        "children": [
+            "rich-text#mobile__qty",
+            "quantity-selector"
+        ],
+        "props": {
+            "preventHorizontalStretch": "true",
+            "blockClass": "mobile__quantity--selector"
+        }
+    },
+    "flex-layout.col#mobile__unit-price": {
+        "title": "mobile unit price container col",
+        "children": [
+            "flex-layout.row#mobile__unit-price--container"
+        ]
+    },
+    "flex-layout.row#mobile__unit-price--container": {
+        "title": "mobile price container row",
+        "children": [
+            "unit-price#mobile"
+        ],
+        "props": {
+            "marginTop": "3",
+            "preventHorizontalStretch": "true"
+        }
+    },
+    "unit-price#mobile": {
+        "title": "unit price",
+        "props": {
+            "textAlign": "center",
+            "unitPriceType": "sellingPrice",
+            "unitPriceDisplay": "always"
+        }
+    },
+    "flex-layout.col#mobile__price": {
+        "title": "mobile price",
+        "children": [
+            "price#mobile"
+        ],
+        "props": {
+            "blockClass": "priceWrapper",
+            "marginLeft": "6",
+            "preventHorizontalStretch": "true",
+            "verticalAlign": "middle"
+        }
+    },
+    "price#mobile": {
+        "title": "mobile price",
+        "props": {
+            "textAlign": "right"
+        }
+    },
+    "flex-layout.col#mobile__remove-button": {
+        "title": "mobiel boton remove",
+        "children": [
+            "remove-button"
+        ],
+        "props": {
+            "marginLeft": "3",
+            "verticalAlign": "middle",
+            "width": "10%",
+            "blockClass": "mobile__remove-button"
+        }
+    },
+    "link#mobile__move-to-wishlist": {
+        "title": "link move-to-wishlist",
+        "props": {
+            "blockClass": [
+                "move-to-wishlist",
+                "mobile"
+            ],
+            "href": "/{slug}/p",
+            "label": "󠀼󠀼＜ Move to Wishlist"
+        }
+    },
+    "rich-text#mobile__qty": {
+        "title": "label qty",
+        "props": {
+            "text": "Qty.",
+            "blockClass": "qty__mobile"
+        }
+    }
+}

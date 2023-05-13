@@ -1,12 +1,13 @@
 {
     "flex-layout.row#desktop__footer": {
-        "title":"desktop footer",
-        "props":{
-            "paddingTop": 8
+        "title": "desktop footer",
+        "props": {
+            "paddingTop": 8,
+            "blockClass": "desktop__footer"
         },
         "children": [
-            "flex-layout.col#desktop__footer--about",
-            "flex-layout.col#desktop__footer--customer",
+            "flex-layout.col#global__footer--about",
+            "flex-layout.col#global__footer--customer",
             "flex-layout.col#desktop__footer--find-us",
             "flex-layout.col#desktop__footer--set-language"
         ]

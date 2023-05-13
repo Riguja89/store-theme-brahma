@@ -27,6 +27,7 @@
         }
     },
     "flex-layout.row#women__category--container": {
+        "title": "row women category",
         "children": [
             "flex-layout.col#empty",
             "flex-layout.col#container__row--footwear",

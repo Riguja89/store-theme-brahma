@@ -3,6 +3,7 @@
     color          : black;
     margin-top     : 25px;
     margin-left    : 50px;
+    margin-bottom  : 25px;
     font-family    : "Arvo-Bold";
 }
 
@@ -13,4 +14,21 @@
     margin-left    : 25px;
     font-family    : "Arvo-Regular";
     font-size      : 14px;
+}
+
+.buttonLink--minicart__empty--button {
+    width          : 250px;
+    height         : 83px;
+    text-transform : none;
+    font-family    : "Arvo-Bold";
+    font-size      : 16px;
+    border         : none;
+    text-decoration: none;
+    border-radius  : 0.3em;
+    transition     : color 0.4s;
+}
+
+.buttonLink--minicart__empty--button:hover {
+    color: red;
+
 }

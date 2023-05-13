@@ -74,7 +74,7 @@
                 "tablet": 2,
                 "phone": 1
             },
-            "navigationStep":1,
+            "navigationStep": 1,
             "showPaginationDots": false,
             "blockClass": "vitrine__list--slider",
             "fullWidth": false

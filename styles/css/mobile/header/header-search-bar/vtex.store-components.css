@@ -8,31 +8,34 @@
     width      : 70%;
     color      : white;
     font-family: "Arvo-regular";
+    font-size  : 2vw;
+    height     : 100%;
 }
 
 
 .searchIcon--header__mobile--search-bar {
     color : white;
-    height: 26px;
-    width : 26px;
+    height: 4vw;
+    width : 4vw;
 }
 
 .autoCompleteOuterContainer--header__mobile--search-bar {
-    height: 70px;
+    height: 9vw;
     width : 100%;
 }
 
 .autoCompleteOuterContainer--header__mobile--search-bar :nth-child(3n) {
     background-color: black;
     visibility      : visible;
-    height          : 40px;
+    height          : 6vw;
 }
 
 .searchBarInnerContainer--header__mobile--search-bar {
-    height  : 80px;
+    height  : 9vw;
     position: relative;
-    top     : -35px;
-    left    : 50px;
+    padding : 0;
+    margin  : 0;
+
 }
 
 .searchBarContainer--header__mobile--search-bar {

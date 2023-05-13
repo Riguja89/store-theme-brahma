@@ -5,15 +5,15 @@
             "icon#header__principal--search",
             "modal-layout#principal__search-bar--modal"
         ],
-        "props":{
-            "blockClass":"header__principal--search-bar"
+        "props": {
+            "blockClass": "header__principal--search-bar"
         }
     },
     "icon#header__principal--search": {
         "title": "icono header principal search",
         "props": {
             "id": "hpa-search",
-            "size": 26,
+            "size": 29,
             "color": "white"
         }
     },
@@ -48,21 +48,28 @@
         "children": [
             "flex-layout.col#header__mobile--col1",
             "flex-layout.col#header__mobile--col2"
-           
         ],
         "props": {
             "blockClass": "header__mobile--row",
-            "preserveLayoutOnMobile":true
+            "preserveLayoutOnMobile": true
         }
     },
     "flex-layout.col#header__mobile--col1": {
-        "title": "",
-        "children": ["search-bar#header__mobile--search-bar"],
-        "props":{"width": "80%"}
+        "title": "header mobile xol 1",
+        "children": [
+            "search-bar#header__mobile--search-bar"
+        ],
+        "props": {
+            "width": "90%"
+        }
     },
     "flex-layout.col#header__mobile--col2": {
-        "title": "",
-        "children": [ "rich-text#header__mobile--search-text"],
-        "props":{"width": "20%"}
+        "title": "header mobile col2",
+        "children": [
+            "rich-text#header__mobile--search-text"
+        ],
+        "props": {
+            "width": "10%"
+        }
     }
 }

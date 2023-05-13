@@ -2,16 +2,49 @@
     "flex-layout.row#mobile__footer": {
         "title": "Footer column principal",
         "children": [
-            "flex-layout.col#mobile__footer--about"
-        ]
+            "flex-layout.col#mobile__footer--container"
+        ],
+        "props": {
+            "blockClass": "mobile__footer"
+        }
     },
-    "flex-layout.col#mobile__footer--about": {
+    "flex-layout.col#mobile__footer--container": {
         "title": "Seccion about",
         "children": [
-            "flex-layout.col#desktop__footer--about", //hay que combertir a estos en globales
-            "flex-layout.col#desktop__footer--customer",
-            "flex-layout.row#desktop__footer--pay-methods",
-            "flex-layout.col#desktop__footer--find-us"
-        ]
+            "flex-layout.row#mobile__footer--about",
+            "flex-layout.row#mobile__footer--customer",
+            "flex-layout.row#global__footer--pay-methods"
+        ],
+        "props": {
+            "blockClass": "mobile__footer--container"
+        }
+    },
+    "flex-layout.row#mobile__footer--about": {
+        "title": "row container footer about",
+        "children": [
+            "flex-layout.col#global__footer--about"
+        ],
+        "props": {
+            "blockClass": "mobile__footer--about"
+        }
+    },
+    "flex-layout.row#mobile__footer--customer": {
+        "title": " row container customer",
+        "children": [
+            "flex-layout.col#global__footer--customer"
+        ],
+        "props": {
+            "blockClass": "mobile__footer--customer"
+        }
+    },
+    "flex-layout.row#mobile__footer--find-us": {
+        "title": "row container fins us",
+        "children": [
+            "flex-layout.col#mobile__footer--find-us"
+        ],
+        "props": {
+            "blockClass": "mobile__footer--find-us",
+            "fullWidth": true
+        }
     }
 }

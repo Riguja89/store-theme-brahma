@@ -11,26 +11,93 @@
     margin    : 0;
 }
 
-.flexColChild--main-container-desktop {
-    height: 35px !important;
-}
-
-.flexRow--list__row--desktop {
-    border-top: 1px dotted black;
-
-}
-
 .flexColChild--minicart_footer--col:first-child {
     display        : flex;
+    align-items    : center;
     justify-content: end;
 }
 
-.flexColChild--minicart_footer--col:nth-child(2n) {
+.flexColChild--minicart_footer--col {
     display        : flex;
     justify-content: center;
 }
 
-.flexColChild--minicart_footer--col:nth-child(3n) {
+.flexColChild--minicart_footer--col :global(.vtex-checkout-summary-0-x-summaryItemContainer) {
+    justify-content: end;
+    margin-top     : 1rem;
+}
+
+.flexColChild--minicart_footer--col :global(.vtex-checkout-summary-0-x-summarySmallContent) {
+    align-items    : end;
+    justify-content: end;
+}
+
+.flexRow--minicart_footer--row :global(.vtex-store-components-3-x-container) {
+    padding  : 0;
+    max-width: 100%;
+    width    : 100%;
+}
+
+.flexRow--minicart_footer--row :global(.vtex-checkout-summary-0-x-summaryItemPrice) {
+    padding     : 0;
+    margin-right: 10px;
+}
+
+.flexRow--minicart_footer--row :global(.vtex-checkout-summary-0-x-summaryItemContainer):nth-child(2n) :global(.vtex-checkout-summary-0-x-summaryItemPrice) {
+    font-weight: 900;
+    font-size  : 16px
+}
+
+.flexRow--minicart_footer--row :global(.vtex-checkout-summary-0-x-summarySmallDisclaimer) {
+    text-align: end;
+}
+
+.flexColChild :global(.vtex-button) {
+    font-family   : "Arvo-Bold";
+    width         : 290px;
+    height        : 78px;
+    text-transform: capitalize;
+    border-radius : 5px;
+    border        : none;
+    transition    : color 0.4s;
+}
+
+.flexColChild :global(.vtex-button):hover {
+    color: red;
+
+}
+
+.flexCol--minicart__empty :nth-child(3n) {
     display        : flex;
     justify-content: center;
+}
+
+.flexRowContent--minicart__empty--continueshopping {
+    text-align     : left;
+    justify-content: start;
+    display        : flex;
+}
+
+.flexRowContent--minicart__empty--continueshopping :global(.vtex-store-link-0-x-link--continue__shopping) {
+    margin     : 0;
+    margin-left: 3px;
+}
+
+.flexRowContent--minicart__empty--continueshopping :hover {
+    color: red;
+}
+
+.flexRowContent--minicart__empty--continueshopping {
+    width: 200px;
+}
+
+.flexColChild--main-container-desktop {
+    display        : flex;
+    justify-content: left;
+    vertical-align : middle !important;
+    height         : auto !important;
+}
+
+.flexRowContent--list__row--desktop .flexCol:first-child {
+    margin-left: 0;
 }

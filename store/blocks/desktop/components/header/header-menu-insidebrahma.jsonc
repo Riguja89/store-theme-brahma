@@ -22,7 +22,7 @@
         "children": [
             "vtex.menu@2.x:menu#department__inside--category"
         ],
-          "props": {
+        "props": {
             "blockClass": "menu__subcategory--on-sale"
         }
     },

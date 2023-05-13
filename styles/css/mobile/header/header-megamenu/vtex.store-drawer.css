@@ -26,5 +26,49 @@
 }
 
 .closeIcon {
-    color     : white;
+    color: white;
+}
+
+.childrenContainer--header__principal--menu {
+    flex-direction: column;
+}
+
+.drawerContent--header__principal--menu :global(.vtex-minicart-2-x-minicartWrapperContainer) {
+    height     : 15vw;
+    margin     : 0;
+    padding    : 0;
+    display    : flex;
+    align-items: start;
+}
+
+.drawerContent--header__principal--menu :global(.vtex-minicart-2-x-minicartContainer) {
+    height  : 100%;
+    position: absolute;
+    top     : calc(-30vw);
+    left    : 37vw;
+    z-index : 3;
+}
+
+.drawerContent--header__principal--menu :global(.vtex-minicart-2-x-minicartQuantityBadge) {
+    visibility: hidden;
+}
+
+.drawerContent--header__principal--menu :global(.vtex-store-icons-0-x-cartIcon) {
+    height: 6vw;
+    width : 6vw;
+}
+
+.drawerContent--header__principal--menu :global(.vtex-button) {
+    width        : 20vw;
+    padding-right: 15vw;
+}
+
+.drawerContent--header__principal--menu :global(.vtex-button):hover {
+    background-color: transparent;
+}
+
+.drawerContent--header__principal--menu :global(.vtex-minicart-2-x-openIconContainer) {
+    height     : 100%;
+    display    : flex;
+    align-items: center;
 }

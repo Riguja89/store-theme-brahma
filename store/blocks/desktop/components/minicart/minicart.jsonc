@@ -5,84 +5,108 @@
             "maxDrawerWidth": 716,
             "MinicartIcon": "icon-cart#minicart-icon",
             "blockClass": "header__container--minicart",
-            "minicartTitle":"Cart"
+            "minicartTitle": "Cart"
         },
         "children": [
             "minicart-base-content#container__minicart--content"
         ]
     },
-    "icon-cart#minicart-icon": {
-        "title":"minicart icon",
-        "props": {
-            "size": 42,
-            "id": "hpa-carttwo",
-            "color": "white"
-        }
-    },
     "minicart-base-content#container__minicart--content": {
+        "title": "Base content minicartp",
         "blocks": [
             "minicart-empty-state"
         ],
         "children": [
-            "link#continue__shopping",
+            "flex-layout.row#minicart__empty--continueshopping",
             "minicart-product-list#minicart__content--list",
             "flex-layout.row#minicart__footer"
         ],
-        "props":{
-          "blockClass":"container__minicart--content"
+        "props": {
+            "blockClass": "container__minicart--content"
         }
     },
     "minicart-empty-state": {
+        "title": "General emty state",
         "children": [
             "flex-layout.row#minicart__empty"
-        ]
+        ],
+        "props": {
+            "blockClass": "col__minicart--empty"
+        }
     },
     "flex-layout.row#minicart__empty": {
+        "title": "Minicart empty row",
         "children": [
             "flex-layout.col#minicart__empty"
-        ]
+        ],
+        "props": {
+            "blockClass": "row__minicart-- empty"
+        }
     },
     "flex-layout.col#minicart__empty": {
+        "title": "column empty cart",
         "children": [
-            "icon-cart#minicart_empty--icon"
-        ]
-    },
-    "icon-cart#minicart_empty--icon": {
+            "flex-layout.row#minicart__empty--continueshopping",
+            "rich-text#minicart__empty--text",
+            "link#minicart__empty--button"
+        ],
         "props": {
-            "size": 100
+            "blockClass": "minicart__empty"
+        }
+    },
+    "flex-layout.row#minicart__empty--continueshopping": {
+        "title": "row text continue shopping",
+        "children": [
+            "icon#back__row",
+            "link#continue__shopping"
+        ],
+        "props": {
+            "blockClass": "minicart__empty--continueshopping",
+            "colSizing": "auto"
+        }
+    },
+    "icon#back__row": {
+        "title": "back arrow",
+        "props": {
+            "size": 16,
+            "id": "nav-caret--left",
+            "color": "black",
+            "blockClass": "minicart__empty--iconback"
         }
     },
     "flex-layout.row#minicart__footer": {
+        "title": "Minicart footer",
         "children": [
             "flex-layout.col#minicart_footer--col"
-           
-        ]
-    },
-    "link#continue__shopping":{
-        "title":"link continue shopping",
-        "props":{
-            "blockClass":"continue__shopping",
-            "href": "/{slug}/p",
-            "label": "< Continue Shopping"
+        ],
+        "props": {
+            "blockClass": "minicart_footer--row"
         }
     },
-    "flex-layout.col#minicart_footer--col":{
-        "title":"Minicar footer column",
-        "children":[
+    "link#continue__shopping": {
+        "title": "link continue shopping",
+        "props": {
+            "blockClass": "continue__shopping",
+            "href": "/",
+            "label": "Continue Shopping"
+        }
+    },
+    "flex-layout.col#minicart_footer--col": {
+        "title": "Minicar footer column",
+        "children": [
             "minicart-summary",
             "minicart-checkout-button",
             "rich-text#footer__col--questions"
         ],
-        "props":{
-            "blockClass":"minicart_footer--col"
+        "props": {
+            "blockClass": "minicart_footer--col"
         }
     },
-    "rich-text#footer__col--questions":{
-        "title":"QUestions text",
-        "props":{
-            "text":"Questions? We're here to help! email us at sac@brahma.co",
-            "blockClass":"footer__col--questions"
+    "rich-text#footer__col--questions": {
+        "title": "QUestions text",
+        "props": {
+            "text": "Questions? We're here to help! email us at sac@brahma.co",
+            "blockClass": "footer__col--questions"
         }
-
     }
 }

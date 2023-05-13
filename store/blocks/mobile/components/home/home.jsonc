@@ -1,28 +1,54 @@
 {
   "responsive-layout.mobile#phone__and__tablet": {
     "title": "Responsive Mobile"
+  },
+  "flex-layout.row#home__section-images--container": {
+    "title": "Image container row",
+    "props": {
+      "blockClass": "home__section-images--container",
+      "colGap": 4
+    },
+    "children": [
+      "flex-layout.col#section-images__container--img1",
+      "flex-layout.col#section-images__container--img2"
+    ]
+  },
+  "flex-layout.col#section-images__container--img1": {
+    "title": "container image 1",
+    "props": {
+      "width": "50%",
+      "horizontalAlign": "center",
+      "blockClass": "section-images__container--img"
+    },
+    "children": [
+      "image#container__img1--image"
+    ]
+  },
+  "image#container__img1--image": {
+    "title": "image 1",
+    "props": {
+      "src": "assets/img/crop-912-520.jpg",
+      "maxWidth": "100%",
+      "maxHeight": "98%"
+    }
+  },
+  "flex-layout.col#section-images__container--img2": {
+    "title": "container image 2",
+    "props": {
+      "width": "50%",
+      "horizontalAlign": "center",
+      "blockClass": "section-images__container--img"
+    },
+    "children": [
+      "image#container__img2--image"
+    ]
+  },
+  "image#container__img2--image": {
+    "title": "image 2",
+    "props": {
+      "src": "assets/img/crop-912-521.jpg",
+      "maxWidth": "100%",
+      "maxHeight": "95%"
+    }
   }
-
-  // "flex-layout.row#mobile__home": {
-  //   "title": "Mobile Row with text",
-  //   "children": [
-  //     "rich-text#hello-vtex"
-  //   ],
-  //   "props": {
-  //     "marginTop": 10,
-  //     "border": ["top", "bottom"],
-  //     "borderWidth": 1,
-  //     "borderColor": "danger"
-  //   }
-  // },
-
-  // "rich-text#hello-vtex": {
-  //   "title": "Text of MOBILE",
-  //   "props": {
-  //     "text": "Éxisto en Tablet y Phone -->> VTEX Store Framework",
-  //     "textAlignment": "CENTER",
-  //     "textPosition": "CENTER",
-  //     "font": "t-heading-3"
-  //   }
-  // }
 }

@@ -3,18 +3,57 @@
         "title": "footer set language",
         "children": [
             "rich-text#footer__set-language--title",
-            "locale-switcher"
+            "overlay-trigger#footer__set-language--dropdown"
         ]
     },
     "rich-text#footer__set-language--title": {
         "title": "footer language title",
         "props": {
             "text": "Set Language",
-            "blockClass":"footer__title",
+            "blockClass": "footer__title",
             "textAlignment": "CENTER",
             "textPosition": "LEFT",
             "textColor": "c-success--faded",
             "font": "t-heading-4"
+        }
+    },
+    "overlay-trigger#footer__set-language--dropdown": {
+        "title": "set languaje dropdown",
+        "children": [
+            "rich-text#question",
+            "overlay-layout"
+        ],
+        "props": {
+            "blockClass": "footer__set-language--dropdown"
+        }
+    },
+    "rich-text#question": {
+        "title": "lenguaje text",
+        "props": {
+            "text": "**English**",
+            "blockClass": "question"
+        }
+    },
+    "overlay-layout": {
+        "title": "overlay set language",
+        "props": {
+            "placement": "bottom",
+            "showArrow": true,
+            "backdrop": "none",
+            "offsets": {
+                "skidding": 3,
+                "distance": -2
+            }
+        },
+        "children": [
+            "rich-text#link"
+        ]
+    },
+    "rich-text#link": {
+        "title": "text link español",
+        "props": {
+            "text": "Español",
+            "blockClass": "link"
         }
     }
 }

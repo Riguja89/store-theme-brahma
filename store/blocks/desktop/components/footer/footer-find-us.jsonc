@@ -3,7 +3,7 @@
         "title": "footer find us",
         "children": [
             "rich-text#footer__find-us--title",
-            "social-networks",
+            "flex-layout.row#desktop__footer--social-network",
             "link#store-finder"
         ]
     },
@@ -11,41 +11,64 @@
         "title": "footer find us title",
         "props": {
             "text": "Find us on",
-            "blockClass":"footer__title",
+            "blockClass": "footer__title",
             "textAlignment": "CENTER",
             "textPosition": "LEFT",
             "textColor": "c-success--faded",
             "font": "t-heading-4"
         }
     },
-    "social-networks": {
-        "title": "Social Networks",
+    "flex-layout.row#desktop__footer--social-network": {
+        "title": "foter social network desktop",
+        "children": [
+            "image#footer--social-network-facebook",
+            "image#footer--social-network-instagram",
+            "image#footer--social-network-youtube"
+        ],
         "props": {
-            "socialNetworks": [
-                {
-                    "url": "https://facebook.com/BrahmaFootwear",
-                    "name": "Facebook"
-                },
-                {
-                    "url": "https://instagram.com/brahmafootwear",
-                    "name": "Instagram"
-                },
-                {
-                    "url": "https://youtube.com/channel/UCiikeN7g01tyuFpCXMw1Guw",
-                    "name": "Youtube"
-                }
-            ]
+            "blockClass": "desktop__footer--social-network"
         }
     },
-    "link#store-finder":{
+    "image#footer--social-network-facebook": {
+        "title": "image icon facebook",
+        "props": {
+            "src": "assets/img/facebook.svg",
+            "link": {
+                "url": "https://facebook.com/BrahmaFootwear"
+            },
+            "maxHeight": 35
+        }
+    },
+    "image#footer--social-network-instagram": {
+        "title": "image icon instagram",
+        "props": {
+            "src": "assets/img/instagram.svg",
+            "link": {
+                "url": "https://instagram.com/brahmafootwear"
+            },
+            "maxHeight": 35
+        }
+    },
+    "image#footer--social-network-youtube": {
+        "title": "youtube",
+        "props": {
+            "src": "assets/img/youtube.svg",
+            "link": {
+                "url": "https://youtube.com/channel/UCiikeN7g01tyuFpCXMw1Guw"
+            },
+            "maxHeight": 35
+        }
+    },
+    "link#store-finder": {
         "title": "Link store finder",
-        "props":{
-            "label":"STORE FINDER",
+        "props": {
+            "label": "STORE FINDER",
             "href": "/store-finder/p",
-            "displayMode":"button",
-            "buttonProps":{
-                "variant": "primary", 
-                "size": "regular" 
+            "displayMode": "button",
+            "blockClass": "store-finder",
+            "buttonProps": {
+                "variant": "primary",
+                "size": "regular"
             }
         }
     }

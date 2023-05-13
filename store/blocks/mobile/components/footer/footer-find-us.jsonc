@@ -1,0 +1,79 @@
+{
+    "flex-layout.col#mobile__footer--find-us": {
+        "title": "footer find us",
+        "children": [
+            "rich-text#footer__find-us--titles",
+            "flex-layout.row#mobile__footer--social-networkm",
+            "link#store__finder--mobile"
+        ],
+        "props": {
+            "blockClass": "mobile__footer--find-us"
+        }
+    },
+    "rich-text#footer__find-us--titles": {
+        "title": "footer find us title",
+        "props": {
+            "text": "Find us on",
+            "blockClass": "mobile__footer--title",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "textColor": "c-success--faded",
+            "font": "t-heading-4"
+        }
+    },
+    "flex-layout.row#mobile__footer--social-networkm": {
+        "title": "row content social network",
+        "children": [
+            "image#footer__social-network--facebookm",
+            "image#footer__social-network--instagramm",
+            "image#footer__social-network--youtubem"
+        ],
+        "props": {
+            "blockClass": "mobile__footer--social-networkm",
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "image#footer__social-network--facebookm": {
+        "title": "image facebook",
+        "props": {
+            "src": "assets/img/facebockm.svg",
+            "link": {
+                "url": "https://facebook.com/BrahmaFootwear"
+            },
+            "maxHeight": 35
+        }
+    },
+    "image#footer__social-network--instagramm": {
+        "title": "image instagram",
+        "props": {
+            "src": "assets/img/instagramm.svg",
+            "link": {
+                "url": "https://instagram.com/brahmafootwear"
+            },
+            "maxHeight": 35
+        }
+    },
+    "image#footer__social-network--youtubem": {
+        "title": "image youtube",
+        "props": {
+            "src": "assets/img/youtubem.svg",
+            "link": {
+                "url": "https://youtube.com/channel/UCiikeN7g01tyuFpCXMw1Guw"
+            },
+            "maxHeight": 35
+        }
+    },
+    "link#store__finder--mobile": {
+        "title": "Link store finder",
+        "props": {
+            "label": "STORE FINDER",
+            "href": "/store-finder/p",
+            "displayMode": "button",
+            "blockClass": "store-finder",
+            "buttonProps": {
+                "variant": "primary",
+                "size": "regular"
+            }
+        }
+    }
+}

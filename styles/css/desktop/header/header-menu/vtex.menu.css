@@ -1,91 +1,98 @@
 /* Example desktop: */
 .styledLinkContent {
-    color: white;
+    color      : white;
     font-family: "Arvo-Regular";
-    font-size:16px;
+    font-size  : 16px;
 }
 
 .styledLinkContent:hover {
- font-style:italic;
+    font-style: italic;
 }
-.menuItem--container__department--men--isOpen .styledLinkContent--container__department--men{
-    font-weight:600;
-    font-style:italic;
-    
+
+.menuItem--container__department--men--isOpen .styledLinkContent--container__department--men {
+    font-weight: 600;
+    font-style : italic;
+
 }
 
 .styledLinkContent--category-two {
-    color: white;
-    font-family: "Arvo-Regular";
-    font-size:1.125rem;
-    padding-top: 2px;
+    color         : white;
+    font-family   : "Arvo-Regular";
+    font-size     : 1.125rem;
+    padding-top   : 2px;
     padding-bottom: 2px;
-    margin: 0;
-    text-align: left;
+    margin        : 0;
+    text-align    : left;
 }
-.styledLinkContent--category-one{
-    color: black;  
+
+.styledLinkContent--category-one {
+    color      : black;
     font-family: "Arvo-Regular";
-    font-size:1.125rem;
+    font-size  : 1.125rem;
 }
-.styledLinkContent--department-class{
-    color: white; 
+
+.styledLinkContent--department-class {
+    color: white;
 }
-.styledLinkContainer--category-one{
-   padding-top: 10px;
-   padding-bottom: 0;
-   text-align: left;
-   justify-content: left;
-   margin: 0;
+
+.styledLinkContainer--category-one {
+    padding-top    : 10px;
+    padding-bottom : 0;
+    text-align     : left;
+    justify-content: left;
+    margin         : 0;
 }
-.styledLinkContainer--category-two{
-    padding-top: 0px;
+
+.styledLinkContainer--category-two {
+    padding-top   : 0px;
     padding-bottom: 0;
-    margin: 0;
- }
-.submenuWrapper{
+    margin        : 0;
+}
+
+.submenuWrapper {
     background-color: transparent
-  
 }
 
 .menuItem--isOpen .submenuWrapper {
 
-        display: flex;
+    display: flex;
 
 }
 
 
 .submenuWrapper--department__men--category {
-    width: 100vw;
-    position: absolute;
-    left: -200px;
-    top: 15px;
-    height: 350px;
+    width           : 100vw;
+    position        : absolute;
+    left            : -200px;
+    top             : 15px;
+    height          : 350px;
     background-color: rgba(236, 28, 36, 0.8);
-    border: none;
+    border          : none;
 }
+
 .submenu--department__men--category {
-    display:flex;
+    display        : flex;
     justify-content: space-around;
 }
 
 
 .submenuWrapper--menu__subcategory {
-    width: 100%;
-    border: none;
+    width     : 100%;
+    border    : none;
     text-align: left;
 }
 
 .submenu--menu__subcategory {
-    padding: 0;
-    text-align: left;
+    padding        : 0;
+    text-align     : left;
     justify-content: left;
 }
 
 .menuItem--category-two {
     justify-content: left;
-    padding: 0;
+    padding        : 0;
 }
+
 .menuContainerNav--category-two {
     margin: 0;
 }

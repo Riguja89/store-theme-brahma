@@ -23,3 +23,7 @@
 .profile:hover {
    font-style: italic;
 }
+
+.profile:global(.container__join--label) {
+   display: none;
+}

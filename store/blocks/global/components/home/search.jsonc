@@ -3,25 +3,49 @@
         "title": "store search",
         "blocks": [
             "search-result-layout"
-        ]
+        ],
+        "props": {
+            "context": {
+                "skusFilter": "FIRST_AVAILABLE",
+                "simulationBehavior": "default"
+            }
+        }
     },
     "store.search#category": {
         "title": "store category",
         "blocks": [
             "search-result-layout"
-        ]
+        ],
+        "props": {
+            "context": {
+                "skusFilter": "FIRST_AVAILABLE",
+                "simulationBehavior": "default"
+            }
+        }
     },
     "store.search#subcategory": {
         "title": "store subcategory",
         "blocks": [
             "search-result-layout"
-        ]
+        ],
+        "props": {
+            "context": {
+                "skusFilter": "FIRST_AVAILABLE",
+                "simulationBehavior": "default"
+            }
+        }
     },
     "store.search#brand": {
         "title": "store brand",
         "blocks": [
             "search-result-layout"
-        ]
+        ],
+        "props": {
+            "context": {
+                "skusFilter": "FIRST_AVAILABLE",
+                "simulationBehavior": "default"
+            }
+        }
     },
     "search-result-layout": {
         "title": "Result layout container",
@@ -34,9 +58,19 @@
     "search-result-layout.desktop": {
         "title": "Result desktop container",
         "children": [
-            "gallery-layout-switcher",
-            "search-content"
-        ]
+            "rich-text#prueba",
+            "flex-layout.row#searchbread",
+            "flex-layout.row#searchtitle",
+            "flex-layout.row#result"
+        ],
+        "props": {
+            "preventRouteChange": true
+        }
+    },
+    "rich-text#prueba":{
+        "props":{
+            "text":"si se renderiza"
+        }
     },
     "search-result-layout.mobile": {
         "title": "Result mobile container",
@@ -45,35 +79,53 @@
             "search-content"
         ]
     },
-    "rich-text#desktop-response": {
-        "props": {
-            "text": "desktop search"
-        }
-    },
-    "rich-text#mobile-response": {
-        "props": {
-            "text": "mobile search"
-        }
-    },
-    "gallery-layout-switcher": {
-        "title": "Gallery switcher",
+    "flex-layout.row#searchbread": {
         "children": [
-            "gallery-layout-option#grid__two-columns",
-            "gallery-layout-option#grid__one--column"
+            "breadcrumb.search"
         ]
     },
-    "gallery-layout-option#grid__two-columns": {
-        "title": "Gallery grid 1",
+    "flex-layout.row#searchtitle": {
+        "children": [
+            "gallery-layout-switcher"
+        ]
+    },
+    "flex-layout.row#result": {
+        "children": [
+            "search-content"
+        ]
+    },
+    "product-summary.shelf": {
+        "children": [
+            "product-summary-image",
+            "product-summary-name",
+            "product-list-price",
+            "product-selling-price",
+            "product-summary-sku-selector",
+            "add-to-cart-button",
+            "modal-trigger#global__quick-view",
+            "add-to-list-btn"
+        ]
+    },
+    "product-summary-sku-selector": {
         "props": {
-            "name": "grid-two-column",
-            "blockClass": "grid__selector--two-columns"
+            "hideImposibleCombinations": false
         }
     },
-    "gallery-layout-option#grid__one--column": {
-        "title": "Gallery grid 2",
+    "modal-trigger#global__quick-view": {
+        "children": [
+            "rich-text#global__quick-view--trigger",
+            "modal-layout#global__quick-view--modal"
+        ]
+    },
+    "rich-text#global__quick-view--trigger": {
         "props": {
-            "name": "grid-one-column",
-            "blockClass": "grid__selector--one-column"
+            "text": " viata rapida",
+            "blockClass": "quick-view__trigger"
         }
+    },
+    "modal-layout#global__quick-view--modal": {
+        "children": [
+            "vtex.product-list:product-name"
+        ]
     }
 }

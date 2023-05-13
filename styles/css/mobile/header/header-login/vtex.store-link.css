@@ -1,13 +1,13 @@
 .label--header__principal--login {
     color          : white;
     text-decoration: none;
-    font-family   : "Arvo-Regular";
-    text-transform: capitalize;
-    font-size     : 1.9vw;
+    font-family    : "Arvo-Regular";
+    text-transform : capitalize;
+    font-size      : 1.9vw;
 }
 
 .link--header__principal--login {
     text-decoration: none;
-    display: flex;
-    align-items: center;
+    display        : flex;
+    align-items    : center;
 }

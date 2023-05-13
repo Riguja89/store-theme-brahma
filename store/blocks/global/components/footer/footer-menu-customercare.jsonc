@@ -1,0 +1,88 @@
+{
+    "flex-layout.col#global__footer--customer": {
+        "title": "footer customer",
+        "children": [
+            "rich-text#footer__customer--title",
+            "vtex.menu@2.x:menu#footer__customer--container"
+        ]
+    },
+    "rich-text#footer__customer--title": {
+        "title": "footer customer title",
+        "props": {
+            "text": "Customer Care",
+            "blockClass": "footer__title",
+            "textAlignment": "CENTER",
+            "textPosition": "LEFT",
+            "textColor": "c-success--faded",
+            "font": "t-heading-4"
+        }
+    },
+    "vtex.menu@2.x:menu#footer__customer--container": {
+        "title": "footer customer container",
+        "props": {
+            "orientation": "vertical",
+            "items": [
+                {
+                    "id": "menu-item-contact-us",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/contact-us",
+                        "noFollow": false,
+                        "tagTitle": "contact-us",
+                        "text": "Contact Us/Inquiries"
+                    }
+                },
+                {
+                    "id": "menu-item-faqs",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/faqs",
+                        "noFollow": false,
+                        "tagTitle": "faqs",
+                        "text": "FAQs"
+                    }
+                },
+                {
+                    "id": "menu-item-warranty",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/warranty",
+                        "noFollow": false,
+                        "tagTitle": "warranty",
+                        "text": "Warranty"
+                    }
+                },
+                {
+                    "id": "menu-item-wheres-my-order",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/wheres-my-order",
+                        "noFollow": false,
+                        "tagTitle": "wheres-my-order",
+                        "text": "Wheres My Order?"
+                    }
+                },
+                {
+                    "id": "menu-item-superintendence",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/superintendence",
+                        "noFollow": false,
+                        "tagTitle": "superintendence",
+                        "text": "Superintendence of \n Industry and Trade"
+                    }
+                }
+            ]
+        }
+    }
+}

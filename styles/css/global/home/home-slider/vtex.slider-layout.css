@@ -1,14 +1,12 @@
 .paginationDotsContainer--home__slider {
-    padding-top: 8px;
-    margin-top: 10px;
-    height: 30px;
+    padding-top: 30px;
+    margin-top : -10px;
+    height     : 30px;
 }
 
 .caretIcon--home__slider {
     color       : white;
     stroke-width: 3;
-    height      : 30px;
-    width       : 30px;
 }
 
 .caretIcon--home__slider:hover {

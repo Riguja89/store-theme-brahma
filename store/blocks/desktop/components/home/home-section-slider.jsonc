@@ -5,7 +5,8 @@
             "slider-layout#home__section--global-1"
         ],
         "props": {
-            "fullWidth": true
+            "fullWidth": true,
+            "blockClass": "home__section--slider"
         }
     }
 }

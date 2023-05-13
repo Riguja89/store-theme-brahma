@@ -23,3 +23,9 @@
     color           : #999999 !important;
     background-color: white;
 }
+
+.currencyContainer--desktop__price {
+    text-align : left;
+    font-family: "Arvo-Regular";
+    font-size  : 14px;
+}

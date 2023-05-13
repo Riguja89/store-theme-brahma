@@ -1,4 +1,10 @@
 .flexRow--header__mobile--row {
     position: relative;
     left    : 60px;
+    height  : 100%;
+}
+
+.flexRowContent--header__mobile--row {
+    height          : 100%;
+    background-color: black;
 }
