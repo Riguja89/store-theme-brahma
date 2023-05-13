@@ -1,0 +1,154 @@
+{
+    "product-list-content-mobile": {
+        "children": [
+            "flex-layout.row#mobile__list-row"
+        ],
+        "props": {
+            "blockClass": "product__list--content"
+        }
+    },
+    "flex-layout.row#mobile__list-row": {
+        "children": [
+            "flex-layout.col#mobile__remove-button",
+            "flex-layout.col#mobile__image",
+            "flex-layout.col#mobile__main-container"
+        ],
+        "props": {
+            "fullWidth": true,
+            "paddingBottom": "7",
+            "paddingTop": "6",
+            "colSizing": "auto",
+            "preserveLayoutOnMobile": "true",
+            "blockClass": "list__row--desktop"
+        }
+    },
+    "flex-layout.col#mobile__image": {
+        "children": [
+            "product-list-image",
+            "link#mobile__move-to-wishlist"
+        ],
+        "props": {
+            "marginRight": "2",
+            "width": "30%",
+            "blockClass": "mobile__image"
+        }
+    },
+    "flex-layout.col#mobile__main-container": {
+        "children": [
+            "flex-layout.row#mobile__product-name",
+            "flex-layout.row#mobile__unit-price--container",
+            "flex-layout.row#mobile__quantity"
+        ],
+        "props": {
+            "width": "60%",
+            "marginLeft": "3",
+            "blockClass": [
+                "main-container-desktop",
+                "main__mobile"
+            ]
+        }
+    },
+    "flex-layout.row#mobile__quantity": {
+        "children": [
+            "flex-layout.col#mobile__quantity-selector"
+        ],
+        "props": {}
+    },
+    "flex-layout.row#mobile__product-name": {
+        "children": [
+            "vtex.product-list:product-name"
+        ],
+        "props": {
+            "blockClass": "mobile__product-name"
+        }
+    },
+    "flex-layout.col#mobile__quantity-selector": {
+        "children": [
+            "flex-layout.row#mobile__quantity-selector"
+        ],
+        "props": {
+            "preventHorizontalStretch": "true",
+            "blockClass": "quantity-selector"
+        }
+    },
+    "flex-layout.row#mobile__quantity-selector": {
+        "children": [
+            "rich-text#mobile__qty",
+            "quantity-selector"
+        ],
+        "props": {
+            "preventHorizontalStretch": "true",
+            "blockClass": "mobile__quantity--selector"
+        }
+    },
+    "flex-layout.col#mobile__unit-price": {
+        "children": [
+            "flex-layout.row#mobile__unit-price--container"
+        ]
+    },
+    "flex-layout.row#mobile__unit-price--container": {
+        "children": [
+            "unit-price#mobile"
+        ],
+        "props": {
+            "marginTop": "3",
+            "preventHorizontalStretch": "true"
+        }
+    },
+    "unit-price#mobile": {
+        "props": {
+            "textAlign": "center",
+            "unitPriceType": "sellingPrice"
+        }
+    },
+    "flex-layout.col#mobile__price": {
+        "children": [
+            "price#mobile"
+        ],
+        "props": {
+            "blockClass": "priceWrapper",
+            "marginLeft": "6",
+            "preventHorizontalStretch": "true",
+            "verticalAlign": "middle"
+        }
+    },
+    "price#mobile": {
+        "props": {
+            "textAlign": "right"
+        }
+    },
+    "flex-layout.col#mobile__remove-button": {
+        "children": [
+            "remove-button"
+        ],
+        "props": {
+            "marginLeft": "3",
+            "verticalAlign": "middle",
+            "width": "10%",
+            "blockClass": "mobile__remove-button"
+        }
+    },
+    // "message#desktop": {
+    //     "props": {
+    //         "layout": "cols"
+    //     }
+    // },
+    "link#mobile__move-to-wishlist": {
+        "title": "link move-to-wishlist",
+        "props": {
+            "blockClass": [
+                "move-to-wishlist",
+                "mobile"
+            ],
+            "href": "/{slug}/p",
+            "label": "󠀼󠀼＜ Move to Wishlist"
+        }
+    },
+    "rich-text#mobile__qty": {
+        "title": "label qty",
+        "props": {
+            "text": "Qty.",
+            "blockClass": "qty__mobile"
+        }
+    }
+}

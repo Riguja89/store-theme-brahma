@@ -13,7 +13,7 @@
     visibility: visible;
     position  : relative;
     top       : 10px;
-    left      : -80px;
+    left      : -80;
 }
 
 .drawer--header__container--minicart {
@@ -51,6 +51,10 @@
 
 .minicartProductListContainer--minicart__content--list {
     border-bottom: 1px dotted black;
+    border-top   : 1px dotted black;
+    margin-bottom: 25px;
+    overflow     : visible;
+    height       : auto;
 }
 
 .minicartCheckoutButton .vtex-button {

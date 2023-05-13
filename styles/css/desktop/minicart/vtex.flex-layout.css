@@ -15,14 +15,12 @@
     height: 35px !important;
 }
 
-.flexRow--list__row--desktop {
-    border-top: 1px dotted black;
 
-}
 
 .flexColChild--minicart_footer--col:first-child {
     display        : flex;
-    justify-content: end;
+    align-items    : center;
+    justify-content: center;
 }
 
 .flexColChild--minicart_footer--col:nth-child(2n) {
@@ -33,4 +31,18 @@
 .flexColChild--minicart_footer--col:nth-child(3n) {
     display        : flex;
     justify-content: center;
+}
+
+.flexColChild :global(.vtex-button) {
+    font-family   : "Arvo-Bold";
+    width         : 290px;
+    height        : 78px;
+    text-transform: capitalize;
+    border-radius: 5px;
+    border: none
+}
+
+.flexColChild :global(.vtex-button):hover {
+    color: red;
+ 
 }

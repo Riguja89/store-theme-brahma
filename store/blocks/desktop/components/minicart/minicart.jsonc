@@ -63,7 +63,7 @@
         "props":{
             "blockClass":"continue__shopping",
             "href": "/{slug}/p",
-            "label": "< Continue Shopping"
+            "label": "＜ Continue Shopping"
         }
     },
     "flex-layout.col#minicart_footer--col":{

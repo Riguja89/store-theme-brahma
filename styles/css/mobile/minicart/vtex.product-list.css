@@ -1,0 +1,9 @@
+.unitPriceMeasurementUnit{
+    visibility: hidden;
+}
+
+.unitPricePerUnitCurrency {
+    font-family: "Arvo-Regular";
+    color: black;
+    font-size: 3vw;
+}
