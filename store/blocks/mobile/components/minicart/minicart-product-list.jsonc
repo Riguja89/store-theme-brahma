@@ -109,6 +109,7 @@
         }
     },
     "price#mobile": {
+        "title": "mobile price",
         "props": {
             "textAlign": "right"
         }

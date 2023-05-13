@@ -25,18 +25,18 @@
 }
 
 .flexRowContent--desktop__footer--pay-methods .stretchChildrenWidth {
-    padding: 5px 0px;
-    margin: 0 5px;
-    width  : fit-content !important;
-    display: flex;
+    padding        : 5px 0px;
+    margin         : 0 5px;
+    width          : fit-content !important;
+    display        : flex;
     justify-content: center;
-   vertical-align: middle;
-    transition: 0.2s ease-out;
+    vertical-align : middle;
+    transition     : 0.2s ease-out;
 }
 
 .flexRowContent--desktop__footer--pay-methods {
     justify-content: center;
-    align-content: center;
+    align-content  : center;
 }
 
 .flexRow--desktop__footer :global(.vtex-store-components-3-x-container) {
@@ -53,8 +53,9 @@
     word-wrap  : break-word;
     white-space: normal;
 }
+
 .flexRowContent--desktop__footer :global(.vtex-menu-2-x-styledLink) :hover {
-    color: red;
+    color      : red;
     font-weight: bold;
 }
 

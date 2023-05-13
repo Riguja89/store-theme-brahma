@@ -1,19 +1,19 @@
 {
-    "flex-layout.col#desktop__footer--about": {
+    "flex-layout.col#global__footer--about": {
         "title": "footer about",
         "children": [
             "rich-text#footer__about--title",
             "vtex.menu@2.x:menu#footer__about--container"
         ],
-        "props":{
-            "blockClass":"desktop__footer--about"
+        "props": {
+            "blockClass": "desktop__footer--about"
         }
     },
     "rich-text#footer__about--title": {
         "title": "title about",
         "props": {
             "text": "About",
-            "blockClass":"footer__title",
+            "blockClass": "footer__title",
             "textAlignment": "CENTER",
             "textPosition": "LEFT",
             "textColor": "c-success--faded",

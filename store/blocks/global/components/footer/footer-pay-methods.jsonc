@@ -1,10 +1,10 @@
 {
-    "flex-layout.row#desktop__footer--pay-methods": {
+    "flex-layout.row#global__footer--pay-methods": {
         "title": "desktop footer pay methods",
         "props": {
             "paddingTop": 8,
-            "blockClass":"desktop__footer--pay-methods",
-            "preserveLayoutOnMobile":true
+            "blockClass": "desktop__footer--pay-methods",
+            "preserveLayoutOnMobile": true
         },
         "children": [
             "rich-text#footer__pay-methods--title",
@@ -47,7 +47,7 @@
                 "url": ""
             },
             "maxHeight": 40,
-            "blockClass":"footer__pay-methods--visa"
+            "blockClass": "footer__pay-methods--visa"
         }
     },
     "image#footer__pay-methods--amex": {
@@ -108,7 +108,7 @@
                 "url": ""
             },
             "maxHeight": 25,
-            "blockClass":"footer__pay-methods--sistecredito"
+            "blockClass": "footer__pay-methods--sistecredito"
         }
     }
 }

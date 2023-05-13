@@ -76,21 +76,21 @@
 }
 
 .accessCodeOptionBtn :global(.vtex-button__label) {
-    font-family: "Arvo-Regular";
-    color: black;
+    font-family   : "Arvo-Regular";
+    color         : black;
     text-transform: capitalize;
 }
 
 .accessCodeOptionBtn :global(.vtex-button):hover {
-   background-color: #CCCCCC;
+    background-color: #CCCCCC;
 }
 
 .optionsList :global(.vtex-button__label) {
-    font-family: "Arvo-Regular";
-    color: black;
+    font-family   : "Arvo-Regular";
+    color         : black;
     text-transform: capitalize;
 }
 
 .optionsList :global(.vtex-button):hover {
     background-color: #CCCCCC;
- }
+}

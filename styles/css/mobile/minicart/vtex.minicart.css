@@ -1,5 +1,18 @@
-.minicartTitle--mobile__container--minicart {
-    font-size: 5vw;
+.drawerContent--mobile__title {
+    padding: 0px 3vw 3vw 4vw;
+}
+
+.minicartTitle--mobile__container--minicart::after {
+    left          : -100px;
+    font-size     : 5vw;
+    padding       : 0;
+    margin        : 0;
+    vertical-align: top;
+}
+
+.minicartSideBarContentWrapper--mobile__title {
+    position: relative;
+    top     : -4vw;
 }
 
 .closeIconButton--mobile__title {
@@ -17,8 +30,10 @@
 .closeIconContainer--mobile__title {
     display        : flex;
     justify-content: end;
-    margin-right   : 5vw;
-    margin-top     : 2vw;
+    margin-right   : 3vw;
+    margin-top     : 1vw;
+    position       : relative;
+    z-index        : 3;
 
 }
 

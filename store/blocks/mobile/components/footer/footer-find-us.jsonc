@@ -24,16 +24,16 @@
     "flex-layout.row#mobile__footer--social-networkm": {
         "title": "row content social network",
         "children": [
-            "image#footer--social-network-facebookm",
-            "image#footer--social-network-instagramm",
-            "image#footer--social-network-youtubem"
+            "image#footer__social-network--facebookm",
+            "image#footer__social-network--instagramm",
+            "image#footer__social-network--youtubem"
         ],
         "props": {
             "blockClass": "mobile__footer--social-networkm",
             "preserveLayoutOnMobile": true
         }
     },
-    "image#footer--social-network-facebookm": {
+    "image#footer__social-network--facebookm": {
         "title": "image facebook",
         "props": {
             "src": "assets/img/facebockm.svg",
@@ -43,7 +43,7 @@
             "maxHeight": 35
         }
     },
-    "image#footer--social-network-instagramm": {
+    "image#footer__social-network--instagramm": {
         "title": "image instagram",
         "props": {
             "src": "assets/img/instagramm.svg",
@@ -53,7 +53,7 @@
             "maxHeight": 35
         }
     },
-    "image#footer--social-network-youtubem": {
+    "image#footer__social-network--youtubem": {
         "title": "image youtube",
         "props": {
             "src": "assets/img/youtubem.svg",

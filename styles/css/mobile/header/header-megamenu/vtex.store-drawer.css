@@ -26,7 +26,7 @@
 }
 
 .closeIcon {
-    color     : white;
+    color: white;
 }
 
 .childrenContainer--header__principal--menu {
@@ -34,18 +34,19 @@
 }
 
 .drawerContent--header__principal--menu :global(.vtex-minicart-2-x-minicartWrapperContainer) {
-    height: 15vw;
-    margin: 0;
-    padding: 0;
-    display: flex;
-   align-items: start;
+    height     : 15vw;
+    margin     : 0;
+    padding    : 0;
+    display    : flex;
+    align-items: start;
 }
+
 .drawerContent--header__principal--menu :global(.vtex-minicart-2-x-minicartContainer) {
-    height: 100%;
+    height  : 100%;
     position: absolute;
-    top: calc(-30vw);
-    left: 37vw;
-    z-index: 3;
+    top     : calc(-30vw);
+    left    : 37vw;
+    z-index : 3;
 }
 
 .drawerContent--header__principal--menu :global(.vtex-minicart-2-x-minicartQuantityBadge) {
@@ -54,18 +55,20 @@
 
 .drawerContent--header__principal--menu :global(.vtex-store-icons-0-x-cartIcon) {
     height: 6vw;
-    width: 6vw;
+    width : 6vw;
 }
+
 .drawerContent--header__principal--menu :global(.vtex-button) {
-    width: 20vw;
+    width        : 20vw;
     padding-right: 15vw;
 }
+
 .drawerContent--header__principal--menu :global(.vtex-button):hover {
- background-color: transparent;
+    background-color: transparent;
 }
 
 .drawerContent--header__principal--menu :global(.vtex-minicart-2-x-openIconContainer) {
-height: 100%;
-display: flex;
-align-items: center;
+    height     : 100%;
+    display    : flex;
+    align-items: center;
 }

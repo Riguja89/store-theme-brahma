@@ -18,10 +18,11 @@
 }
 
 .flexColChild--global__home--section {
-    display: flex;
+    display        : flex;
     justify-content: center;
-    width: 100%;
-} 
+    width          : 100%;
+}
+
 .flexRow--home__section--vitrine {
     width: 100%;
 }

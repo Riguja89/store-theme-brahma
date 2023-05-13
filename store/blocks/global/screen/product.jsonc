@@ -1,0 +1,8 @@
+{
+    "store.product":{
+        "children":[
+            "sku-selector",
+            "add-to-list-btn"
+        ]
+    }
+}

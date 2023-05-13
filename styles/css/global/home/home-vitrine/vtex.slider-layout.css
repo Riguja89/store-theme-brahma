@@ -1,11 +1,11 @@
 .caretIcon--vitrine__list--slider {
-    stroke-width    : 2;
-    height          : 30px;
-    width           : 30px;
+    stroke-width: 2;
+    height      : 30px;
+    width       : 30px;
 }
 
 .sliderArrows--vitrine__list--slider {
-    color: white;
+    color           : white;
     top             : 60px;
     background-color: gray !important;
     height          : 45px;

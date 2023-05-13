@@ -79,8 +79,8 @@
         "children": [
             "flex-layout.col#minicart_footer--col"
         ],
-        "props":{
-            "blockClass":"minicart_footer--row"
+        "props": {
+            "blockClass": "minicart_footer--row"
         }
     },
     "link#continue__shopping": {

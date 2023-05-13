@@ -12,7 +12,7 @@
             "header-spacer",
             "search-bar#header__container--searchbar",
             "header-spacer",
-            "link#header__container--join",
+            "login#header__container--join",
             "header-spacer",
             "login#header__container--login",
             "header-spacer",

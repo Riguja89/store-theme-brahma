@@ -57,7 +57,7 @@
 }
 
 .flexRow--mobile__continue--shopping {
-    margin: 5vw 7vw !important;
+    margin: 2vw 3vw !important;
 }
 
 .flexRowContent--mobile__content--summary :global(.vtex-checkout-summary-0-x-summarySmallContent) {
@@ -114,5 +114,14 @@
 }
 
 .flexCol--mobile__empty--mincart .flexRowContent--mobile__continue--shopping {
-    margin-left: calc(16vw - 25px);
+    margin-left: 20px
+}
+
+.flexColChild--mobile__minicar--footer-col:first-child {
+    justify-content: center;
+}
+
+.flexRow--mobile__content--summary :global(.vtex-checkout-summary-0-x-summarySmallContent) {
+    justify-content: center;
+    align-items    : center;
 }
