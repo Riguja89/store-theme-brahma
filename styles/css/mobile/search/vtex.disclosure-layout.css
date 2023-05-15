@@ -1,0 +1,16 @@
+.trigger--filter__disclosure--trigger {
+    width: 100%;
+    border: none;
+    background-color: #f2f2f2;
+    font-family: "Arvo-Regular";
+    padding: 0;
+    height: min(14.5vw, 94px);
+}
+
+.content--filter__disclosure--content :global(.vtex-search-result-3-x-filters--layout) {
+    margin: 0 2.18vw 0 2vw;
+}
+
+.content--filter__disclosure--content {
+    background-color: #f2f2f2;
+}

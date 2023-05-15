@@ -1,0 +1,42 @@
+
+.flexRow--desktop__container--row :global(.vtex-store-components-3-x-container) {
+    padding: 0;
+}
+.flexCol--desktop__container--filter {
+    width: 300px !important;
+    font-family: "Arvo-Regular";
+    font-size: 16px;
+    float: left;
+    border: 1px solid #999999;
+}
+
+.flexColChild--desktop__container--filter {
+    padding: 0 9.6px 0 12px;
+}
+
+.flexRowContent--desktop__container--row .stretchChildrenWidth:first-child {
+    width: 300px;
+    justify-content: left;
+}
+
+.flexCol--result-search__pagination-orderby--switcher {
+    width: 130px !important;
+    height: 55px;
+    border: solid 1px #999999;
+}
+
+.flexColChild--result-search__pagination-orderby--switcher {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexCol--result-search__pagination-orderby--pagination  {
+    height: 55px;
+    border: solid 1px #999999;
+}
+.flexColChild--result-search__pagination-orderby--pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

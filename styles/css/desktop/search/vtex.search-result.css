@@ -1,0 +1,73 @@
+.searchResultContainer--desktop__result {
+    margin-top: 80px;
+    padding: 0 0 0 28px;
+}
+
+.filtersWrapper--desktop__filter {
+    margin: 0 46px 60px 0;
+    padding: 0;
+}
+
+.filterMessage--global__filter {
+    font-family: "Arvo-Bold";
+    font-size: 16px;
+    text-transform: uppercase;
+    color: black;
+    margin: 0;
+}
+
+.filter__container--global__filter--title {
+    padding-left: 1.2em;
+    padding-top: 27px !important;
+    padding-bottom: 27px !important;
+    border: none;
+    border-top: none !important;
+}
+
+.filter__container--global__filter  {
+    border-top: 1px dashed #999999;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #b3b3b3;
+    padding: 1.7em 0 1.7em 19.2px;
+}
+.filterContent--global__filter {
+    text-transform: capitalize;
+    font-weight: 500;
+
+}
+
+.filterTemplateOverflow--global__filter :global(.vtex-slider__left-value) {
+    color: black;
+    
+    font-size: min(2.8vw, 16px);
+}
+
+.filterTemplateOverflow--global__filter :global(.vtex-slider__right-value) {
+    color: black;
+    font-size: min(2.8vw, 16px);
+}
+
+.filterTemplateOverflow--global__filter :global(.vtex-slider__dash) {
+    color: black;
+    font-size: min(2.8vw, 16px);
+}
+
+.orderByDropdown--desktop__sortby {
+    border: 1px solid #999999;
+    margin-left: 64px;
+ 
+}
+.filterPopupTitle--desktop__sortby {
+    font-family: "Arvo-Reguar";
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+.galleryLayoutSwitcher--global__selector--column {
+    width: 90px;
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+
+}
