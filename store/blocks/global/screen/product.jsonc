@@ -1,8 +1,22 @@
 {
-    "store.product":{
-        "children":[
-            "sku-selector",
-            "add-to-list-btn"
+    "store.product": {
+        "title":"Product Store",
+        "children": [
+            "flex-layout.row#product__breadcrumb",
+            "flex-layout.row#product__info",
+            "flex-layout.row#product__tabs"
         ]
+    },
+    "flex-layout.row#product__breadcrumb": {
+        "title": "bread crumb product",
+        "children": ["breadcrumb"]
+    },
+    "flex-layout.row#product__info": {
+        "title": "product information",
+        "children": []
+    },
+    "flex-layout.row#product__tabs": {
+        "title": "product tabs",
+        "children": []
     }
 }
