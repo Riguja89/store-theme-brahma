@@ -56,7 +56,7 @@
             "flex-layout.row#container--result-search--row"
         ],
         "props": {
-            "width": "grow",
+            "width": "70%",
             "blockClass":"desktop__container--result-search"
           
         }
@@ -93,7 +93,7 @@
         ],
         "props":{
             "blockClass":"result-search__pagination-orderby--switcher",
-            "width":"20%"
+            "width":"30%"
         }
     },
     "flex-layout.col#result-search__pagination-orderby--pagination": {
@@ -103,7 +103,7 @@
         ],
         "props":{
             "blockClass":"result-search__pagination-orderby--pagination",
-            "width":"40%"
+            "width":"30%"
         }
     },
     "flex-layout.row#container__result-search--pagination": {

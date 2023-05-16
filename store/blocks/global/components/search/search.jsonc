@@ -77,14 +77,20 @@
         "title": "Container search result row",
         "children": [
             "search-content#global"
-        ]
+        ],
+        "props":{
+            "blockClass":"container--result-search--row"
+        }
     },
     "search-content#global": {
         "title": "global sear content",
         "blocks": [
             "gallery#search__results--gallery",
             "not-found"
-        ]
+        ],
+        "props":{
+            "blockClass":"global__search-result"
+        }
     },
     "gallery#search__results--gallery": {
         "title": "gallery search result gallery shitcher",
@@ -181,4 +187,14 @@
             "icon-inline-grid"
         ]
     }
+    // "not-found#page": {
+    //     "blocks":[
+    //         "rich-text#prueba"
+    //     ]
+    // },
+    // "rich-text#prueba":{
+    //     "props":{
+    //         "text":"nroducto no encontrado"
+    //     }
+    // }
 }
