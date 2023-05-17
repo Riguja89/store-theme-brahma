@@ -1,0 +1,70 @@
+.flexRowContent--desktop__row {
+    padding: 0 3.6em 2em;
+}
+
+.flexRowContent--desktop__row .flexCol--product__info--data {
+    padding-left: 5em;
+}
+
+.flexRowContent--desktop__row :global(.vtex-store-components-3-x-productImagesContainer) {
+    padding-left: 2em;
+}
+
+.flexRowContent--desktop__row :global(.vtex-store-components-3-x-productNameContainer) {
+    font-family   : "Arvo-Bold";
+    text-transform: capitalize;
+    font-size     : 30px;
+    margin        : 0;
+}
+
+.flexRowContent--desktop__row :global(.vtex-store-components-3-x-sellingPrice) {
+    font-size: 26px;
+}
+
+.flexRowContent--desktop__row .flexColChild--product__info--data {
+    height: fit-content !important;
+}
+
+.flexRowContent--desktop__row .flexRow--info__data--quantity-sku {
+    margin-top   : 1.8em;
+    margin-bottom: 65px;
+}
+
+.flexRowContent--desktop__row :global(.vtex-numeric-stepper__minus-button) {
+    height: 44px;
+}
+
+.flexRowContent--desktop__row :global(.vtex-numeric-stepper__plus-button) {
+    height: 44px;
+}
+
+.flexRowContent--desktop__row :global(.vtex-numeric-stepper__input) {
+    height: 44px;
+}
+
+.flexRowContent--desktop__row :global(.vtex-store-components-3-x-frameAround) {
+    border       : solid 1px black;
+    border-radius: 0;
+}
+
+.flexRowContent--info__data--add-to-cart-wish .stretchChildrenWidth:first-child :global(.vtex-button) {
+    height          : 150px;
+    width           : 150px !important;
+    background-color: transparent;
+    background-image: url("assets/img/black-cart-button.png");
+    background-size : cover;
+    border-radius   : 50%;
+}
+
+.flexRowContent--info__data--add-to-cart-wish .stretchChildrenWidth:first-child :global(.vtex-button):hover {
+    background-image: url("assets/img/red-cart-button.png");
+    color           : red;
+}
+
+.flexRowContent--info__data--add-to-cart-wish :global(.vtex-add-to-cart-button-0-x-buttonText) {
+    color      : black;
+    font-family: "Arvo-Regular";
+    font-size  : 16px;
+    position   : relative;
+    top        : 80px;
+}

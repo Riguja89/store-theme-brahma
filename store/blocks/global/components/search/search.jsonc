@@ -65,7 +65,10 @@
         "title": "row bread",
         "children": [
             "breadcrumb.search"
-        ]
+        ],
+        "props": {
+            "blockClass": "global__breadcrumb"
+        }
     },
     "flex-layout.row#searchtitle": {
         "title": "srearch title",
@@ -78,8 +81,8 @@
         "children": [
             "search-content#global"
         ],
-        "props":{
-            "blockClass":"container--result-search--row"
+        "props": {
+            "blockClass": "container--result-search--row"
         }
     },
     "search-content#global": {
@@ -88,8 +91,8 @@
             "gallery#search__results--gallery",
             "not-found"
         ],
-        "props":{
-            "blockClass":"global__search-result"
+        "props": {
+            "blockClass": "global__search-result"
         }
     },
     "gallery#search__results--gallery": {
@@ -163,8 +166,8 @@
             "gallery-layout-option#grid__two-columns",
             "gallery-layout-option#grid__one--column"
         ],
-        "props":{
-            "blockClass":"global__selector--column"
+        "props": {
+            "blockClass": "global__selector--column"
         }
     },
     "gallery-layout-option#grid__two-columns": {

@@ -2,6 +2,7 @@
     "search-result-layout.desktop#desktop": {
         "title": "Result global container",
         "children": [
+            "flex-layout.row#searchbread",
             "flex-layout.row#desktop__container"
         ],
         "props": {
@@ -23,7 +24,6 @@
     "flex-layout.col#desktop__container--filter": {
         "title": "container filter col",
         "children": [
-            // "flex-layout.row#searchbread",
             "filter-navigator.v3#global__filter"
         ],
         "props": {

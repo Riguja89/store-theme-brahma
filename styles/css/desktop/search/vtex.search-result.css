@@ -1,5 +1,5 @@
 .searchResultContainer--desktop__result {
-    margin-top: 80px;
+    margin-top: 20px;
     padding   : 0 0 0 28px;
 }
 
@@ -27,7 +27,7 @@
     padding-bottom: 27px !important;
     border        : none;
     border-top    : none !important;
-    
+
 }
 
 .filter__container--global__filter {
@@ -36,7 +36,7 @@
     font-weight   : bold;
     color         : #b3b3b3;
     padding       : 1.7em 0 1.7em 19.2px;
-    
+
 }
 
 .filterContent--global__filter {
@@ -112,10 +112,10 @@
 }
 
 .orderByOptionItem--desktop__sortby {
-    font-family: "Arvo-Regular";
-    padding: 2px;
+    font-family : "Arvo-Regular";
+    padding     : 2px;
     padding-left: 10px;
-    font-size: 16px;
+    font-size   : 16px;
 }
 
 .orderByOptionItem--desktop__sortby:hover {

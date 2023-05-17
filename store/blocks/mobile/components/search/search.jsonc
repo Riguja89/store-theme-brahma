@@ -114,6 +114,7 @@
         "props": {
             "fullWidthOnMobile": true,
             "layout": "desktop",
+            "initiallyCollapsed":true,
             "blockClass":"mobile__filter"
         }
     }
