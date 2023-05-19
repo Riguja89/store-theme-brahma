@@ -1,0 +1,8 @@
+.shareSocialButton {
+    transition: filter 0.3s;
+}
+
+.shareSocialButton:hover {
+    opacity: 1;
+    filter : brightness(70%);
+}

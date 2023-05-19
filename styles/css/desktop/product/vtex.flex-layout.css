@@ -4,6 +4,7 @@
 
 .flexRowContent--desktop__row .flexCol--product__info--data {
     padding-left: 5em;
+    margin-bottom: 80px;
 }
 
 .flexRowContent--desktop__row :global(.vtex-store-components-3-x-productImagesContainer) {
@@ -27,7 +28,7 @@
 
 .flexRowContent--desktop__row .flexRow--info__data--quantity-sku {
     margin-top   : 1.8em;
-    margin-bottom: 65px;
+    margin-bottom: 20px;
 }
 
 .flexRowContent--desktop__row :global(.vtex-numeric-stepper__minus-button) {
@@ -47,6 +48,17 @@
     border-radius: 0;
 }
 
+.flexRowContent--info__data--add-to-cart-wish .stretchChildrenWidth {
+    width       : 193px !important;
+    margin-right: 32px;
+}
+
+.flexRowContent--info__data--add-to-cart-wish :global(.vtex-wish-list-1-x-wishlistIconContainer) {
+    display        : flex;
+    justify-content: center;
+}
+
+
 .flexRowContent--info__data--add-to-cart-wish .stretchChildrenWidth:first-child :global(.vtex-button) {
     height          : 150px;
     width           : 150px !important;
@@ -54,6 +66,7 @@
     background-image: url("assets/img/black-cart-button.png");
     background-size : cover;
     border-radius   : 50%;
+    transition      : background 0.4s;
 }
 
 .flexRowContent--info__data--add-to-cart-wish .stretchChildrenWidth:first-child :global(.vtex-button):hover {
@@ -61,10 +74,166 @@
     color           : red;
 }
 
+.flexRowContent--info__data--add-to-cart-wish .stretchChildrenWidth:first-child :global(.vtex-button):hover :global(.vtex-add-to-cart-button-0-x-buttonText) {
+    color: red;
+}
+
+
 .flexRowContent--info__data--add-to-cart-wish :global(.vtex-add-to-cart-button-0-x-buttonText) {
-    color      : black;
+    color      : #808080;
     font-family: "Arvo-Regular";
     font-size  : 16px;
     position   : relative;
-    top        : 80px;
+    top        : 105px;
+}
+
+
+.flexRowContent--info__data--add-to-cart-wish .stretchChildrenWidth:nth-child(2n) :global(.vtex-button) {
+    height          : 150px;
+    width           : 150px !important;
+    background-color: transparent;
+    border-radius   : 50%;
+}
+
+.flexRowContent--info__data--add-to-cart-wish .stretchChildrenWidth:nth-child(2n) :global(.vtex-button__label) {
+    height : 100%;
+    width  : 100%;
+    padding: 0 !important;
+    margin : 0;
+}
+
+.flexRowContent--info__data--add-to-cart-wish .stretchChildrenWidth:nth-child(2n) :global(.vtex-wish-list-1-x-fill) {
+    height         : 100%;
+    width          : 100%;
+    padding        : 0;
+    margin         : 0;
+    background     : url("assets/img/red-heart-button.png");
+    background-size: cover;
+    border-radius  : 50%;
+    transition     : background 0.4s;
+}
+
+.flexRowContent--info__data--add-to-cart-wish .stretchChildrenWidth:nth-child(2n) :global(.vtex-wish-list-1-x-fill):hover {
+    background     : url("assets/img/grey-heart-button.png");
+    background-size: cover;
+}
+
+.flexRowContent--info__data--add-to-cart-wish .stretchChildrenWidth:nth-child(2n) :global(.vtex-wish-list-1-x-outline) {
+    height         : 100%;
+    width          : 100%;
+    padding        : 0;
+    margin         : 0;
+    background     : url("assets/img/grey-heart-button.png");
+    background-size: cover;
+    border-radius  : 50%;
+    transition     : background 0.4s;
+}
+
+.flexRowContent--info__data--add-to-cart-wish .stretchChildrenWidth:nth-child(2n) :global(.vtex-wish-list-1-x-outline)::after {
+    content    : "Add to wishlist";
+    position   : relative;
+    top        : 170px;
+    color      : #808080;
+    font-size  : 16px;
+    font-family: "Arvo-Regular";
+}
+
+.flexRowContent--info__data--add-to-cart-wish .stretchChildrenWidth:nth-child(2n) :global(.vtex-wish-list-1-x-outline):hover {
+    background     : url("assets/img/red-heart-button.png");
+    background-size: cover;
+}
+
+.flexRowContent--info__data--add-to-cart-wish .stretchChildrenWidth:nth-child(2n) :global(.vtex-wish-list-1-x-fill)::after {
+    content    : "Item in wishlist";
+    position   : relative;
+    top        : 170px;
+    color      : #808080;
+    font-size  : 16px;
+    font-family: "Arvo-Regular";
+}
+
+.flexRowContent--info__data--add-to-cart-wish .stretchChildrenWidth:nth-child(2n) :global(.vtex-wish-list-1-x-fill):hover::after {
+    content    : "Remove";
+    position   : relative;
+    top        : 170px;
+    color      : #808080;
+    font-size  : 16px;
+    font-family: "Arvo-Regular";
+}
+
+.flexRowContent--info__data--add-to-cart-wish {
+    height: 192px;
+}
+
+.flexColChild--product__info--data :global(.vtex-store-components-3-x-productBrandContainer) {
+    margin     : 19px 0;
+    font-family: "Arvo-Bold";
+    font-size  : 24px;
+
+}
+
+.flexColChild--product__info--data :global(.vtex-store-components-3-x-productDescriptionContainer) {
+    margin     : 19px 0;
+    font-family: "Arvo-Bold";
+
+
+}
+
+.flexColChild--product__info--data :global(.vtex-store-components-3-x-productDescriptionTitle) {
+    font-size     : 24px;
+    text-transform: capitalize;
+}
+
+.flexColChild--product__info--data :global(.vtex-store-components-3-x-sellingPrice) {
+    padding    : 0;
+    margin     : 0;
+    font-weight: 200;
+}
+
+.flexColChild--product__info--data :global(.vtex-store-components-3-x-specificationsTableContainer) {
+    padding    : 0;
+    margin     : 19px 0;
+    font-size  : 16px;
+    font-family: "Arvo-Regular";
+}
+
+.flexColChild--product__info--data :global(.vtex-store-components-3-x-specificationsTitle) {
+    font-size: 24px;
+}
+
+.flexColChild--product__info--data :global(.vtex-store-components-3-x-specificationsTablePropertyHeading) {
+    font-family : "Arvo-Bold";
+    color       : black;
+    padding-left: 0;
+}
+
+.flexColChild--product__info--data :global(.vtex-store-components-3-x-specificationsTableSpecificationHeading) {
+    font-family: "Arvo-Bold";
+    color      : black;
+}
+
+.flexColChild--product__info--data :global(.vtex-reviews-and-ratings-3-x-stars) {
+    color: black;
+}
+
+.flexColChild--product__info--data :global(.vtex-store-components-3-x-specificationItemProperty) {
+    padding-left: 0;
+}
+
+.flexColChild--product__info--image :global(.vtex-store-components-3-x-shareContainer) {
+    display        : flex;
+    align-items    : center;
+    justify-content: end;
+    margin-bottom: 80px;
+    margin-top: 16px;
+}
+
+.flexColChild--product__info--image :global(.vtex-store-components-3-x-shareLabel) {
+    font-size: 16px;
+}
+
+.flexColChild--product__info--image :global(.vtex-store-components-3-x-shareSocialIcon) {
+    width: 44px;
+    height: 44px;
+    margin-left: 6.4px;
 }
