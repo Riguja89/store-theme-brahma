@@ -1,0 +1,127 @@
+.searchResultContainer--desktop__result {
+    margin-top: 20px;
+    padding   : 0 0 0 28px;
+}
+
+.filtersWrapper--desktop__filter {
+    margin : 0 46px 60px 0;
+    padding: 0;
+}
+
+.filtersWrapper--global__filter {
+    padding: 0 9.6px 0 12px;
+}
+
+.filterMessage--global__filter {
+    font-family   : "Arvo-Bold";
+    font-size     : 16px;
+    text-transform: uppercase;
+    color         : black;
+    margin        : 0;
+
+}
+
+.filter__container--global__filter--title {
+    padding-left  : 1.2em;
+    padding-top   : 27px !important;
+    padding-bottom: 27px !important;
+    border        : none;
+    border-top    : none !important;
+
+}
+
+.filter__container--global__filter {
+    border-top    : 1px dashed #999999;
+    text-transform: uppercase;
+    font-weight   : bold;
+    color         : #b3b3b3;
+    padding       : 1.7em 0 1.7em 19.2px;
+
+}
+
+.filterContent--global__filter {
+    text-transform: capitalize;
+    font-weight   : 500;
+
+}
+
+.filterTemplateOverflow--global__filter :global(.vtex-slider__left-value) {
+    color: black;
+
+    font-size: min(2.8vw, 16px);
+}
+
+.filterTemplateOverflow--global__filter :global(.vtex-slider__right-value) {
+    color    : black;
+    font-size: min(2.8vw, 16px);
+}
+
+.filterTemplateOverflow--global__filter :global(.vtex-slider__dash) {
+    color    : black;
+    font-size: min(2.8vw, 16px);
+}
+
+.filterPopupTitle--desktop__sortby {
+    font-family   : "Arvo-Reguar";
+    text-transform: capitalize;
+    font-size     : 16px;
+}
+
+.galleryLayoutSwitcher--global__selector--column {
+    width          : 90px;
+    display        : flex;
+    justify-content: space-around;
+    height         : 60px;
+
+}
+
+.totalProducts--layout {
+    font-family    : "Arvo";
+    font-size      : 16px;
+    text-transform : capitalize;
+    display        : flex;
+    flex-direction : row;
+    color          : black;
+    padding        : 0;
+    justify-content: center;
+}
+
+.totalProductsMessage {
+    color: black;
+}
+
+.orderByOptionsContainer {
+    font-family: "Arvo";
+}
+
+.gallery--general-grid {
+    padding: 0;
+    margin : 0;
+}
+
+.orderByDropdown--desktop__sortby {
+    height: 64px;
+    border: solid 1px #999999;
+
+}
+
+.galleryLayoutSwitcher--global__selector--column {
+    height: 64px;
+    border: solid 1px #999999;
+    width : 150px;
+}
+
+.orderByOptionItem--desktop__sortby {
+    font-family : "Arvo-Regular";
+    padding     : 2px;
+    padding-left: 10px;
+    font-size   : 16px;
+}
+
+.orderByOptionItem--desktop__sortby:hover {
+    background-color: #1E90FF;
+}
+
+.orderByOptionsContainer {
+    border-radius: 10px;
+}
