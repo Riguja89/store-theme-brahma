@@ -1,0 +1,15 @@
+.flexRowContent--disclosure__trigger--row .stretchChildrenWidth:nth-child(2n) {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.flexRowContent--trigger__row--indicator-icon {
+    width: 2.8vw;
+    margin-right: 13%;
+}
+
+.flexRow--trigger__row--indicator-icon {
+    display: flex;
+    justify-content: end;
+}

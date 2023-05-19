@@ -1,0 +1,127 @@
+{
+    "search-result-layout.desktop#desktop": {
+        "title": "Result global container",
+        "children": [
+            "flex-layout.row#searchbread",
+            "flex-layout.row#desktop__container"
+        ],
+        "props": {
+            "preventRouteChange": true,
+            "blockClass":"desktop__result"
+        }
+    },
+    "flex-layout.row#desktop__container": {
+        "title": "row global container",
+        "children": [
+            "flex-layout.col#desktop__container--filter",
+            "flex-layout.col#desktop__container--result-search"
+        ],
+        "props":{
+            "blockClass":"desktop__container--row",
+            "preserveLayoutOnMobile":true
+        }
+    },
+    "flex-layout.col#desktop__container--filter": {
+        "title": "container filter col",
+        "children": [
+            "filter-navigator.v3#global__filter"
+        ],
+        "props": {
+            "width":"grow",
+            "horizontalAlign":"left",
+            "blockClass": "desktop__container--filter",
+            "paddingLeft":0
+        }
+    },
+    "filter-navigator.v3#global__filter": {
+        "title": "filter navigator",
+        "props": {
+            "facetOrdering": [
+                {
+                    "key": "brand",
+                    "orderBy": "name",
+                    "order": "ASC"
+                }
+            ],
+            "blockClass": "global__filter",
+            "initiallyCollapsed":false,
+            "fullWidthOnMobile":true,
+            "navigationTypeOnMobile":"collapsible"
+        }
+    },
+    "flex-layout.col#desktop__container--result-search": {
+        "title": "Container result search",
+        "children": [
+            "flex-layout.row#container__result-search--pagination-orderby",
+            "flex-layout.row#container--result-search--row"
+        ],
+        "props": {
+            "width": "70%",
+            "blockClass":"desktop__container--result-search"
+          
+        }
+    },
+    "flex-layout.row#container__result-search--pagination-orderby": {
+        "title": "row order and pagination",
+        "children": [
+            "flex-layout.col#result-search__pagination-orderby--sortby",
+            "flex-layout.col#result-search__pagination-orderby--switcher",
+            "flex-layout.col#result-search__pagination-orderby--pagination"
+        ],
+          "props": {
+            "blockClass":"container__result-search--pagination-orderby",
+            "colSizing":"auto",
+            "fullWidth":true,
+            "colGap":3
+
+        }
+    },
+    "flex-layout.col#result-search__pagination-orderby--sortby": {
+        "title": "col sort by",
+        "children": [
+            "order-by.v2#desktop"
+        ],
+        "props":{
+            "blockClass":"result-search__pagination-orderby--switcher",
+            "width":"40%"
+        }
+    },
+    "flex-layout.col#result-search__pagination-orderby--switcher": {
+        "title": "swicher container",
+        "children": [
+            "gallery-layout-switcher#global"
+        ],
+        "props":{
+            "blockClass":"result-search__pagination-orderby--switcher",
+            "width":"30%"
+        }
+    },
+    "flex-layout.col#result-search__pagination-orderby--pagination": {
+        "title": "pagination container",
+        "children": [
+            "flex-layout.row#container__result-search--pagination"
+        ],
+        "props":{
+            "blockClass":"result-search__pagination-orderby--pagination",
+            "width":"30%"
+        }
+    },
+    "flex-layout.row#container__result-search--pagination": {
+        "title": "row pagination",
+        "children": [
+            "search-fetch-previous",
+            "total-products.v2",
+            "search-fetch-more"
+        ],
+        "props":{
+            "blockClass":"container__result-search--pagination"
+        }
+    },
+    "order-by.v2#desktop": {
+        "title": "order by global",
+        "props": {
+            "showOrderTitle": true,
+            "blockClass":"desktop__sortby"
+        }
+    }
+}

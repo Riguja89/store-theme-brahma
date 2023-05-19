@@ -1,0 +1,4 @@
+.listItem :global(.vtex-button) {
+    color: #808080;
+    background-color: #f2f2f2 ;
+}

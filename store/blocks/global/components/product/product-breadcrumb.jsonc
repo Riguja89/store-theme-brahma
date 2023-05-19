@@ -1,0 +1,15 @@
+{
+    "flex-layout.row#product__breadcrumb": {
+        "title": "bread crumb product",
+        "children": [
+            "flex-layout.col#product__breadcrumb"
+            
+        ]
+    },
+    "flex-layout.col#product__breadcrumb":{
+        "title":"breadcrum containes col",
+        "children":[
+            "breadcrumb"
+        ]
+    }
+}

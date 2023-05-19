@@ -1,0 +1,40 @@
+.element--global__summary-shelf :global(.vtex-store-components-3-x-discountContainer) {
+    width: 100%;
+}
+
+.element--global__summary-shelf .imageStackContainer {
+    width: 100%;
+}
+
+.element--global__summary-shelf .image {
+    width: 100%;
+}
+
+.element--global__summary-shelf .nameContainer {
+    padding: 0;
+    margin : 0 0 14px;
+}
+
+.productBrand {
+    text-transform: capitalize;
+}
+
+.container--global__summary-shelf {
+    display        : block;
+    color          : #000000;
+    text-decoration: none;
+    width          : 100%;
+    position       : relative;
+    border-radius  : 0;
+    margin-bottom  : 40px;
+    transition     : box-shadow 0.2s, top 0.2s, left 0.2s;
+    transition     : transform 0.2s;
+    top            : 0;
+    left           : 0;
+}
+
+.container--global__summary-shelf:hover {
+    transform : translate3d(-3px, -3px, 20px);
+    box-shadow: 10px 10px 8px 1px rgba(0, 0, 0, 0.2), -3px -3px 5px 1px rgba(0, 0, 0, 0.1);
+
+}
