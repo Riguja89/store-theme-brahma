@@ -1,7 +1,10 @@
 .imageElementLink--header__principal--logo {
-    width           : 19vw;
-    height          : 9vw;
+    width           : min(25vw, 160px);
+    height          : min(12.5vw, 80px);
     background-color: #EE1B24;
     margin          : 0;
     padding         : 0;
+    overflow: hidden;
+    align-items: center;
 }
+

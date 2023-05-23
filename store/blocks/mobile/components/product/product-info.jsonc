@@ -1,0 +1,28 @@
+{
+    "flex-layout.row#product__info--mobile": {
+        "title": "product general info mobile",
+        "children": [
+            "flex-layout.col#product__info--image",
+            "flex-layout.col#mobile__product--info--data"
+        ],
+        "props": {
+            "blockClass": "product__info"
+        }
+    },
+    "flex-layout.col#mobile__product--info--data": {
+        "title": "product info data mobile",
+        "children": [
+            "vtex.store-components:product-name",
+            "product-price",
+            "flex-layout.row#info__data--quantity-sku",
+            "flex-layout.row#info__data--add-to-cart-wish",
+            "vtex.store-components:product-brand",
+            "product-specifications",
+            "rich-text#product__promo--info"
+        ],
+        "props": {
+            "width": "50%",
+            "blockClass": "product__info--data"
+        }
+    }
+}
