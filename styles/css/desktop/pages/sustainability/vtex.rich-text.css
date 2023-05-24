@@ -1,12 +1,12 @@
-.wrapper--section__image--message{
-    font-family: "Arvo-Regular";
-    font-weight: bold;
-    color: #ffffff;
-    width: 80%;
-    display: inline-block;
+.wrapper--section__image--message {
+    font-family   : "Arvo-Regular";
+    font-weight   : bold;
+    color         : #ffffff;
+    width         : 80%;
+    display       : inline-block;
     vertical-align: middle;
-    line-height: 1.3;
-    font-size: 30px;
+    line-height   : 1.3;
+    font-size     : 30px;
 }
 
 .heading--section__image--message {
@@ -14,12 +14,62 @@
 }
 
 .container--section__image--message {
-    display: flex;
+    display        : flex;
     justify-content: center;
 }
 
-@media (max-width: 1200px) {
-.heading--section__image--message {
-    font-size: 30px;
+@media (max-width: 2000px) {
+    .heading--section__image--message {
+        font-size: 36px;
+    }
 }
+@media (max-width: 1200px) {
+    .heading--section__image--message {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 800px) {
+    .heading--section__image--message {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 640px) {
+    .heading--section__image--message {
+        font-size: min(3.75vw, 24px);
+    }
+}
+
+@media (max-width: 2000px) {
+    .paragraph--section__paragraphs--text {
+        font-size: 21.6px;
+    }
+}
+@media (max-width: 1200px) {
+    .paragraph--section__paragraphs--text {
+        font-size: 18px;
+    }
+}
+@media (max-width: 800px) {
+    .paragraph--section__paragraphs--text {
+        font-size: 14.4px;
+    }
+}
+
+@media (max-width: 640px) {
+    .paragraph--section__paragraphs--text {
+        font-size: min(2.25vw, 14.4px);
+    }
+}
+
+
+.paragraph--section__paragraphs--text {
+    text-align: center;
+    margin    : 1vw 0;
+    padding   : 0;
+}
+
+.container--section__paragraphs--text {
+    justify-content: center;
 }

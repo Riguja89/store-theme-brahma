@@ -1,6 +1,7 @@
 .flexRow--sustainability__section--image {
-    background-image: url(assets/img/sustainability01.jpeg);
-    height: 792px;
+    
+    background:linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url(assets/img/sustainability01.jpeg);
+    height: 649px;
     line-height: 792px;
     background-repeat: no-repeat;
     background-position: center;
@@ -8,6 +9,28 @@
     text-align: center;
     align-items: center;
     display: flex;
+    scroll-behavior: smooth !important;
+}
+
+.flexRowContent--sustainability__section--image{
+    margin-top: 90px;
+}
+
+@media (max-width: 640px) {
+    .heading--section__image--message {
+        font-size: min(3.75vw, 24px);
+    }
+
+    .flexRow--sustainability__section--image {
+        height: 101.4vw;
+    }
+
+    .flexColChild--sustainability__section--image :global(.vtex-store-components-3-x-imageElement) {
+        width: min(100px, 15.6VW) !important;
+        height: min(100px, 15.6VW) !important;
+        margin-left: max(-50px, -7.8vw) !important;
+    }
+
    
 }
 
@@ -37,3 +60,24 @@
 .flexColChild--sustainability__section--image :global(.vtex-store-components-3-x-imageElement):hover {
   scroll-margin-bottom:inherit;
 }
+
+.flexRowContent--sustainability__section--paragra {
+    display: flex;
+    justify-content: center;
+    scroll-behavior: smooth !important;
+}
+
+.flexRowContent--sustainability__section--paragra .stretchChildrenWidth {
+    width: 60% !important;
+    padding: 3vw 0;
+}
+
+.flexRow--sustainability__section--paragra :global(.vtex-store-components-3-x-container){
+    padding: 0%;
+}
+
+.flexRow--sustainability__section--paragra .flexColChild:first-child {
+    height: 1px !important;
+}
+
+
