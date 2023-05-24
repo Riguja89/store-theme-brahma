@@ -1,18 +1,18 @@
 .flexRow--sustainability__section--image {
-    
-    background:linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url(assets/img/sustainability01.jpeg);
-    height: 649px;
-    line-height: 792px;
-    background-repeat: no-repeat;
+
+    background         : linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url(assets/img/sustainability01.jpeg);
+    height             : 649px;
+    line-height        : 792px;
+    background-repeat  : no-repeat;
     background-position: center;
-    background-size: cover;
-    text-align: center;
-    align-items: center;
-    display: flex;
-    scroll-behavior: smooth !important;
+    background-size    : cover;
+    text-align         : center;
+    align-items        : center;
+    display            : flex;
+    scroll-behavior    : smooth !important;
 }
 
-.flexRowContent--sustainability__section--image{
+.flexRowContent--sustainability__section--image {
     margin-top: 90px;
 }
 
@@ -26,18 +26,18 @@
     }
 
     .flexColChild--sustainability__section--image :global(.vtex-store-components-3-x-imageElement) {
-        width: min(100px, 15.6VW) !important;
-        height: min(100px, 15.6VW) !important;
+        width      : min(100px, 15.6VW) !important;
+        height     : min(100px, 15.6VW) !important;
         margin-left: max(-50px, -7.8vw) !important;
     }
 
-   
+
 }
 
 .flexCol--sustainability__section--image {
-    display: flex;
+    display        : flex;
     justify-content: center;
-    vertical-align: middle;
+    vertical-align : middle;
 }
 
 .flexColChild--sustainability__section--image:nth-child(2n) {
@@ -45,39 +45,29 @@
 }
 
 .flexColChild--sustainability__section--image :global(.vtex-store-components-3-x-imageElement) {
-    stroke: #aaaaaa;
-    font-size: 70px;
-    display: inline-block;
+    stroke     : #aaaaaa;
+    font-size  : 70px;
+    display    : inline-block;
     margin-left: -50px;
-    width: 100px;
-    height: 100px;
+    width      : 100px;
+    height     : 100px;
     line-height: 100px;
-    position: absolute;
-    left: 50%;
-    cursor: pointer;
-}
-
-.flexColChild--sustainability__section--image :global(.vtex-store-components-3-x-imageElement):hover {
-  scroll-margin-bottom:inherit;
+    position   : absolute;
+    left       : 50%;
+    cursor     : pointer;
 }
 
 .flexRowContent--sustainability__section--paragra {
-    display: flex;
+    display        : flex;
     justify-content: center;
     scroll-behavior: smooth !important;
 }
 
 .flexRowContent--sustainability__section--paragra .stretchChildrenWidth {
-    width: 60% !important;
+    width  : 60% !important;
     padding: 3vw 0;
 }
 
-.flexRow--sustainability__section--paragra :global(.vtex-store-components-3-x-container){
+.flexRow--sustainability__section--paragra :global(.vtex-store-components-3-x-container) {
     padding: 0%;
 }
-
-.flexRow--sustainability__section--paragra .flexColChild:first-child {
-    height: 1px !important;
-}
-
-

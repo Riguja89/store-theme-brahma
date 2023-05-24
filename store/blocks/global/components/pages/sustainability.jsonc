@@ -1,13 +1,13 @@
 {
     "store.custom#sustainability": {
-        "title":"Custom Sustainability",
+        "title": "Custom Sustainability",
         "blocks": [
             "flex-layout.row#sustainability__section--image",
             "flex-layout.row#sustainability__section--paragraphs"
         ]
     },
     "flex-layout.row#sustainability__section--image": {
-        "title":"Row section image",
+        "title": "Row section image",
         "children": [
             "flex-layout.col#sustainability__section--image"
         ],
@@ -17,16 +17,17 @@
         }
     },
     "flex-layout.row#sustainability__section--paragraphs": {
-        "title":"Row section paragraphs",
+        "title": "Row section paragraphs",
         "children": [
             "flex-layout.col#sustainability__section--paragraphs"
         ],
         "props": {
-            "blockClass": "sustainability__section--paragra"
+            "blockClass": "sustainability__section--paragra",
+            "htmlId": "sustainability__section--paragraphs"
         }
     },
     "flex-layout.col#sustainability__section--image": {
-        "title":"Col section image",
+        "title": "Col section image",
         "children": [
             "rich-text#section__image--message",
             "image#caret__down"
@@ -36,82 +37,49 @@
         }
     },
     "flex-layout.col#sustainability__section--paragraphs": {
-        "title":"Col section paragraphs",
+        "title": "Col section paragraphs",
         "children": [
-            "vtex.menu@2.x:menu#sustaninability",
             "rich-text#section__paragraphs--text-1",
             "rich-text#section__paragraphs--text-2",
             "rich-text#section__paragraphs--text-3"
         ]
     },
     "rich-text#section__image--message": {
-        "title":"text section image",
+        "title": "text section image",
         "props": {
             "text": "# At Brahma, we’ve made Mother Nature our business.",
             "blockClass": "section__image--message"
         }
     },
     "rich-text#section__paragraphs--text-1": {
-        "title":"Paragraph 1",
+        "title": "Paragraph 1",
         "props": {
             "text": "We believe Brahma products should have as little impact on the environment as possible.",
             "blockClass": "section__paragraphs--text"
         }
     },
     "rich-text#section__paragraphs--text-2": {
-        "title":"Paragraph 2",
+        "title": "Paragraph 2",
         "props": {
             "text": "From the raw materials we use, to our production processes and carbon footprint, to the way we recycle waste, we are committed to exploring innovative ways of doing business that will support a sustainable future.",
             "blockClass": "section__paragraphs--text"
         }
     },
     "rich-text#section__paragraphs--text-3": {
-        "title":"Paragraph 3",
+        "title": "Paragraph 3",
         "props": {
             "text": "We're known for stylish and safe product design, but we also have the environment in mind. Not just because it's the right thing to do, but because our existence depends on a healthy outdoor environment in which you, our customer, can enjoy an active lifestyle.",
             "blockClass": "section__paragraphs--text"
         }
     },
     "image#caret__down": {
-        "title":"Icon caret down",
+        "title": "Icon caret down",
         "props": {
             "src": "assets/img/caret-down-w.svg",
             "maxHeight": 70,
             "link": {
-                "url": "#paragrap-sustainability"
+                "url": "#sustainability__section--paragraphs"
             }
-        }
-    },
-    "vtex.menu@2.x:menu#sustaninability": {
-        "title": "Menu hidden por ID",
-        "props": {
-            "orientation": "vertical",
-            "items": [
-                {
-                    "id": "paragrap-sustainability",
-                    "type": "custom",
-                    "itemProps": {
-                        "type": "internal",
-                        "href": "/blog-brahma",
-                        "noFollow": false,
-                        "tagTitle": "blog-brahma",
-                        "text": "Blog Brahma"
-                    }
-                 
-                },
-                {
-                    "id": "paragrap-sustainability2",
-                    "type": "custom",
-                    "itemProps": {
-                        "type": "internal",
-                        "href": "/blog-brahma2",
-                        "noFollow": false,
-                        "tagTitle": "blog-brahma2",
-                        "text": "Blog Brahma2"
-                    }
-                 
-                }
-            ]
         }
     }
 }

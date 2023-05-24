@@ -23,6 +23,7 @@
         font-size: 36px;
     }
 }
+
 @media (max-width: 1200px) {
     .heading--section__image--message {
         font-size: 30px;
@@ -46,11 +47,13 @@
         font-size: 21.6px;
     }
 }
+
 @media (max-width: 1200px) {
     .paragraph--section__paragraphs--text {
         font-size: 18px;
     }
 }
+
 @media (max-width: 800px) {
     .paragraph--section__paragraphs--text {
         font-size: 14.4px;
