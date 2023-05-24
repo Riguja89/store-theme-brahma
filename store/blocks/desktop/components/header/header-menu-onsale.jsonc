@@ -7,7 +7,7 @@
             "blockClass": "container__department--men",
             "itemProps": {
                 "type": "internal",
-                "href": "/",
+                "href": "/electrodomesticos",
                 "noFollow": false,
                 "tagTitle": "onsale title",
                 "text": "ON SALE"

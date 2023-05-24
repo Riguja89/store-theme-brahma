@@ -324,9 +324,9 @@
     ],
     "styles": {
       "heading-1": {
-        "fontFamily": " 'Arvo', Roboto-Bold, Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontFamily": " 'Arvo-Bold', Roboto-Bold, Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
         "fontWeight": "normal",
-        "fontSize": "3rem",
+        "fontSize": "36px",
         "textTransform": "initial",
         "letterSpacing": "0"
       },

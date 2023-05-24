@@ -1,0 +1,39 @@
+.flexRow--sustainability__section--image {
+    background-image: url(assets/img/sustainability01.jpeg);
+    height: 792px;
+    line-height: 792px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+    display: flex;
+   
+}
+
+.flexCol--sustainability__section--image {
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.flexColChild--sustainability__section--image:nth-child(2n) {
+    height: 80px !important;
+}
+
+.flexColChild--sustainability__section--image :global(.vtex-store-components-3-x-imageElement) {
+    stroke: #aaaaaa;
+    font-size: 70px;
+    display: inline-block;
+    margin-left: -50px;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    position: absolute;
+    left: 50%;
+    cursor: pointer;
+}
+
+.flexColChild--sustainability__section--image :global(.vtex-store-components-3-x-imageElement):hover {
+  scroll-margin-bottom:inherit;
+}

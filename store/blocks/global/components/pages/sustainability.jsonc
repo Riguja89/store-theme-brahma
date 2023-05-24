@@ -1,0 +1,69 @@
+{
+    "store.custom#sustainability": {
+        "blocks": [
+            "flex-layout.row#sustainability__section--image",
+            "flex-layout.row#sustainability__section--paragraphs"
+            
+        ]
+    },
+    "flex-layout.row#sustainability__section--image": {
+        "children": [
+            "flex-layout.col#sustainability__section--image"
+        ],
+        "props": {
+            "fullWidth": true,
+            "blockClass": "sustainability__section--image"
+        }
+    },
+    "flex-layout.row#sustainability__section--paragraphs": {
+        "children": [
+            "flex-layout.col#sustainability__section--paragraphs"
+        ],
+        "props": {
+            "blockClass": "sustainability__section--paragra",
+            "id":"miidpropio"
+        }
+    },
+    "flex-layout.col#sustainability__section--image": {
+        "children": [
+            "rich-text#section__image--message",
+            "image#caret__down"
+        ],
+        "props": {
+            "blockClass":"sustainability__section--image"
+        }
+    },
+    "flex-layout.col#sustainability__section--paragraphs": {
+        "children": [
+            "menu-item#container__department--men",
+            "link#product-page",
+            "rich-text#section__paragraphs--text"
+        ]
+    },
+
+    "link#product-page": {
+        "props": {
+          "href": "#bottom",
+          "label": "More details >",
+          "id":"hello"
+        }
+      },
+
+    "rich-text#section__image--message": {
+        "props": {
+            "text": "# At Brahma, we’ve made Mother Nature our business.",
+            "blockClass":"section__image--message"
+        }
+    },
+    "rich-text#section__paragraphs--text": {
+        "props": {
+            "text": "We believe Brahma products should have as little impact on the environment as possible.\nFrom the raw materials we use, to our production processes and carbon footprint, to the way we recycle waste, we are committed to exploring innovative ways of doing business that will support a sustainable future.\nWe're known for stylish and safe product design, but we also have the environment in mind. Not just because it's the right thing to do, but because our existence depends on a healthy outdoor environment in which you, our customer, can enjoy an active lifestyle."
+        }
+    },
+    "image#caret__down": {
+        "props": {
+          "src": "assets/img/caret-down-w.svg",
+          "maxHeight": 70
+        }
+      }
+}
