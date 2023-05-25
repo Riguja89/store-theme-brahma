@@ -7,7 +7,21 @@
       "responsive-layout.phone#home__section-images",
       "responsive-layout.mobile#phone__and__tablet",
       "flex-layout.row#global__home--section",
+      "list-context.bullet-group",
       "whatsapp-button"
     ]
+  },
+  "list-context.bullet-group": {
+    "props": {
+      "bullets": [
+        {
+          "image": "miimage.png",
+          "titleBullet": "Computadores",
+          "link": {
+            "url": "/"
+          }
+        }
+      ]
+    }
   }
 }
