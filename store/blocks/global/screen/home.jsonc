@@ -6,7 +6,72 @@
       "responsive-layout.tablet#home__section-images",
       "responsive-layout.phone#home__section-images",
       "responsive-layout.mobile#phone__and__tablet",
-      "flex-layout.row#global__home--section"
+      "flex-layout.row#global__home--section",
+      "list-context.bullet-group",
+      "whatsapp-button"
     ]
+  },
+  "list-context.bullet-group": {
+    "title": "mi contexto de lista de Bullets",
+    "children": [
+      "slider-layout#bullet-group"
+    ],
+    "props": {
+      "bullets": [
+        {
+          "image": "assets/img/logo-brahma.jpg",
+          "titleBullet": "Computadores",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/logo-brahma.jpg",
+          "titleBullet": "Ropa",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/logo-brahma.jpg",
+          "titleBullet": "Computadores",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/logo-brahma.jpg",
+          "titleBullet": "Ropa",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/logo-brahma.jpg",
+          "titleBullet": "Computadores",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/logo-brahma.jpg",
+          "titleBullet": "Ropa",
+          "link": {
+            "url": "/"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#bullet-group": {
+    "title": "slider bullet group",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 5,
+        "phone": 5
+      },
+      "infinite": true
+    }
   }
 }

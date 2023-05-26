@@ -1,0 +1,8 @@
+{
+    "responsive-layout.desktop#desktop": {
+        "title": "Product container desktop",
+        "children": [
+            "flex-layout.row#desktop__row"
+        ]
+    }
+}

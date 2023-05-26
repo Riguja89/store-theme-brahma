@@ -7,7 +7,7 @@
             "blockClass": "container__department--men",
             "itemProps": {
                 "type": "internal",
-                "href": "/",
+                "href": "/hombre",
                 "noFollow": false,
                 "tagTitle": "men title",
                 "text": "MEN"

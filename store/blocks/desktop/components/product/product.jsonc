@@ -1,0 +1,22 @@
+{
+    "flex-layout.row#desktop__row": {
+        "title": " Desktop row container",
+        "children": [
+            "flex-layout.col#desktop__row--col"
+        ],
+        "props": {
+            "blockClass": "desktop__row"
+        }
+    },
+    "flex-layout.col#desktop__row--col": {
+        "title": " Desktop Col container",
+        "children": [
+            "flex-layout.row#product__breadcrumb",
+            "flex-layout.row#product__info--desktop",
+            "flex-layout.row#product__tabs"
+        ],
+        "props": {
+            "blockClass": "desktop__row--col"
+        }
+    }
+}

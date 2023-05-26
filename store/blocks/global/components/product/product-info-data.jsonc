@@ -1,14 +1,4 @@
 {
-    "flex-layout.row#product__info": {
-        "title": "product general info",
-        "children": [
-            "flex-layout.col#product__info--image",
-            "flex-layout.col#product__info--data"
-        ],
-        "props": {
-            "blockClass": "product__info"
-        }
-    },
     "flex-layout.col#product__info--image": {
         "title": "product info image",
         "children": [
@@ -28,7 +18,8 @@
             "zoomMode": "disabled",
             "blockClass": "product__info--image",
             "showPaginationDots": false,
-            "maxHeight": 2000
+            "maxHeight": 2000,
+            "infinite": true
         }
     },
     "share#info__image--share": {
@@ -42,23 +33,10 @@
             }
         }
     },
-    "flex-layout.col#product__info--data": {
-        "title": "product info data",
-        "children": [
-            "vtex.store-components:product-name",
-            "product-price",
-            "flex-layout.row#info__data--quantity-sku",
-            "flex-layout.row#info__data--add-to-cart-wish",
-            "vtex.store-components:product-brand",
-            "product-description",
-            "product-specifications",
-            "availability-subscriber",
-            "product-rating-inline",
-            "rich-text#product__promo--info"
-        ],
+    "product-specifications": {
+        "title": "Product specifications",
         "props": {
-            "width": "50%",
-            "blockClass": "product__info--data"
+            "collapsible": "never"
         }
     },
     "flex-layout.row#info__data--quantity-sku": {
@@ -98,7 +76,7 @@
     "rich-text#product__promo--info": {
         "title": "Adicional product text",
         "props": {
-            "blockClass":"product__promo--info",
+            "blockClass": "product__promo--info",
             "text": "**Returns/Warranties:** \n If you have any problems with your purchase, please contact us by chat or send an email to sac@brahma.co"
         }
     }

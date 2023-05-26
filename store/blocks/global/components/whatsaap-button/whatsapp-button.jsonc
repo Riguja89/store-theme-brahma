@@ -1,0 +1,10 @@
+{
+    "whatsapp-button": {
+        "title":"Whatsapp button",
+        "props": {
+            "logo": "assets/img/logo-whatsapp-red.png",
+            "phone": "3154515646",
+            "message":"Este es un mensaje de prueba"
+        }
+    }
+}

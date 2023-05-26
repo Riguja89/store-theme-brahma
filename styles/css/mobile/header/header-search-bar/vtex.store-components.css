@@ -1,6 +1,7 @@
 .searchBarInnerContainer--header__mobile--search-bar :first-child {
     border          : none;
     background-color: black;
+    align-items     : center;
 
 }
 
@@ -8,8 +9,8 @@
     width      : 70%;
     color      : white;
     font-family: "Arvo-regular";
-    font-size  : 2vw;
-    height     : 100%;
+    font-size  : min(2.5vw, 16px);
+    height     : 60%;
 }
 
 
@@ -20,7 +21,7 @@
 }
 
 .autoCompleteOuterContainer--header__mobile--search-bar {
-    height: 9vw;
+    height: min(9vw, 80px);
     width : 100%;
 }
 

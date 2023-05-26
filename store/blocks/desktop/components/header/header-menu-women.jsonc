@@ -7,7 +7,7 @@
             "blockClass": "container__department--men",
             "itemProps": {
                 "type": "internal",
-                "href": "/",
+                "href": "/mujer",
                 "noFollow": false,
                 "tagTitle": "women title",
                 "text": "WOMEN"
