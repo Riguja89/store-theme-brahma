@@ -1,0 +1,8 @@
+{
+    "responsive-layout.mobile#mobile": {
+        "title": "Product container mobile",
+        "children": [
+            "flex-layout.row#mobile__row"
+        ]
+    }
+}

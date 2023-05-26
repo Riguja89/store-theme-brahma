@@ -12,8 +12,8 @@
 }
 
 .menuIcon--header__principal--menu {
-    height        : 6vw;
-    width         : 6vw;
+    height        : min(7.5vw, 48px);
+    width         : min(7.5vw, 48px);
     stroke-width  : 2;
     vertical-align: middle;
 }

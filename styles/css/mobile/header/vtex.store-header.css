@@ -9,12 +9,12 @@
 
 .headerRowBackground--mobile__header--principal {
     background-color: black;
-    height          : 9vw;
+    height: min(12.5vw, 80px);
 
 }
 
 .headerRowContainer--mobile__header--principal {
-    height: 9vw;
+    height: min(12.5vw, 80px);
     color : white;
 
 }

@@ -1,0 +1,21 @@
+{
+    "flex-layout.row#mobile__row": {
+        "title": " Mobile row container",
+        "children": [
+            "flex-layout.col#mobile__row--col"
+        ],
+        "props": {
+            "blockClass": "mobile__row"
+        }
+    },
+    "flex-layout.col#mobile__row--col": {
+        "title": " Mobile Col container",
+        "children": [
+            "flex-layout.row#product__breadcrumb",
+            "flex-layout.row#product__info--mobile"
+        ],
+        "props": {
+            "blockClass": "mobile__row--col"
+        }
+    }
+}

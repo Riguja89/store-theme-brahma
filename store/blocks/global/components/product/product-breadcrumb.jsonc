@@ -3,13 +3,18 @@
         "title": "bread crumb product",
         "children": [
             "flex-layout.col#product__breadcrumb"
-            
         ]
     },
-    "flex-layout.col#product__breadcrumb":{
-        "title":"breadcrum containes col",
-        "children":[
-            "breadcrumb"
+    "flex-layout.col#product__breadcrumb": {
+        "title": "breadcrum containes col",
+        "children": [
+            "breadcrumb#pdp"
         ]
+    },
+    "breadcrumb#pdp": {
+        "title": "Bread crumb PDP",
+        "props": {
+            "showOnMobile": true
+        }
     }
 }

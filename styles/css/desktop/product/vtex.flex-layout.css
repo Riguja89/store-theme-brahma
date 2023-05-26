@@ -1,9 +1,13 @@
 .flexRowContent--desktop__row {
-    padding: 0 3.6em 2em;
+    padding: 0 50.4px 2em;
+}
+
+.flexRowContent--desktop__row :global(.vtex-breadcrumb-1-x-container) {
+    font-family: "Arvo-Regular";
 }
 
 .flexRowContent--desktop__row .flexCol--product__info--data {
-    padding-left: 5em;
+    padding-left : 5em;
     margin-bottom: 80px;
 }
 
@@ -17,6 +21,31 @@
     font-size     : 30px;
     margin        : 0;
 }
+
+.flexRowContent--desktop__row :global(.vtex-store-components-3-x-price_listPriceContainer) {
+    color          : #cccccc;
+    text-decoration: line-through;
+    font-size      : 20.8px;
+    margin-right   : 0.5em;
+    font-family    : "Arvo-Regular";
+    margin-top     : 5.2px;
+}
+
+.flexRowContent--desktop__row :global(.vtex-store-components-3-x-priceContainer) {
+    margin-top: 5.2px;
+}
+
+.flexRowContent--desktop__row :global(.vtex-store-components-3-x-price_listPriceLabel) {
+    color          : #cccccc;
+    text-decoration: line-through;
+    font-size      : 20.8px;
+    margin-right   : 0.5em;
+    font-family    : "Arvo-Regular";
+    margin-top     : 5.2px;
+    padding        : 0;
+    margin         : 0;
+}
+
 
 .flexRowContent--desktop__row :global(.vtex-store-components-3-x-sellingPrice) {
     font-size: 26px;
@@ -60,8 +89,8 @@
 
 
 .flexRowContent--info__data--add-to-cart-wish .stretchChildrenWidth:first-child :global(.vtex-button) {
-    height          : 150px;
-    width           : 150px !important;
+    height          : 148px;
+    width           : 148px !important;
     background-color: transparent;
     background-image: url("assets/img/black-cart-button.png");
     background-size : cover;
@@ -89,8 +118,8 @@
 
 
 .flexRowContent--info__data--add-to-cart-wish .stretchChildrenWidth:nth-child(2n) :global(.vtex-button) {
-    height          : 150px;
-    width           : 150px !important;
+    height          : 148px;
+    width           : 148px !important;
     background-color: transparent;
     border-radius   : 50%;
 }
@@ -212,7 +241,7 @@
     color      : black;
 }
 
-.flexColChild--product__info--data :global(.vtex-reviews-and-ratings-3-x-stars) {
+.flexRowContent--desktop__row :global(.vtex-reviews-and-ratings-3-x-stars) {
     color: black;
 }
 
@@ -224,8 +253,8 @@
     display        : flex;
     align-items    : center;
     justify-content: end;
-    margin-bottom: 80px;
-    margin-top: 16px;
+    margin-bottom  : 80px;
+    margin-top     : 16px;
 }
 
 .flexColChild--product__info--image :global(.vtex-store-components-3-x-shareLabel) {
@@ -233,7 +262,114 @@
 }
 
 .flexColChild--product__info--image :global(.vtex-store-components-3-x-shareSocialIcon) {
-    width: 44px;
-    height: 44px;
+    width      : 44px;
+    height     : 44px;
     margin-left: 6.4px;
+}
+
+.flexColChild--product__info--image :global(.vtex-store-components-3-x-caretIcon--product__info--image) {
+    stroke-width: 2;
+    width       : 42px;
+    height      : 42px;
+}
+
+.flexColChild--product__info--image :global(.vtex-store-components-3-x-caretIcon--product__info--image):hover {
+    color: red;
+}
+
+.flexRowContent--desktop__row :global(.vtex-reviews-and-ratings-3-x-container) {
+    font-family: "Arvo-Regular";
+    color      : black;
+}
+
+.flexRowContent--desktop__row :global(.vtex-reviews-and-ratings-3-x-reviewsHeading) {
+    font-family: "Arvo-Regular";
+}
+
+.flexRowContent--desktop__row :global(.vtex-reviews-and-ratings-3-x-reviewsOrderBy) {
+    font-family: "Arvo-Regular";
+}
+
+.flexRowContent--desktop__row :global(.vtex-dropdown__caption) {
+    font-family: "Arvo-Regular";
+}
+
+.flexRowContent--product__tabs :global(.vtex-styleguide-9-x-input) {
+    background-color: white;
+}
+
+.flexRowContent--product__tabs :global(.vtex-tab-layout-0-x-listItemActive) :global(.vtex-button) {
+    background-color: #a8a8a8;
+    color           : black;
+}
+
+.flexRowContent--product__tabs :global(.vtex-questions-and-answers-0-x-create-question-container) {
+    height: 120px;
+}
+
+.flexRowContent--product__tabs :global(.vtex-button):hover {
+    color: black;
+}
+
+.flexRowContent--product__tabs :global(.vtex-store-components-3-x-specificationsTitle) {
+    font-family: "Arvo-Regular";
+    margin-top : 28px;
+}
+
+.flexRowContent--product__tabs :global(.vtex-button) {
+    width: 250px;
+}
+
+.flexRowContent--product__tabs :global(.vtex-button__label) {
+    padding: 0;
+    margin : 0;
+}
+
+
+.flexRow--desktop__row :global(.vtex-store-components-3-x-specificationsTitle) {
+    display        : flex;
+    justify-content: start;
+    text-align     : center;
+    font-size      : min(3.75vw, 24px);
+    margin-bottom  : 19px;
+}
+
+.flexRow--desktop__row :global(.vtex-store-components-3-x-specificationsTableHead) {
+    display: none;
+}
+
+.flexRow--desktop__row :global(.vtex-store-components-3-x-specificationsTableRow) {
+    display       : flex;
+    flex-direction: column;
+    font-size     : min(2.5vw, 16px);
+}
+
+.flexRow--desktop__row :global(.vtex-store-components-3-x-specificationItemSpecifications) {
+    width    : 100%;
+    font-size: min(2.5vw, 16px);
+    border   : none;
+    padding  : 0;
+}
+
+.flexRow--desktop__row :global(.vtex-store-components-3-x-specificationItemSpecifications)::before {
+    content    : "· ";
+    font-weight: bolder;
+    font-size  : min(3.7vw, 24px);
+    ;
+}
+
+.flexRow--desktop__row :global(.vtex-store-components-3-x-specificationItemProperty) {
+    width      : 100%;
+    font-family: "Arvo-Bold";
+    font-size  : min(2.5vw, 16px);
+    border     : none;
+    padding    : 8px 0 0;
+}
+
+.flexRow--desktop__row :global(.vtex-store-components-3-x-specificationItemProperty)::after {
+    content: ":";
+}
+
+.flexRow--desktop__row :global(.vtex-store-components-3-x-specificationItemSpecifications) {
+    font-family: "Arvo-Regular";
 }

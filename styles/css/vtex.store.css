@@ -3,9 +3,13 @@
    --primary-color        : black;
    --primary-color-rgba   : rgba(0, 0, 0, 0.501);
    --secondary-color      : #6554e5;
+
+   scroll-behavior: smooth !important;
  }
 
  :global(.vtex-dropdown__container) {
    height        : 30px;
    vertical-align: middle;
  }
+
+ 
