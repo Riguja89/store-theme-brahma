@@ -1,0 +1,16 @@
+.sliderLayoutContainer--bullet-group {
+    margin-bottom: 80px;
+}
+
+.bullet__item--title {
+    text-align     : center;
+    text-decoration: none;
+    font-size      : 16px;
+    font-family    : "Arvo-Bold";
+    color          : black;
+    font-style     : normal;
+}
+
+.bullet__item--link {
+    text-decoration: none;
+}

@@ -1,0 +1,67 @@
+{
+    "list-context.bullet-group": {
+        "title": "mi contexto de lista de Bullets",
+        "children": [
+          "slider-layout#bullet-group"
+        ],
+        "props": {
+          "bullets": [
+            {
+              "image": "assets/img/bullet__slider--image01.jpeg",
+              "titleBullet": "Boots",
+              "link": {
+                "url": "/"
+              }
+            },
+            {
+              "image": "assets/img/bullet__slider--image02.jpeg",
+              "titleBullet": "Sandals",
+              "link": {
+                "url": "/"
+              }
+            },
+            {
+              "image": "assets/img/bullet__slider--image03.jpeg",
+              "titleBullet": "Shoes",
+              "link": {
+                "url": "/"
+              }
+            },
+            {
+              "image": "assets/img/bullet__slider--image04.jpeg",
+              "titleBullet": "Foots",
+              "link": {
+                "url": "/"
+              }
+            },
+            {
+              "image": "assets/img/bullet__slider--image05.jpeg",
+              "titleBullet": "Boots",
+              "link": {
+                "url": "/"
+              }
+            },
+            {
+              "image": "assets/img/bullet__slider--image06.jpeg",
+              "titleBullet": "Sandals",
+              "link": {
+                "url": "/"
+              }
+            }
+          ]
+        }
+      },
+      "slider-layout#bullet-group": {
+        "title": "slider bullet group",
+        "props": {
+          "blockClass":"bullet-group",
+          "showPaginationDots": "never",
+          "itemsPerPage": {
+            "desktop": 5,
+            "tablet": 5,
+            "phone": 5
+          },
+          "infinite": true
+        }
+      }
+}
